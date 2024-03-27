@@ -1,0 +1,1186 @@
+[
+  {
+    "effect" : "+25魔法抗性，+450生命值。\n\n每秒回复自身2.5%的最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/animavisage.png",
+    "id" : "412",
+    "keywords" : "奥恩神器",
+    "name" : "生命盔甲",
+    "type" : "6"
+  },
+  {
+    "effect" : "+10%攻击力，+25%攻击速度，+30护甲。\n\n提供25%全能吸血。携带者受到的50%伤害会转而在4秒里作为非致命伤害来持续扣除。\n\n[唯一 - 每位英雄仅限1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/deathisdefiance.png",
+    "id" : "413",
+    "keywords" : "奥恩神器",
+    "name" : "死亡之蔑",
+    "type" : "6"
+  },
+  {
+    "effect" : "+10%法术强度，+15%攻击力，+15%攻击速度。+15法力值。\n\n每场战斗一次：在施放一个技能后，在5秒里持续回复共120法力值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/manazane.png",
+    "id" : "414",
+    "keywords" : "奥恩神器",
+    "name" : "魔蕴",
+    "type" : "6"
+  },
+  {
+    "effect" : "+25攻击力，+25%攻击速度，+25%法术强度，+25初始法力值，+25护甲，+25魔抗，+250生命值+25法力值和+25%暴击几率",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/infinityforce.png",
+    "id" : "415",
+    "keywords" : "奥恩神器",
+    "name" : "三相之力",
+    "type" : "6"
+  },
+  {
+    "effect" : "+20护甲，+200生命值。\n\n对携带者造成伤害的敌人们会被施加持续1.5秒的20%冰冷效果。在被施加了来自这件装备的7层冰冷后，攻击者会转而被晕眩，但每15秒仅触发一次。\n\n[唯一 - 每位英雄仅限1件]\n\n冰冷:使攻击速度减缓。\n\n晕眩：不能移动、攻击或施放技能。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/eternalwinter.png",
+    "id" : "416",
+    "keywords" : "奥恩神器",
+    "name" : "永恒凛冬",
+    "type" : "6"
+  },
+  {
+    "effect" : "+20攻击力，+30%暴击几率。携带者的攻击和技能会处决低于12%最大生命值的目标。处决有40%几率掉落1金币。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/goldcollector.png",
+    "id" : "420",
+    "keywords" : "奥恩神器",
+    "name" : "金币收集者",
+    "type" : "6"
+  },
+  {
+    "effect" : "+45法术强度，+30护甲，+30魔抗。每场战斗仅触发一次：在40%生命值时，携带者进入持续3秒的免疫伤害和无法被选取状态。\n\n唯一 - 每位英雄仅限1件",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/zhongyaspardox.png",
+    "id" : "421",
+    "keywords" : "奥恩神器",
+    "name" : "中娅悖论",
+    "type" : "6"
+  },
+  {
+    "effect" : "+10%攻击力",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/BFSword.png",
+    "id" : "501",
+    "keywords" : "攻击力",
+    "name" : "暴风大剑",
+    "type" : "1"
+  },
+  {
+    "effect" : "+10%攻速",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RecurveBow.png",
+    "id" : "502",
+    "keywords" : "攻速",
+    "name" : "反曲之弓",
+    "type" : "1"
+  },
+  {
+    "effect" : "+10法强",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/NeedlesslyLargeRod.png",
+    "id" : "503",
+    "keywords" : "法强",
+    "name" : "无用大棒",
+    "type" : "1"
+  },
+  {
+    "effect" : "+15法力值",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/TearoftheGoddess.png",
+    "id" : "504",
+    "keywords" : "法力值",
+    "name" : "女神之泪",
+    "type" : "1"
+  },
+  {
+    "effect" : "+20护甲",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/ChainVest.png",
+    "id" : "505",
+    "keywords" : "护甲",
+    "name" : "锁子甲",
+    "type" : "1"
+  },
+  {
+    "effect" : "+20魔抗",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/NegatronCloak.png",
+    "id" : "506",
+    "keywords" : "魔抗",
+    "name" : "负极斗篷",
+    "type" : "1"
+  },
+  {
+    "effect" : "+150生命值",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/GiantsBelt.png",
+    "id" : "507",
+    "keywords" : "生命值",
+    "name" : "巨人腰带",
+    "type" : "1"
+  },
+  {
+    "effect" : "它必须做点什么",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Spatula.png",
+    "id" : "508",
+    "keywords" : "无属性",
+    "name" : "金铲铲",
+    "type" : "1"
+  },
+  {
+    "effect" : "+20%暴击几率",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SparringGloves.png",
+    "id" : "509",
+    "keywords" : "暴击",
+    "name" : "拳套",
+    "type" : "1"
+  },
+  {
+    "effect" : "提供66%额外攻击力",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Deathblade.png",
+    "id" : "519",
+    "keywords" : "攻击力",
+    "name" : "死亡之刃",
+    "type" : "2"
+  },
+  {
+    "effect" : "+10%攻击力，+10%攻击速度。\r\n提供20%额外攻击力和20额外法术强度。攻击和技能对最大生命值超过了1600的敌人们造成25%额外伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/GiantSlayer.png",
+    "id" : "521",
+    "keywords" : "攻击力",
+    "name" : "巨人杀手",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15%攻击力，+15法术强度。\r\n\r\n提供22%全能吸血，这个效果还会治疗生命值百分比最低的那名友军。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Hextech_Gunblade.png",
+    "id" : "523",
+    "keywords" : "伤害，护盾，生命值",
+    "name" : "海克斯科技枪刃",
+    "type" : "2"
+  },
+  {
+    "effect" : "+20%攻击力，+15法力值。\r\n\r\n提供20额外法术强度。每第3次攻击回复5额外法力值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SpearofShojin.png",
+    "id" : "525",
+    "keywords" : "法力值",
+    "name" : "朔极之矛",
+    "type" : "2"
+  },
+  {
+    "effect" : "+20%攻击力，+20魔法抗性，+15法术强度。\r\n\r\n提供20%全能吸血。\r\n\r\n每场战斗一次：在40%生命值时，提供一个护盾，护盾值相当于携带者25%的最大生命值，至多持续5秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Bloodthirster.png",
+    "id" : "529",
+    "keywords" : "攻击力，吸血",
+    "name" : "饮血剑",
+    "type" : "2"
+  },
+  {
+    "effect" : "+35%额外攻击力，+15%暴击几率。\r\n\r\n技能可以暴击。\r\n\r\n如果携带者的技能已经可以暴击了，则转而提供10%暴击伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/InfinityEdge.png",
+    "id" : "535",
+    "keywords" : "暴击",
+    "name" : "无尽之刃",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15%攻击速度，+10法术强度。\r\n\r\n每次攻击提供5%额外攻击速度。这个效果可叠加！",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/GuinsoosRageblade.png",
+    "id" : "539",
+    "keywords" : "攻速",
+    "name" : "鬼索的狂暴之刃",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15%攻击速度，+20法术强度。\r\n\r\n提供15额外法术强度。每第3次攻击会释放一道链状闪电，可弹射至4名敌人，造成35魔法伤害和持续5秒的30% 魔抗击碎。\r\n\r\n​​[直接伤害类装备]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/StatikkShiv.png",
+    "id" : "541",
+    "keywords" : "魔法伤害，魔抗",
+    "name" : "斯塔缇克电刃",
+    "type" : "2"
+  },
+  {
+    "effect" : "+10%攻击速度，+20护甲。\r\n\r\n在攻击或承受伤害时提供2% 攻击力和2法术强度，至多可叠加25次。\r\n\r\n在叠满层数后，提供20护甲和20魔法抗性。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Titans_Resolve.png",
+    "id" : "543",
+    "keywords" : "法强，护甲，魔抗",
+    "name" : "泰坦的坚决",
+    "type" : "2"
+  },
+  {
+    "effect" : "+10%攻击速度，+20魔法抗性。\r\n\r\n提供25%额外攻击力。携带者的攻击会对附近的另一名敌人发射一个弹体，造成携带者55%攻击力的物理伤害。\r\n\r\n​​​​[直接伤害类装备]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RunaansHurricane.png",
+    "id" : "545",
+    "keywords" : "攻击力",
+    "name" : "卢安娜的飓风",
+    "type" : "2"
+  },
+  {
+    "effect" : "+10%攻击速度，+30%法术强度，+150生命值。 在施放一个技能后，获得持续5秒的40%攻击速度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/NashorsTooth.png",
+    "id" : "547",
+    "keywords" : "法强，攻速",
+    "name" : "纳什之牙",
+    "type" : "2"
+  },
+  {
+    "effect" : "+25%攻击速度，+20%暴击几率。\r\n\r\n提供15%额外攻击力。造成的任何物理伤害会对目标施加持续3秒的30% 护甲击碎。这个效果不会叠加。\r\n\r\n唯一 - 每位英雄仅可装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/LastWhisper.png",
+    "id" : "551",
+    "keywords" : "护甲，暴击",
+    "name" : "最后的轻语",
+    "type" : "2"
+  },
+  {
+    "effect" : "提供50额外法强，额外造成20%伤害",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RabadonsDeathcap.png",
+    "id" : "553",
+    "keywords" : "法术强度",
+    "name" : "灭世者的死亡之帽",
+    "type" : "2"
+  },
+  {
+    "effect" : "+10法术强度，+15法力值。\r\n\r\n提供10额外法术强度。\r\n\r\n战斗环节开始时：携带者每5秒获得30法术强度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/ArchangelsStaff.png",
+    "id" : "555",
+    "keywords" : "法术强度",
+    "name" : "大天使之杖",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15法术强度，+25魔法抗性，+200生命值。\r\n\r\n对2格内的敌人们施加30% 魔抗击碎。在敌人施放一次技能时，该敌人还会被震击并受到相当于该敌人160%最大法力值的魔法伤害。\r\n\r\n[直接伤害类装备]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Ionic_Spark.png",
+    "id" : "559",
+    "keywords" : "法强，魔抗",
+    "name" : "离子火花",
+    "type" : "2"
+  },
+  {
+    "effect" : "+25法术强度，+150生命值，+15%攻击速度。\r\n\r\n在携带者用技能造成伤害时，还会对敌人们施加持续10秒的1%灼烧效果和33%重伤效果。\r\n\r\n[唯一 - 每位英雄仅可装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Morellonomicon.png",
+    "id" : "561",
+    "keywords" : "灼烧，重伤",
+    "name" : "莫雷洛秘典",
+    "type" : "2"
+  },
+  {
+    "effect" : "+35法术强度，+35%暴击几率。\r\n\r\n来自技能的伤害可以造成暴击。\r\n\r\n如果携带者的技能已经可以暴击了，转而提供10%暴击伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/JeweledGauntlet.png",
+    "id" : "565",
+    "keywords" : "法强，暴击",
+    "name" : "珠光护手",
+    "type" : "2"
+  },
+  {
+    "effect" : "+20法力值，+20法术强度，+20%攻击力。\r\n\r\n施放技能的法力值消耗降低10。\r\n\r\n携带者在参与一次击杀后，会多造成8%伤害，持续8秒",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/BlueBuff.png",
+    "id" : "567",
+    "keywords" : "法力值",
+    "name" : "蓝霸符",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15法力值，+150生命值。\r\n\r\n每过5秒治疗1格内的友军们15%的已损失生命值。此外，这些友军们所受的单体和群体目标伤害还会降低10%，持续5秒（伤害减免不会叠加）。\r\n\r\n​​\r\n\r\n光环类装备",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Redemption.png",
+    "id" : "573",
+    "keywords" : "治疗",
+    "name" : "救赎",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15法力值，+20%暴击几率。\r\n提供2个效果：(1)+15% 攻击力和+15法术强度。(2) 15% 全能吸血。\r\n每一回合，随机使其中一个效果翻倍。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/HandofJustice.png",
+    "id" : "577",
+    "keywords" : "攻击力，法强，治疗",
+    "name" : "正义之手",
+    "type" : "2"
+  },
+  {
+    "effect" : "+55护甲。获得5%最大生命值\r\n\r\n使来自攻击的伤害降低8%。在被一次攻击击中时，对附近所有敌人造成100魔法伤害(每2秒一次)。\r\n\r\n[直接伤害类装备]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/BrambleVest.png",
+    "id" : "579",
+    "keywords" : "护甲",
+    "name" : "棘刺背心",
+    "type" : "2"
+  },
+  {
+    "effect" : "+35护甲，+35魔法抗性，+100生命值。\r\n\r\n每有一个敌人正在以携带者为目标，携带者就会获得10护甲和10魔法抗性。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/GargoyleStoneplate.png",
+    "id" : "581",
+    "keywords" : "护甲，魔抗",
+    "name" : "石像鬼石板甲",
+    "type" : "2"
+  },
+  {
+    "effect" : "+20护甲，+250生命值。\r\n\r\n每过2秒，对2格内的一名敌人施加持续10秒的1%灼烧效果和33%重伤效果。\r\n\r\n[唯一 - 每位英雄仅可装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SunfireCape.png",
+    "id" : "583",
+    "keywords" : "护甲，生命值，灼烧",
+    "name" : "日炎斗篷",
+    "type" : "2"
+  },
+  {
+    "effect" : "+65魔法抗性。\r\n\r\n获得9%最大生命值。\r\n\r\n每过2秒，回复5%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Dragons_Claw.png",
+    "id" : "589",
+    "keywords" : "魔抗",
+    "name" : "巨龙之爪",
+    "type" : "2"
+  },
+  {
+    "effect" : "+30%攻击速度，+20魔法抗性，+20%暴击几率。\r\n\r\n战斗开始时：获得持续14秒的控制免疫效果。在此期间，每2秒获得4%攻击速度。\r\n\r\n[唯一 - 每位英雄仅可装备一件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Quicksilver.png",
+    "id" : "595",
+    "keywords" : "免疫控制",
+    "name" : "水银",
+    "type" : "2"
+  },
+  {
+    "effect" : "获得8%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/WarmogsArmor.png",
+    "id" : "597",
+    "keywords" : "生命值",
+    "name" : "狂徒铠甲",
+    "type" : "2"
+  },
+  {
+    "effect" : "可上阵人数+1。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Tacticians_Crown.png",
+    "id" : "603",
+    "keywords" : "可上阵人数+1",
+    "name" : "金铲铲冠冕",
+    "type" : "2"
+  },
+  {
+    "effect" : "+150生命值，+20%暴击率\r\n\r\n每一回合：装备2件随机装备。 需要用掉3个装备格。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/ThiefsGloves.png",
+    "id" : "607",
+    "keywords" : "临时装备",
+    "name" : "窃贼手套",
+    "type" : "2"
+  },
+  {
+    "effect" : "+150生命值，+20%暴击几率。\r\n\r\n提供20%额外攻击速度和10额外法术强度。在伤害一名带有护盾的敌人后，技能和攻击会造成25%额外伤害，持续3秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/80_79.png",
+    "id" : "801",
+    "keywords" : "+150生命值，+20%暴击几率",
+    "name" : "破防者",
+    "type" : "2"
+  },
+  {
+    "effect" : "+150生命值，+20%暴击几率。\n\n提供40%额外攻击速度和30额外法术强度。在伤害一名带有护盾的敌人后，技能和攻击会造成50% 额外伤害，持续3秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/80_2079.png",
+    "id" : "803",
+    "keywords" : "光明武器，光明版破防者",
+    "name" : "意志破坏者",
+    "type" : "3"
+  },
+  {
+    "effect" : "+15%攻击力，+200生命值。\r\n\r\n每场战斗一次：在60%生命值时，获得25%最大生命值和30%攻击力。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SteraksGage.png",
+    "id" : "1001",
+    "keywords" : "攻击力",
+    "name" : "斯特拉克的挑战护手",
+    "type" : "2"
+  },
+  {
+    "effect" : "+100生命值，+20法术强度，+20护甲。 \r\n\r\n战斗开始时：获得持续8秒的相当于30%最大生命值的护盾值。 在护盾到期时，获得35法术强度",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Crownguard.png",
+    "id" : "1003",
+    "keywords" : "法强，护甲，护盾",
+    "name" : "冕卫",
+    "type" : "2"
+  },
+  {
+    "effect" : "+15法术强度，+15法力值，+20魔法抗性。 \r\n\r\n战斗开始时：基于初始位置获得不同的加成。 \r\n\r\n前两排：40护甲和魔抗，在被一次攻击击中时获得1法力值。 \r\n\r\n后两排：20法术强度。每3秒获得10法力值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/AdaptiveHelm.png",
+    "id" : "1004",
+    "keywords" : "法术强度",
+    "name" : "适应性头盔",
+    "type" : "2"
+  },
+  {
+    "effect" : "+20魔法抗性，+150生命值。 \r\n\r\n2格内的敌人们会被施加30%护甲削减。在战斗的最初10秒获得25护甲和魔抗。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Evenshroud.png",
+    "id" : "1006",
+    "keywords" : "魔抗，护甲削减",
+    "name" : "薄暮法袍",
+    "type" : "2"
+  },
+  {
+    "effect" : "+40%攻击速度\r\n\r\n造成6%额外伤害。攻击和技能对敌人们造成持续5秒的1%灼烧效果和33%重伤效果。\r\n\r\n灼烧：每秒造成目标一部分最大生命值的真实伤害\r\n\r\n重伤：降低受到的治疗效果",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2009.png",
+    "id" : "1007",
+    "keywords" : "增伤，减治疗",
+    "name" : "红霸符",
+    "type" : "2"
+  },
+  {
+    "effect" : "+60%攻击速度\n\n造成8%额外伤害。攻击和技能对敌人们造成持续5秒的5%灼烧效果和50%重伤效果。\n\n灼烧：每秒造成目标一部分最大生命值的真实伤害\n\n重伤：降低受到的治疗效果",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2554.png",
+    "id" : "1008",
+    "keywords" : "光明红霸符",
+    "name" : "余烬之冠",
+    "type" : "3"
+  },
+  {
+    "effect" : "少承受8%伤害。在高于50%生命值时，转而少承受15%伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SteadfastHeart.png",
+    "id" : "1009",
+    "keywords" : "减伤",
+    "name" : "坚定之心",
+    "type" : "2"
+  },
+  {
+    "effect" : "少承受12%伤害。在高于40%生命值时，转而少承受18%伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/midnightreaper.png",
+    "id" : "1010",
+    "keywords" : "光明坚定之心",
+    "name" : "巨像的传承",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30法力值，+40护甲。\n\n每场战斗一次：在40%生命值时，提供60护甲和60魔法抗性，持续到战斗结束为止，以及至多持续10秒的50%最大生命值的护盾值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/80_2045.png",
+    "id" : "2045",
+    "keywords" : "光明版冰心",
+    "name" : "壁垒的誓言",
+    "type" : "3"
+  },
+  {
+    "effect" : "+25%攻击力。提供100%额外攻击力。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantDeathblade_FJVUette7elDNtzKIt4wXeXPngDy0lzn3apsEI5o.png",
+    "id" : "5001",
+    "keywords" : "攻击力",
+    "name" : "光辉之刃",
+    "type" : "3"
+  },
+  {
+    "effect" : "+10%攻击力，+10%攻击速度。\n\n提供40% 额外攻击力和40额外法术强度。攻击和技能对最大生命值超过了1600的敌人们造成60%额外伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantGiantSlayer_FYQKu9PiPh8qb4oEdIRJSvMDEDtGxJRJET0uRIYg.png",
+    "id" : "5002",
+    "keywords" : "攻击力、攻速",
+    "name" : "恶魔杀手",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30%攻击力，+50法术强度。\n\n提供35%全能吸血，这个效果还会治疗生命值百分比最低的那名友军。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantHextechGunblade_0wVwXL50SbOMe0ehin2uTNVbgGEtcOZiY85wJGfx.png",
+    "id" : "5003",
+    "keywords" : "治疗，吸血",
+    "name" : "海克斯科技生命之刃",
+    "type" : "3"
+  },
+  {
+    "effect" : "+45法术强度，+15法力值\n\n每次普攻提供10额外法力值",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantSpearofShojin_CrnNxnqh7SkMedbJxv3OpYlwwwFCzB38eXFCOVKj.png",
+    "id" : "5004",
+    "keywords" : "额外法力",
+    "name" : "希拉娜之矛",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30护甲。\n\n每场战斗一次：在60%生命值时，短暂变为不可被选取状态并摆脱负面效果。然后，治疗100%已损失生命值并获得85额外攻击速度\n\n唯一 - 每位英雄仅能装备1件",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/BrinkofDawn.png",
+    "id" : "5005",
+    "keywords" : "复活",
+    "name" : "黎明锋刃",
+    "type" : "3"
+  },
+  {
+    "effect" : "+40%攻击力，+20魔法抗性，+30法术强度。\n\n提供40%全能吸血。\n\n每场战斗一次：在40%生命值时，提供一个护盾，护盾值相当于携带者40%的最大生命值，至多持续5秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantBloodthirster_QDcxqNxIKTbfIVF7u2byjSmVngDo1LfEiIg3mRFc.png",
+    "id" : "5006",
+    "keywords" : "吸血",
+    "name" : "福佑饮血剑",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30%攻击力，+400生命值。\n\n每场战斗一次：在60%生命值时，获得35%最大生命值和55%攻击力。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SteraksGage2.png",
+    "id" : "5007",
+    "keywords" : "攻速，生命值",
+    "name" : "斯特拉克的究极盾牌",
+    "type" : "3"
+  },
+  {
+    "effect" : "+75%暴击几率。\n\n提供10%暴击伤害。\n\n来自技能的伤害可以造成暴击。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantInfinityEdge_bW0jLD8uol5WID9dKuMw7Mc69TEhAw2NqzjcZlyO.png",
+    "id" : "5008",
+    "keywords" : "暴击",
+    "name" : "天顶锋刃",
+    "type" : "3"
+  },
+  {
+    "effect" : "+20%攻击速度，+10法术强度。\n\n每次攻击提供+8%额外攻击速度，可无限叠加，持续到战斗环节结束为止。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantGuinsoosRageblade.png",
+    "id" : "5010",
+    "keywords" : "攻速",
+    "name" : "鬼索的清算",
+    "type" : "3"
+  },
+  {
+    "effect" : "+15%攻击速度，+15法力值。\n\n提供50额外法术强度。每第3次攻击会释放一道链状闪电，可弹射至8名敌人，造成80魔法伤害和持续5秒的30% 魔抗击碎。\n\n​​[直接伤害类装备]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantStatikkShiv_kTdRozQAAqzI532DXy2gxbAvNnQIaPyxGndl14XV.png",
+    "id" : "5011",
+    "keywords" : "攻速，闪电",
+    "name" : "斯塔缇克狂热",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30%攻击速度，+35护甲。\n\n在攻击或承受伤害时提供3%攻击力和3法术强度，至多可叠加25次。\n\n在叠满层数后，提供50护甲和50魔法抗性。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantTitansResolve_hUuDcma4FzVUSJpLBgTiy57G7mJsYamd9i6csQ7L.png",
+    "id" : "5012",
+    "keywords" : "攻速、体型",
+    "name" : "泰坦的誓言",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30%攻击力，+20%攻击速度，+20魔法抗性。\n\n携带者的攻击会对附近的另一名敌人发射一个弹体，造成携带者 110%攻击力的物理伤害。\n\n此外，提供20%攻击速度。\n\n直接伤害类装备]​​",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantRunaansHurricane_ChVdQYCJQ0Cq9p6rLbAcDrh6kcKiDy8T0Gs7u35F.png",
+    "id" : "5013",
+    "keywords" : "攻速，分裂",
+    "name" : "卢安娜的风暴",
+    "type" : "3"
+  },
+  {
+    "effect" : "+20%攻击速度，+55%法术强度，+200生命值。 \n\n在施放一个技能后，获得持续8秒的60%攻击速度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/NashorsTooth2.png",
+    "id" : "5014",
+    "keywords" : "传送门",
+    "name" : "男爵赠礼",
+    "type" : "3"
+  },
+  {
+    "effect" : "+45%攻击力，+25%攻击速度，+55%暴击几率。\n\n造成的任何物理伤害会对目标施加30%护甲击碎，持续到战斗环节结束为止。这个效果不会叠加。\n\n唯一 - 每位英雄仅可装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantLastWhisper_JCjxzvqlazEyjom80jaWlqfn2H75eVcEFq7NdEIa.png",
+    "id" : "5015",
+    "keywords" : "破甲",
+    "name" : "永恒轻语",
+    "type" : "3"
+  },
+  {
+    "effect" : "+70法术强度。\n\n造成50%额外伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantRabadonsDeathcap_987NWXtkW4dJaXXgvhJhZ7zg8jgHSitnL6Z8pZMu.png",
+    "id" : "5016",
+    "keywords" : "大帽",
+    "name" : "灭世者的飞升之帽",
+    "type" : "3"
+  },
+  {
+    "effect" : "+50法术强度，+15法力值。\n\n战斗环节开始时：携带者每4秒获得35法术强度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantArchangelsStaff_fsiX5vA95DbS8qjIjwzHLktOAhdLMEe9hit58pM2.png",
+    "id" : "5017",
+    "keywords" : "大天使",
+    "name" : "阿福天使之杖",
+    "type" : "3"
+  },
+  {
+    "effect" : "+100生命值，+50法术强度，+40护甲。 \n\n战斗开始时：获得持续8秒的相当于50%最大生命值的护盾值。 在护盾到期时，获得50法术强度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Crownguar2.png",
+    "id" : "5018",
+    "keywords" : "护盾，法强",
+    "name" : "皇家冕盾",
+    "type" : "3"
+  },
+  {
+    "effect" : "+15法术强度，+25魔法抗性，+400生命值。\n\n对3格内的敌人们施加30%魔抗击碎。在敌人施放一次技能时，该敌人还会被震击并受到相当于该敌人250%最大法力值的魔法伤害。\n\n此外，还会每秒回复1.5%最大生命值。\n\n直接伤害类装备]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/80_2036.png",
+    "id" : "5019",
+    "keywords" : "离子",
+    "name" : "神圣离子火花",
+    "type" : "3"
+  },
+  {
+    "effect" : "+40法术强度，+150生命值，+25%攻击速度。\n\n在携带者用技能造成魔法伤害或真实伤害时，还会对敌人们施加持续30秒的3%灼烧效果和33% 重伤效果。\n\n唯一 - 每位英雄仅可装备1件]\n\n灼烧：造成目标3%最大生命值的真实伤害\n\n重伤：使受到的治疗效果降低",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantMorellonomicon_Mkn8BUHFhgqGqJDzAMAJqn6nuGVNhfcOyLXARuyr.png",
+    "id" : "5020",
+    "keywords" : "光明鬼书",
+    "name" : "莫雷洛圣典",
+    "type" : "3"
+  },
+  {
+    "effect" : "+65法术强度，+75%暴击几率。\n\n提供10%暴击伤害。\n\n来自技能的伤害可以造成暴击。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantJeweledGauntlet_uBSazte0fEqJ5Xd9e31in55d3Cp739KTcE8wb1cG.png",
+    "id" : "5021",
+    "keywords" : "光明法爆",
+    "name" : "圣洁珠光护手",
+    "type" : "3"
+  },
+  {
+    "effect" : "+20法力值，+60法术强度，+60%攻击力。\n\n施放技能的法力值消耗降低10。\n\n携带者在参与一次击杀后，会多造成20%伤害，持续12秒。\n\n唯一 - 每位英雄仅限1件",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantBlueBuff_FTpYTKB40SHtLjNtZUifdEu0w8PaiHS8JD0yTzWw.png",
+    "id" : "5022",
+    "keywords" : "光明蓝霸符",
+    "name" : "圣蓝祝福",
+    "type" : "3"
+  },
+  {
+    "effect" : "+15法术强度，+15法力值，+30魔法抗性。 \n\n战斗开始时：基于初始位置获得不同的加成。 \n\n前两排：80护甲和魔抗，在被一次攻击击中时获得2法力值。 \n\n后两排：55法术强度。每3秒获得20法力值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/JakshotheProtean.png",
+    "id" : "5024",
+    "keywords" : "法力值，魔抗",
+    "name" : "千变者贾修",
+    "type" : "3"
+  },
+  {
+    "effect" : "+15法力值，+200生命值。\n\n每过5秒治疗2格内的友军们25%的已损失生命值。这些友军们所受的群体目标伤害会减免10%，持续5秒(伤害减免不会叠加)。\n\n​​\n\n光环类装备",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantRedemption_dd1KKAYpe47yMJZjkDTJSe4ayZqIibEzm314dnk8.png",
+    "id" : "5025",
+    "keywords" : "光明救赎",
+    "name" : "赦除",
+    "type" : "3"
+  },
+  {
+    "effect" : "+15法力值，+20%暴击几率。\n\n提供2个效果：50%攻击力和50法术强度。 30%全能吸血。\n\n全能吸血：获得相当于一部分实际伤害值的治疗效果。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantHandofJustice_7KtG4F7gs9gP5C9wSLLAKJ819T37JoZRMxGJrCY2.png",
+    "id" : "5026",
+    "keywords" : "光明正义",
+    "name" : "绝对正义之拳",
+    "type" : "3"
+  },
+  {
+    "effect" : "+120护甲。\n\n获得8%最大生命值\n\n使来自攻击的伤害降低25%，在被任一攻击命中时，对邻格所有敌人造成175魔法伤害(每2秒一次)。\n\n直接伤害类装备",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantBrambleVest_gQq0OqN7YWgGT9gd4cDl1SSq4DlRwgobcEhHvAtn.png",
+    "id" : "5027",
+    "keywords" : "光明反甲",
+    "name" : "瑰刺背心",
+    "type" : "3"
+  },
+  {
+    "effect" : "+50护甲，+50魔法抗性，+250生命值。\n\n每有一个敌人正在以携带者为目标，携带者就会获得20护甲和20魔法抗性。\n\n此外，每秒回复2%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantGargoyleStoneplate_rIp7TGpHtfpyIrsihyc8burKQaqPjrxGE5nUPLND.png",
+    "id" : "5028",
+    "keywords" : "光明石像板甲",
+    "name" : "天神石板甲",
+    "type" : "3"
+  },
+  {
+    "effect" : "+20护甲，+300生命值。\n\n每过1.5秒，对3格内的一名敌人施加持续30秒的2%灼烧效果和33%重伤效果。\n\n[唯一 - 每位英雄仅可装备1件]\n\n灼烧：造成目标一部分最大生命值的真实伤害。\n\n重伤：使受到的治疗效果降低。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantSunfireCape_yx9b4Av7zbsreLfyodiJH62TLJlq47nbBXcVjn10.png",
+    "id" : "5029",
+    "keywords" : "光明版【日炎斗篷】",
+    "name" : "日光斗篷",
+    "type" : "3"
+  },
+  {
+    "effect" : "+115魔法抗性。\n\n获得18%最大生命值。\n\n每过2秒，回复10%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantDragonsClaw_ZYpt5Cz6SenASjf9i1ILeQAVLNKQfhlQ4AVt81bI.png",
+    "id" : "5031",
+    "keywords" : "光明龙牙",
+    "name" : "巨龙意志",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30魔法抗性，+500生命值。 \n\n3格内的敌人们会被施加30%护甲削减。在战斗的最初15秒获得50护甲和魔抗。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Equinox.png",
+    "id" : "5032",
+    "keywords" : "光明法袍",
+    "name" : "星体结界",
+    "type" : "3"
+  },
+  {
+    "effect" : "+30魔法抗性，+40%暴击几率，+50%攻击速度。\n\n战斗环节开始时：提供持续30秒的控制免疫效果。在14秒的期间里，每2秒获得7%攻击速度。\n\n唯一 - 每位英雄仅能装备1件",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantQuicksilver_Zb5hjOUTjd6c4Eb8QL89n4IUhLtjUpQHwOxYP8cZ.png",
+    "id" : "5033",
+    "keywords" : "光明水银",
+    "name" : "至速水银",
+    "type" : "3"
+  },
+  {
+    "effect" : "+1000生命值。\n\n获得12%最大生命值。此外，每秒回复1%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantWarmogsArmor_UNmRNWihWZQcyN1QPyDZM79MyOAVDRIsBtQPiSuf.png",
+    "id" : "5034",
+    "keywords" : "光明版【狂徒铠甲】",
+    "name" : "狂徒之傲",
+    "type" : "3"
+  },
+  {
+    "effect" : "+150生命值，+20%暴击几率。\n\n每一回合：装备2件随机光明装备。\n\n需要用掉3个装备格。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantThiefsGloves_EyLHFBn2h3MFk0dgsnnAzVTndPkIOfpWFvXCmb5L.png",
+    "id" : "5036",
+    "keywords" : "光明拳套",
+    "name" : "光明窃贼手套",
+    "type" : "3"
+  },
+  {
+    "effect" : "+10%攻击力，+20护甲。\r\n每场战斗一次：在60% 生命值时，短暂变为不可被选取状态并摆脱负面效果。然后，提供15% 攻击速度。\r\n唯一 - 每位英雄仅能装备1件",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Edge_of_Night_item_HD.png",
+    "id" : "6022",
+    "keywords" : "潜行，攻速",
+    "name" : "夜之锋刃",
+    "type" : "2"
+  },
+  {
+    "effect" : "+30法力值，+20护甲。\r\n\r\n每场战斗仅触发1次：在40%生命值时，获得相当于25%最大生命值的护盾值，至多持续5秒，并且获得20护甲和20魔法抗性，持续到战斗结束为止。​​",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/shengdunshiyue.png",
+    "id" : "7034",
+    "keywords" : "双抗",
+    "name" : "圣盾使的誓约",
+    "type" : "2"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：提供30%攻击速度和15护甲与魔抗给携带者及其身后的友军，持续12秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9401.png",
+    "id" : "9401",
+    "keywords" : "军团圣盾",
+    "name" : "军团圣盾",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：为携带者和同一排1格内的友军们提供持续18秒的控制免疫效果并在控制免疫期间提供15%攻击速度。\n\n[唯一 - 每位英雄仅能装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9402.png",
+    "id" : "9402",
+    "keywords" : "女妖面纱",
+    "name" : "女妖面纱",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\r\n\r\n在战斗开始时，携带者和同一排1格内的所有友军获得【余烬之冠】。带有【余烬之冠】的弈子们会强化其攻击来灼烧目标8%最大生命值的真实伤害并施加33%重伤\r\n\r\n[唯一 - 每位英雄仅能装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9403.png",
+    "id" : "9403",
+    "keywords" : "余烬之冠",
+    "name" : "余烬之冠",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n每5秒治疗所有友军6.5%最大生命值。当携带者阵亡时，治疗效果提升至13%最大生命值并存留10秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9404.png",
+    "id" : "9404",
+    "keywords" : "殉道美德",
+    "name" : "殉道美德",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：提供25法术强度和10法力值给携带者和同一排2格内的友军们。​​",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9405.png",
+    "id" : "9405",
+    "keywords" : "能量圣杯",
+    "name" : "能量圣杯",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：携带者和同一排2格内的友军们获得持续20秒的200/250/300护盾值、25护甲与25魔抗。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Locket_of_the_Iron_Solari.png",
+    "id" : "9406",
+    "keywords" : "钢铁烈阳之匣",
+    "name" : "钢铁烈阳之匣",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n如果携带者在战斗开始15秒后仍然存活，那么每2个仍存活的友军会提供1金币，并且每个仍存活的友军造成35额外伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9407.png",
+    "id" : "9407",
+    "keywords" : "无用大宝石",
+    "name" : "无用大宝石",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n伤害造成持续15秒的30%魔抗击碎和30%护甲击碎。\n\n己方弈子获得8%攻击力和8法术强度\n\n[唯一 - 每位英雄仅限1件]\n\n魔抗击碎：减少魔抗值\n\n护甲击碎：降低护甲值",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9408.png",
+    "id" : "9408",
+    "keywords" : "黑曜石切割者",
+    "name" : "黑曜石切割者",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：提供30护甲和30魔抗给携带者和邻格的友军们。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9409.png",
+    "id" : "9409",
+    "keywords" : "兰顿之兆",
+    "name" : "兰顿之兆",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：射出一道光束，对敌人们施加30%破法。\n\n你的弈子们获得80生命值。\n\n[唯一 - 每位英雄仅限1件]\n\n破法：最大法力值提升，持续到施放技能为止。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9410.png",
+    "id" : "9410",
+    "keywords" : "静止法衣",
+    "name" : "静止法衣",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值。\n\n战斗开始时：提供30%攻击速度给携带者和同一排2格内的友军们。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9411.png",
+    "id" : "9411",
+    "keywords" : "基克的先驱",
+    "name" : "基克的先驱",
+    "type" : "8"
+  },
+  {
+    "effect" : "+250生命值\n\n战斗开始时：携带者在对面棋盘召唤一道飓风，来将距离飓风最近的敌人移出战斗5秒。\n\n你的弈子们获得8%攻击速度。\n\n[无视控制免疫效果。]\n\n[唯一 - 每位英雄仅能装备1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9412.png",
+    "id" : "9412",
+    "keywords" : "灵风",
+    "name" : "灵风",
+    "type" : "8"
+  },
+  {
+    "effect" : "+10%攻击速度，+150生命值\n\n战斗环节开始时：嘲讽。\n\n在阵亡后，一个【虚空生物】会爬起来嘲讽附近的敌人。从召唤单位上爬起来的【虚空生物】会被大幅削弱。\n\n嘲讽：能够攻击且已将嘲讽者纳入攻击距离的敌人都必须攻击嘲讽者",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9413.png",
+    "id" : "9413",
+    "keywords" : "兹若特传送门",
+    "name" : "兹若特传送门",
+    "type" : "8"
+  },
+  {
+    "effect" : "+30%攻击速度，+35护甲，+35魔法抗性。战斗开始时：如果邻格内没有己方弈子，获得额外的550生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9OrnnHullbreaker.png",
+    "id" : "91021",
+    "keywords" : "奥恩神器",
+    "name" : "碎舰者",
+    "type" : "6"
+  },
+  {
+    "effect" : "+10%攻击速度，+10护甲，+10魔法抗性，+15%暴击率。召唤一个拥有70%最大生命值并且最大法力值+30%的复制体。你无法给复制体装上装备\n\n复制体会受益于已激活的羁绊\n\n[唯一-每位英雄仅限1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9OrnnTrickstersGlass.png",
+    "id" : "91022",
+    "keywords" : "奥恩神器",
+    "name" : "诡术师之镜",
+    "type" : "6"
+  },
+  {
+    "effect" : "+15%攻击力，+15%攻击速度，+15法术强度，提供+1距离。持有者的攻击和能力对他们与目标之间的每个六角形造成的伤害提高8%。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2097.png",
+    "id" : "91023",
+    "keywords" : "奥恩神器",
+    "name" : "狙击手的专注",
+    "type" : "6"
+  },
+  {
+    "effect" : "+50%法术强度，+30法力值。战斗开始：持有者向他们的目标发射能量冲击波，标记他们并造成他们最大生命值20%的魔法伤害。\n\n在接下来的10秒内，多造成25%伤害。对被震击目标造成的伤害提升至35%。\n\n[唯一-每位英雄仅限一件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9OrnnDeathfireGrasp.png",
+    "id" : "91024",
+    "keywords" : "奥恩神器",
+    "name" : "冥火之拥",
+    "type" : "6"
+  },
+  {
+    "effect" : "获得1件【铁匠手套】，它每回合都会提供2件临时的奥恩宝物。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft9_ornnitem_blacksmithsgloves.tft_set9.png",
+    "id" : "91025",
+    "keywords" : "奥恩神器",
+    "name" : "铁匠手套",
+    "type" : "6"
+  },
+  {
+    "effect" : "+45%法术强度\r\n\r\n获得1x你的金币存款的法术强度(在30金币时达到最大值)，并在击杀一名敌人后有40%几率掉落1金币。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/90213.png",
+    "id" : "91027",
+    "keywords" : "御金师之杖",
+    "name" : "御金师之杖",
+    "type" : "7"
+  },
+  {
+    "effect" : "携带者获得【死神】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11ReaperEmblemItem.png",
+    "id" : "91070",
+    "keywords" : "死神",
+    "name" : "死神纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【剪纸仙灵】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11storyweaveremblemitem.png",
+    "id" : "91071",
+    "keywords" : "剪纸仙灵",
+    "name" : "剪纸仙灵纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【圣贤】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11SageEmblemItem.png",
+    "id" : "91072",
+    "keywords" : "圣贤",
+    "name" : "圣贤纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【天龙之子】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11DragonlordEmblemItem.png",
+    "id" : "91073",
+    "keywords" : "天龙之子",
+    "name" : "天龙之子纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【永恒之森】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11dryademblemitem.png",
+    "id" : "91074",
+    "keywords" : "永恒之森",
+    "name" : "永恒之森纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【狙神】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11SniperEmblemItem.png",
+    "id" : "91075",
+    "keywords" : "狙神",
+    "name" : "狙神纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【决斗大师】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11ChallengerEmblemItem.png",
+    "id" : "91076",
+    "keywords" : "决斗大师",
+    "name" : "决斗大师纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【夜幽】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11umbralemblemitem.png",
+    "id" : "91077",
+    "keywords" : "夜幽",
+    "name" : "夜幽纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【擎天卫】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11BehemothEmblemItem.png",
+    "id" : "91078",
+    "keywords" : "擎天卫",
+    "name" : "擎天卫纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【灵魂莲华】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11fatedemblemitem.png",
+    "id" : "91079",
+    "keywords" : "灵魂莲华",
+    "name" : "灵魂莲华纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【神谕者】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11InvokerEmblemItem.png",
+    "id" : "91080",
+    "keywords" : "神谕者",
+    "name" : "神谕者纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【斗士】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11BruiserEmblemItem.png",
+    "id" : "91081",
+    "keywords" : "斗士",
+    "name" : "斗士纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【天将】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11heavenlyemblemitem.png",
+    "id" : "91082",
+    "keywords" : "天将",
+    "name" : "天将纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【吉星】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11FortuneEmblemItem.png",
+    "id" : "91083",
+    "keywords" : "吉星",
+    "name" : "吉星纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【山海绘卷】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11mythicemblemitem.png",
+    "id" : "91084",
+    "keywords" : "山海绘卷",
+    "name" : "山海绘卷纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【墨之影】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11InkShadowEmblemItem.png",
+    "id" : "91085",
+    "keywords" : "墨之影",
+    "name" : "墨之影纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【护卫】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11WardenEmblemItem.png",
+    "id" : "91086",
+    "keywords" : "护卫",
+    "name" : "护卫纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【法师】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11SpellslingerEmblemItem.png",
+    "id" : "91087",
+    "keywords" : "法师",
+    "name" : "法师纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【幽魂】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11ghostlyemblemitem.png",
+    "id" : "91088",
+    "keywords" : "净雪之月",
+    "name" : "幽魂纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "携带者获得【武仙子】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11AltruistEmblemItem.png",
+    "id" : "91089",
+    "keywords" : "武仙子",
+    "name" : "武仙子纹章",
+    "type" : "5"
+  },
+  {
+    "effect" : "携带者获得【青花瓷】羁绊",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11porcelainemblemitem.png",
+    "id" : "91090",
+    "keywords" : "青花瓷",
+    "name" : "青花瓷纹章",
+    "type" : "2"
+  },
+  {
+    "effect" : "+350 生命值。在承受伤害时提供1护甲、1魔法抗性和8生命值，这个效果至多叠加40次。 在满层时，提供2金币。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/moguls_mail.png",
+    "id" : "91091",
+    "keywords" : "大亨之铠",
+    "name" : "大亨之铠",
+    "type" : "7"
+  },
+  {
+    "effect" : "+10% 攻击速度，+10 法术强度。提供1%x你的金币存款的攻击速度(在80金币时达到最大值)。 每次攻击有7%几率掉落1金币。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft10_gamblersblade.png",
+    "id" : "91092",
+    "keywords" : "投机者之刃",
+    "name" : "投机者之刃",
+    "type" : "7"
+  },
+  {
+    "effect" : "+150 生命值。在携带者阵亡8次之后，这件装备会被摧毁。在被摧毁时，提供装备【钻石之手】、1个【英雄复制器】和15金币。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/shimmerscale_determinedinvestor_base.png",
+    "id" : "91093",
+    "keywords" : "坚定投资器",
+    "name" : "坚定投资器",
+    "type" : "7"
+  },
+  {
+    "effect" : "+20 法术强度，+200 生命值。每场战斗仅触发一次：当携带者降至66%生命值和33%生命值时，获得持续1秒的伤害免疫效果和1金币。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft10_diamondhands.png",
+    "id" : "91094",
+    "keywords" : "钻石之手",
+    "name" : "钻石之手",
+    "type" : "7"
+  },
+  {
+    "effect" : "+250生命值，攻击将为携带者治疗2.5%最大生命值，同时造成等额的额外魔法伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowox.png",
+    "id" : "91095",
+    "keywords" : "活力墨纹",
+    "name" : "活力墨纹",
+    "type" : "4"
+  },
+  {
+    "effect" : "+25%攻击力。+25法术强度，伤害将对目标施加毒素，在3秒内造成相当于该伤害33%的额外伤害，以及33%重伤效果。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowsnake.png",
+    "id" : "91096",
+    "keywords" : "猛毒墨纹",
+    "name" : "猛毒墨纹",
+    "type" : "4"
+  },
+  {
+    "effect" : "+250生命值，每次战斗首次施放后，获得相当于50%最大生命值的护盾。护盾被打破时，为相距最近的两名友军提供50%该护盾值的护盾。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowpig.png",
+    "id" : "91097",
+    "keywords" : "守护墨纹",
+    "name" : "守护墨纹",
+    "type" : "4"
+  },
+  {
+    "effect" : "+20%攻击力，+20%攻击速度，每第三次攻击将对两名生命值百分比最低的敌人发射飞弹，造成相当于65%攻击力的物理伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowrat.png",
+    "id" : "91098",
+    "keywords" : "轰炸墨纹",
+    "name" : "轰炸墨纹",
+    "type" : "4"
+  },
+  {
+    "effect" : "+30护甲，+30魔法抗性，每当携带者找到新目标时，将迅速跑向该目标，对其造成短暂晕眩和250魔法伤害，并使装备提供的属性加倍，持续4秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowhorse.png",
+    "id" : "91099",
+    "keywords" : "原力墨纹",
+    "name" : "原力墨纹",
+    "type" : "4"
+  },
+  {
+    "effect" : "+25%攻击速度，对生命值低于一半的目标造成35%额外伤害。参与击杀后获得40%攻击速度，持续6秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowtiger.png",
+    "id" : "91100",
+    "keywords" : "狂怒墨纹",
+    "name" : "狂怒墨纹",
+    "type" : "4"
+  },
+  {
+    "effect" : "【凯尔】的伤害型攻击和技能对命中的敌人造成30%魔抗击碎和护甲击碎，持续3秒。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/talisman-of-aid_7.png",
+    "id" : "91101",
+    "keywords" : "援助护符",
+    "name" : "援助护符",
+    "type" : "4"
+  },
+  {
+    "effect" : "战斗开始时，【凯尔】和同一排的邻格友军们获得15%攻击速度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/talisman-of-speed_4.png",
+    "id" : "91102",
+    "keywords" : "速度护符",
+    "name" : "速度护符",
+    "type" : "4"
+  },
+  {
+    "effect" : "战斗开始时，【凯尔】和同一排的邻格友军们获得20法术强度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/talisman-of-might.png",
+    "id" : "91103",
+    "keywords" : "力量护符",
+    "name" : "力量护符",
+    "type" : "4"
+  },
+  {
+    "effect" : "攻击提供给【凯尔】可叠加的5%攻击速度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/scroll-of-haste_5.png",
+    "id" : "91104",
+    "keywords" : "急速卷轴",
+    "name" : "急速卷轴",
+    "type" : "4"
+  },
+  {
+    "effect" : "【凯尔】的技能可覆盖更广的范围。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/scroll-of-force_6.png",
+    "id" : "91105",
+    "keywords" : "原力卷轴",
+    "name" : "原力卷轴",
+    "type" : "4"
+  },
+  {
+    "effect" : "【凯尔】多造成10%伤害。当她施放技能时，她会发射两道冲击波。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tome-of-power_2.png",
+    "id" : "91106",
+    "keywords" : "力量之书",
+    "name" : "力量之书",
+    "type" : "4"
+  },
+  {
+    "effect" : "【凯尔】多造成10%伤害。她的攻击现在可以命中目标周围1格半径内的敌人们",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tome-of-swiftness_1.png",
+    "id" : "91107",
+    "keywords" : "轻灵之书",
+    "name" : "轻灵之书",
+    "type" : "4"
+  },
+  {
+    "effect" : "每8秒，复活一名尚未被复活过的最强友军，该单位复活后拥有其50%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tome-of-mending_3.png",
+    "id" : "91108",
+    "keywords" : "修补之书",
+    "name" : "修补之书",
+    "type" : "4"
+  },
+  {
+    "effect" : "这会改变一切。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2k96b-8lbkn.png",
+    "id" : "91109",
+    "keywords" : "登神护身符",
+    "name" : "登神护身符",
+    "type" : "4"
+  }
+]

@@ -1,0 +1,283 @@
+[
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10055.png",
+    "id" : "10055",
+    "introduce" : "【武仙子】们为生命值最低的那个友军治疗相当于【武仙子】15%造成伤害值的生命值。你的队伍获得护甲与魔抗。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "10护甲和魔抗"
+      },
+      {
+        "chessCount" : 3,
+        "color" : "2",
+        "description" : "25护甲和魔抗"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "3",
+        "description" : "40护甲和魔抗"
+      }
+    ],
+    "name" : "武仙子"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10056.png",
+    "id" : "10056",
+    "introduce" : "【法师】们获得法术强度，同时为友军提供法术强度。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "为所有友军提供20法术强度。"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "为【法师】们提供40法术强度；为其他单位提供20法术强度"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "为【法师】们提供80法术强度；为其他单位提供40法术强度"
+      },
+      {
+        "chessCount" : 8,
+        "color" : "4",
+        "description" : "为【法师】们提供120法术强度；为其他单位提供100法术强度"
+      }
+    ],
+    "name" : "法师"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10057.png",
+    "id" : "10057",
+    "introduce" : "【擎天卫】获得护甲与魔抗。每当【擎天卫】阵亡时，相距最近的【擎天卫】获得额外的50%此加成，持续5秒。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "30护甲和魔抗"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "45护甲和魔抗"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "80护甲和魔抗"
+      }
+    ],
+    "name" : "擎天卫"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10058.png",
+    "id" : "10058",
+    "introduce" : "你的队伍获得100最大生命值。【斗士】们获得额外的最大生命值。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "20%生命值"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "40%生命值"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "60%生命值"
+      },
+      {
+        "chessCount" : 8,
+        "color" : "4",
+        "description" : "75%生命值；每4秒，【斗士】们的下次攻击将造成6%生命值额外物理伤害。"
+      }
+    ],
+    "name" : "斗士"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10059.png",
+    "id" : "10059",
+    "introduce" : "【决斗大师】们每次攻击都会获得攻击速度，最多叠加12次。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "5%攻击速度"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "9%攻击速度"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "15%攻击速度；【决斗大师】们获得15%伤害减免"
+      },
+      {
+        "chessCount" : 8,
+        "color" : "4",
+        "description" : "18%攻击速度；【决斗大师】们获得18%伤害减免"
+      }
+    ],
+    "name" : "决斗大师"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10060.png",
+    "id" : "10060",
+    "introduce" : "己方队伍获得1%额外伤害，伤害加成随你的等级提升\r\n战斗环节结束后，将1经验值储存在一个【灵魂核心】中。售出核心即可领取这些经验值。",
+    "levels" : [
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "每级1%伤害"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "2",
+        "description" : "每级2.5%伤害"
+      }
+    ],
+    "name" : "尊者"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10061.png",
+    "id" : "10061",
+    "introduce" : "每3秒，你的弈子们获得法力值。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "所有己方弈子获得5法力值"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "【神谕者】们获得30法力值；其它弈子们获得5法力值"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "【神谕者】们获得45法力值；其它弈子们获得15法力值"
+      }
+    ],
+    "name" : "神谕者"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10062.png",
+    "id" : "10062",
+    "introduce" : "死神的攻击和技能会根据他们造成的伤害的百分比在3秒内持续对敌人造成额外伤害。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "【死神】的技能可以暴击，并且他们获得20%暴击几率。"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "此外，【死神】们会对敌人施加流血效果，在3秒里持续造成60%额外真实伤害。"
+      }
+    ],
+    "name" : "死神"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10063.png",
+    "id" : "10063",
+    "introduce" : "战斗开始时：前2排的友军获得全能吸血。后2排的友军获得法术强度。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "12%全能吸血，15法术强度"
+      },
+      {
+        "chessCount" : 3,
+        "color" : "2",
+        "description" : "20%全能吸血，30法术强度"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "3",
+        "description" : "30%全能吸血，45法术强度"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "4",
+        "description" : "45%全能吸血，70法术强度"
+      }
+    ],
+    "name" : "圣贤"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10064.png",
+    "id" : "10064",
+    "introduce" : "固有能力：【狙神】们获得1攻击距离。\r\n【狙神】们可对距离更远的目标造成更高伤害。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "每格7%伤害。"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "每格14%伤害。"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "每格30%伤害。【狙神】们获得额外的2攻击距离。"
+      }
+    ],
+    "name" : "狙神"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10065.png",
+    "id" : "10065",
+    "introduce" : "【迅捷射手】们的技能会进行弹射。每次弹射将造成一定百分比的先前弹射伤害。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "1次弹射；40%的先前伤害"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "2次弹射；60%的先前伤害"
+      }
+    ],
+    "name" : "迅捷射手"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10066.png",
+    "id" : "10066",
+    "introduce" : "【护卫】们获得伤害减免。在战斗的最初10秒，【护卫】们获得额外12%伤害减免。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "15%伤害减免"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "25%伤害减免"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "40%伤害减免"
+      }
+    ],
+    "name" : "护卫"
+  }
+]

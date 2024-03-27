@@ -1,0 +1,6 @@
+#root {
+  margin: 0 auto;
+}
+.white_icon {
+  filter: contrast(.1) brightness(10);
+}

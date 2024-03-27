@@ -1,0 +1,352 @@
+[
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10040.png",
+    "id" : "10040",
+    "introduce" : "月光照亮若干格子，战斗开始时为其中的单位提供护盾。\r\n处于月光格中的【夜幽】单位将处决低生命值的敌人。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "250护盾值；低于10%生命值时触发处决"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "400护盾值；低于15%生命值时触发处决。更多格子被照亮。"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "750护盾值并照亮整个棋盘"
+      },
+      {
+        "chessCount" : 9,
+        "color" : "4",
+        "description" : "被处决的敌人有100%几率掉落战利品；低于40%生命值时触发处决"
+      }
+    ],
+    "name" : "夜幽"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10041.png",
+    "id" : "10041",
+    "introduce" : "【天将】弈子们会为你的队伍提供一个独特的属性加成，该加成会随着其星级和已登场的【天将】弈子数量而提升。卡兹克 - 10%暴击率\r\n墨菲特 - 8护甲魔抗\r\n妮蔻 - 10生命值\r\n奇亚娜 - 10%攻击力\r\n索拉卡 - 10%法术强度\r\n孙悟空 - 12%攻击速度\r\n纹章 - 全能吸血3%\r\n32星额外提供50%。\r\n3星额外提供90%。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "100%加成"
+      },
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "115%加成"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "135%加成"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "3",
+        "description" : "165%加成"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "195%加成"
+      },
+      {
+        "chessCount" : 7,
+        "color" : "4",
+        "description" : "225%加成"
+      }
+    ],
+    "name" : "天将"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10042.png",
+    "id" : "10042",
+    "introduce" : "拖动【灵魂莲华】弈子到另一【灵魂莲华】弈子上，即可进行配对并解锁一个莲华加成。你的【灵魂莲华】组合获得20%生命值。",
+    "levels" : [
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "该组合获得莲华加成。"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "2",
+        "description" : "所有【灵魂莲华】弈子获得175%的莲华加成。"
+      },
+      {
+        "chessCount" : 7,
+        "color" : "3",
+        "description" : "所有【灵魂莲华】弈子获得275%的莲华加成。"
+      },
+      {
+        "chessCount" : 10,
+        "color" : "4",
+        "description" : "所有【灵魂莲华】弈子获得300%的每种莲华加成。"
+      }
+    ],
+    "name" : "灵魂莲华"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10043.png",
+    "id" : "10043",
+    "introduce" : "在造成或承受7次伤害时，【幽魂】们会派出2个幽鬼缠住附近的敌人们，且每2秒为自身治疗3%最大生命值。\r\n被缠住的敌人会基于幽鬼数量受到额外伤害，并在阵亡时将幽鬼传递给其他单位。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "每个幽魂6%"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "每个幽魂12%"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "每个幽魂18%"
+      },
+      {
+        "chessCount" : 8,
+        "color" : "4",
+        "description" : "每个幽魂27%"
+      }
+    ],
+    "name" : "幽魂"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10044.png",
+    "id" : "10044",
+    "introduce" : "【山海绘卷】弈子们获得生命值、法术强度和攻击力。\r\n4个玩家对战回合后，【山海绘卷】弈子们会变成史诗级，使该加成提升50%。",
+    "levels" : [
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "10%生命值，12%法术强度和攻击力。"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "2",
+        "description" : "16%生命值，20%法术强度和攻击力。"
+      },
+      {
+        "chessCount" : 7,
+        "color" : "3",
+        "description" : "24%生命值，32%法术强度和攻击力。"
+      },
+      {
+        "chessCount" : 10,
+        "color" : "4",
+        "description" : "立即变成史诗级。此加成转而提升250%。"
+      }
+    ],
+    "name" : "山海绘卷"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10045.png",
+    "id" : "10045",
+    "introduce" : "施放技能后，【青花瓷】弈子们将沸腾，获得攻击速度和伤害减免，持续4秒。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "30%攻击速度；20%伤害减免"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "60%攻击速度；30%伤害减免"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "100%攻击速度；50%伤害减免"
+      }
+    ],
+    "name" : "青花瓷"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10046.png",
+    "id" : "10046",
+    "introduce" : "战斗开始8秒后，巨龙打击整个棋盘，对敌人们造成真实伤害，并提升所有友军的攻击速度，持续到战斗环节结束。",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "5%生命值伤害，20%攻击速度。"
+      },
+      {
+        "chessCount" : 3,
+        "color" : "2",
+        "description" : "10%生命值伤害，30%攻击速度。"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "3",
+        "description" : "12%生命值伤害和1.5秒晕眩。"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "4",
+        "description" : "18%生命值伤害，40%攻击速度。"
+      }
+    ],
+    "name" : "天龙之子"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10047.png",
+    "id" : "10047",
+    "introduce" : "在你输掉一场战斗时，获得吉运。你连败的战斗场次越多，你获得的吉运就越多。\r\n在你赢得战斗时失去吉运",
+    "levels" : [
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "投掷一颗骰子；经过相当于掷出点数的玩家对战回合之后，进行一次庆典。你在庆典中可以将吉运兑换为奖励。"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "2",
+        "description" : "每场玩家对战开始时，治疗3玩家生命值。"
+      },
+      {
+        "chessCount" : 7,
+        "color" : "3",
+        "description" : "吉星高照！每回合无论如何都会获得额外奖励和额外吉运，并且每回合举办一次庆典。"
+      }
+    ],
+    "name" : "吉星"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10048.png",
+    "id" : "10048",
+    "introduce" : "【永恒之森】弈子们获得法术强度和200生命值。每有一名敌人阵亡，获得额外生命值",
+    "levels" : [
+      {
+        "chessCount" : 2,
+        "color" : "1",
+        "description" : "10法术强度； 每次敌人阵亡获得2生命值"
+      },
+      {
+        "chessCount" : 4,
+        "color" : "2",
+        "description" : "30法术强度； 每次敌人阵亡获得5生命值"
+      },
+      {
+        "chessCount" : 6,
+        "color" : "3",
+        "description" : "60法术强度； 每次敌人阵亡获得9生命值"
+      }
+    ],
+    "name" : "永恒之森"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10049.png",
+    "id" : "10049",
+    "introduce" : "【剪纸仙灵】召唤一个名为【凯尔】的英雄，并使其进化。【剪纸仙灵】们获得最大生命值。",
+    "levels" : [
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "选择一个辅助型效果。60生命值"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "2",
+        "description" : "选择一个战斗型效果。100生命值"
+      },
+      {
+        "chessCount" : 7,
+        "color" : "3",
+        "description" : "选择一个战斗型效果。150生命值"
+      },
+      {
+        "chessCount" : 10,
+        "color" : "4",
+        "description" : "登神。250生命值"
+      }
+    ],
+    "name" : "剪纸仙灵"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10050.png",
+    "id" : "10050",
+    "introduce" : "获得各种独特的【墨之影】装备。【墨之影】弈子们获得伤害加成和伤害减免。",
+    "levels" : [
+      {
+        "chessCount" : 3,
+        "color" : "1",
+        "description" : "获得第1件【墨之影】装备"
+      },
+      {
+        "chessCount" : 5,
+        "color" : "2",
+        "description" : "获得第2件【墨之影】装备和5%的额外伤害加成和伤害减免"
+      },
+      {
+        "chessCount" : 7,
+        "color" : "3",
+        "description" : "再获得2件【墨之影】装备"
+      }
+    ],
+    "name" : "墨之影"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10051.png",
+    "id" : "10051",
+    "introduce" : "【灵魂行者】首次降至50%生命值以下时，会释放体内的怒火，治疗至满额生命值，获得移动速度提升，并将技能从【蛮羊冲击】变更为【猛虎爪击】。",
+    "levels" : [
+      {
+        "chessCount" : 1,
+        "color" : "5",
+        "description" : "【灵魂行者】首次降至50%生命值以下时，会释放体内的怒火，治疗至满额生命值，获得移动速度提升，并将技能从【蛮羊冲击】变更为【猛虎爪击】。"
+      }
+    ],
+    "name" : "灵魂行者"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10052.png",
+    "id" : "10052",
+    "introduce" : "根据【仙侣】部署的位置(前两排或后两排)，切换登场的英雄。在已登场的那个【仙侣】施放技能时，另一个会提供一个额外效果。前排：【迅捷射手】【霞】后排：【武仙子】【洛】",
+    "levels" : [
+      {
+        "chessCount" : 1,
+        "color" : "5",
+        "description" : "根据【仙侣】部署的位置(前两排或后两排)，切换登场的英雄。在已登场的那个【仙侣】施放技能时，另一个会提供一个额外效果。前排：【迅捷射手】【霞】后排：【武仙子】【洛】"
+      }
+    ],
+    "name" : "仙侣"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10053.png",
+    "id" : "10053",
+    "introduce" : "【画圣】绘出你放置在一个特别备战席栏位的弈子。【画圣】画好后，你将获得该英雄的1星弈子。",
+    "levels" : [
+      {
+        "chessCount" : 1,
+        "color" : "5",
+        "description" : "完成回合数 = 弈子的费用"
+      }
+    ],
+    "name" : "画圣"
+  },
+  {
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10054.png",
+    "id" : "10054",
+    "introduce" : "每进行3次技能施放，【孙悟空】的武器就会变大，技能也会随之改变。",
+    "levels" : [
+      {
+        "chessCount" : 1,
+        "color" : "5",
+        "description" : "每进行3次技能施放，【孙悟空】的武器就会变大，技能也会随之改变。"
+      }
+    ],
+    "name" : "齐天大圣"
+  }
+]
