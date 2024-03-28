@@ -1,48 +1,17 @@
 import { Component } from 'react'
-import { RaceJob, jobs, races } from './model/RaceJob'
-import { Chess, ChessImageType, chesses, getBorderColor, getChessImage } from './model/Chess'
-import { Descriptions, Popover } from 'antd'
+import { Chess, ChessImageType, getChessImage } from '../model/Chess'
+import { RaceJob, jobs, races } from '../model/RaceJob'
+import { Descriptions } from 'antd'
 
 interface Props {
-  race: RaceJob
-  job: RaceJob
-  width: number
-  height: number
-  backgroundColor: string
+  chess: Chess
+  showInModal?: boolean
 }
 
-export default class RaceJobChessItem extends Component<Props> {
+export default class ChessDetailComponent extends Component<Props> {
   render () {
-    const { race, job, width, height, backgroundColor } = this.props
-    const matchedChesses = chesses.filter((chess) => {
-      return chess.races.findIndex((e) => e.id === race.id) !== -1 && chess.jobs.findIndex((e) => e.id === job.id) !== -1
-    })
-    return (
-      <div style={{ display: 'flex', flexDirection: 'row', width, height, backgroundColor, margin: 0.5, alignItems: 'center', justifyContent: 'center' }}>
-        {matchedChesses.map((chess, index) => {
-          const borderColor = getBorderColor(chess.price)
-          const marginLeft = index === 0 ? 0 : 4
-          return (
-            <Popover
-              content={this.renderChessCard(chess)}
-              overlayInnerStyle={{ padding: 0 }}
-              // trigger={'click'}
-            >
-              <img
-                src={getChessImage(chess.imageId, ChessImageType.head)}
-                width={34}
-                height={34}
-                style={{ borderRadius: 18, borderWidth: 2, borderColor, borderStyle: 'solid', marginLeft }}
-              />
-            </Popover>
-          )
-        })}
-      </div>
-    )
-  }
-
-  private renderChessCard (chess: Chess) {
-    const imageWidth = 360
+    const { chess, showInModal } = this.props
+    const imageWidth = showInModal ? '100%' : 360
     const raceJobs: RaceJob[] = []
     for (const info of chess.races) {
       const race = races.find((race) => race.id === info.id)
@@ -66,9 +35,8 @@ export default class RaceJobChessItem extends Component<Props> {
           <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: 56, background: 'linear-gradient(#0000, #000A)'}}></div>
           <div style={{ position: 'absolute', left: 20, bottom: 16, display: 'flex', flexDirection: 'column' }}>
             {raceJobs.map((raceJob) => {
-
               return (
-                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: 4 }}>
+                <div key={`chess_race_job_${raceJob.id}`} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: 4 }}>
                   <img
                     className={'white_icon'}
                     src={raceJob.iconUrl}
@@ -86,7 +54,11 @@ export default class RaceJobChessItem extends Component<Props> {
           column={3}
           bordered
           size={'small'}
-          style={{ margin: 16, width: imageWidth - 32 }}
+          style={{
+            margin: 16,
+            width: showInModal ? undefined : 328,
+            alignSelf: 'stretch'
+          }}
           labelStyle={{ fontSize: 12, fontWeight: 'bold', color: '#9E9E9E', textAlign: 'center' }}
           contentStyle={{ fontSize: 13, color: '#212121'}}
           items={[

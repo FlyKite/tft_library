@@ -1,6 +1,20 @@
+body {
+  align-items: 'flex-start';
+  justify-content: 'flex-start';
+}
 #root {
-  margin: 0 auto;
+  margin: 0;
 }
 .white_icon {
   filter: contrast(.1) brightness(10);
+}
+.race_job_item {
+  display: flex;
+  width: 128px;
+  height: 56px;
+  background-color: #424242;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.2px solid #212121;
 }
