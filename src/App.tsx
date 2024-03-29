@@ -1,13 +1,11 @@
 import { Component } from 'react'
 import './App.css'
-import RaceJobItem, { RaceJobItemType } from './components/RaceJobItem'
-import { RaceJob, jobs, races } from './model/RaceJob'
-import RaceJobChessItem from './components/RaceJobChessItem'
-import { ValueListenable2Builder, ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
-import { Drawer } from 'antd'
-import { Chess } from './model/Chess'
-import RaceJobDetailComponent from './components/RaceJobDetailComponent'
-import ChessDetailComponent from './components/ChessDetailComponent'
+import RaceJobTablePage from './containers/RaceJobTablePage'
+import MobileTabBar, { TabBarItem } from './components/MobileTabBar'
+import { ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
+import AdventurePage from './containers/AdventurePage'
+import HexPage from './containers/HexPage'
+import DeskTopNavigationBar from './components/DesktopNavigationBar'
 
 interface Props {
 
@@ -19,15 +17,7 @@ interface State {
 
 export default class App extends Component<Props, State> {
 
-  private showRaceHeader = new ValueNotifier<boolean>(false)
-  private raceHeaderRef: HTMLDivElement | null = null
-  private raceHeaderTop = new ValueNotifier<number>(0)
-
-  private raceJobModalOpen = new ValueNotifier<boolean>(false)
-  private raceJobModalData = new ValueNotifier<RaceJob | undefined>(undefined)
-
-  private chessModalOpen = new ValueNotifier<boolean>(false)
-  private chessModalData = new ValueNotifier<Chess | undefined>(undefined)
+  private currentActiveTabIndex = new ValueNotifier<number>(0)
 
   constructor (props: Props) {
     super(props)
@@ -36,12 +26,10 @@ export default class App extends Component<Props, State> {
 
   componentDidMount () {
     window.addEventListener('resize', this.onWindowSizeChanged)
-    window.addEventListener('scroll', this.onWindowScroll)
   }
 
   componentWillUnmount () {
     window.removeEventListener('resize', this.onWindowSizeChanged)
-    window.removeEventListener('scroll', this.onWindowScroll)
   }
 
   private onWindowSizeChanged = () => {
@@ -51,165 +39,86 @@ export default class App extends Component<Props, State> {
     }
   }
 
-  private onWindowScroll = () => {
-    const showRaceHeader = window.scrollX >= 72
-    if (this.showRaceHeader.value !== showRaceHeader) {
-      this.showRaceHeader.value = showRaceHeader
-    }
-    if (showRaceHeader && this.raceHeaderRef) {
-      // const style = this.raceHeaderRef.style
-      // style.top = -window.scrollY + ''
-      // this.raceHeaderRef.setAttribute('style', style.all)
-      this.raceHeaderTop.value = -window.scrollY
-    }
-  }
-
   render () {
+    const tabs: { title: string, iconUrl?: string, activeIconUrl?: string }[] = [
+      { title: '棋子羁绊', iconUrl: './images/race_job_table_tab_icon.png', activeIconUrl: './images/race_job_table_tab_icon_active.png' },
+      { title: '强化', iconUrl: './images/hex_tab_icon.png', activeIconUrl: './images/hex_tab_icon_active.png' },
+      { title: '奇遇', iconUrl: './images/adventure_tab_icon.png', activeIconUrl: './images/adventure_tab_icon_active.png' },
+    ]
     return (
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
-          <RaceJobItem />
-          {jobs.map((job) => {
-            return (
-              <RaceJobItem
-                key={`job_${job.id}`}
-                raceJob={job}
-                showPopoverOnHover={!this.state.showMobileStyle}
-                onClick={this.showRaceJobDetailModal}
-              />
-            )
-          })}
-        </div>
-        {races.map((race, index) => {
-          const chessItems = jobs.map((job) => {
-            return (
-              <RaceJobChessItem
-                key={`race_job_chess_${race.id}_${job.id}`}
-                race={race}
-                job={job}
-                showPopoverOnHover={!this.state.showMobileStyle}
-                onClick={this.showChessDetailModal}
-              />
-            )
-          })
-          return (
-            <div key={`race_job_row_${index}`} style={{ display: 'flex', flexDirection: 'row' }}>
-              <RaceJobItem
-                raceJob={race}
-                showPopoverOnHover={!this.state.showMobileStyle}
-                onClick={this.showRaceJobDetailModal}
-              />
-              {chessItems}
-            </div>
-          )
-        })}
-        {this.state.showMobileStyle && (
-          <ValueListenable2Builder
-            listenTo={{ notifier1: this.showRaceHeader, notifier2: this.raceHeaderTop }}
-            renderChildren={(showRaceHeader, raceHeaderTop) => {
-              return (
-                <div style={{ display: showRaceHeader ? 'flex' : 'none', flexDirection: 'column', position: 'fixed', top: raceHeaderTop, left: 0 }} ref={(ref) => { this.raceHeaderRef = ref }}>
-                  <RaceJobItem itemType={RaceJobItemType.small}/>
-                  {races.map((race) => {
-                    return (
-                      <RaceJobItem
-                        key={`race_${race.id}`}
-                        raceJob={race}
-                        itemType={RaceJobItemType.small}
-                        showPopoverOnHover={!this.state.showMobileStyle}
-                        onClick={this.showRaceJobDetailModal}
-                      />
-                    )
-                  })}
-                </div>
-              )
+      <div style={{ width: screen.availWidth, height: screen.availHeight }}>
+        <div
+          style={{
+            display: 'flex',
+            position: 'fixed',
+            top: this.state.showMobileStyle ? 0 : 56,
+            left: 0, right: 0,
+            bottom: this.state.showMobileStyle ? 49 : 0,
+            overflow: 'scroll'
+          }}
+        >
+          <ValueListenableBuilder
+            listenTo={this.currentActiveTabIndex}
+            renderChildren={(activeTabIndex) => {
+              switch (activeTabIndex) {
+                case 0:
+                  return <RaceJobTablePage showMobileStyle={this.state.showMobileStyle}/>
+                case 1:
+                  return <HexPage showMobileStyle={this.state.showMobileStyle} />
+                case 2:
+                  return <AdventurePage />
+                default:
+                  return <div/>
+              }
             }}
           />
-        )}
-        {this.renderRaceJobDetailModal()}
-        {this.renderChessDetailModal()}
+        </div>
+        {this.state.showMobileStyle ? this.renderMobileTabBar(tabs) : this.renderDesktopNavigationBar(tabs)}
       </div>
     )
   }
 
-  private renderRaceJobDetailModal () {
+  private renderMobileTabBar (tabs: TabBarItem[]) {
     return (
       <ValueListenableBuilder
-        listenTo={this.raceJobModalOpen}
-        renderChildren={(open) => {
+        listenTo={this.currentActiveTabIndex}
+        renderChildren={(activeTabIndex) => {
           return (
-            <Drawer
-              placement={'bottom'}
-              closable={false}
-              open={open}
-              onClose={() => {
-                this.raceJobModalOpen.value = false
+            <MobileTabBar
+              items={tabs}
+              activeTabIndex={activeTabIndex}
+              tintColor={'#4A90E2'}
+              onTabClick={(index) => {
+                if (index !== this.currentActiveTabIndex.value) {
+                  this.currentActiveTabIndex.value = index
+                }
               }}
-              style={{ borderTopLeftRadius: 12, borderTopRightRadius: 12 }}
-            >
-              <ValueListenableBuilder
-                listenTo={this.raceJobModalData}
-                renderChildren={(raceJob) => {
-                  if (!raceJob) return <div/>
-                  return (
-                    <RaceJobDetailComponent
-                      raceJob={raceJob}
-                      width={'100%'}
-                    />
-                  )
-                }}
-              />
-            </Drawer>
+            />
           )
         }}
       />
     )
   }
 
-  private renderChessDetailModal () {
+  private renderDesktopNavigationBar (tabs: TabBarItem[]) {
     return (
       <ValueListenableBuilder
-        listenTo={this.chessModalOpen}
-        renderChildren={(open) => {
+        listenTo={this.currentActiveTabIndex}
+        renderChildren={(activeTabIndex) => {
           return (
-            <Drawer
-              placement={'bottom'}
-              closable={false}
-              open={open}
-              onClose={() => {
-                this.chessModalOpen.value = false
+            <DeskTopNavigationBar
+              items={tabs}
+              activeTabIndex={activeTabIndex}
+              tintColor={'#4A90E2'}
+              onTabClick={(index) => {
+                if (index !== this.currentActiveTabIndex.value) {
+                  this.currentActiveTabIndex.value = index
+                }
               }}
-              style={{ borderTopLeftRadius: 8, borderTopRightRadius: 8 }}
-              styles={{
-                body: { padding: 0 }
-              }}
-            >
-              <ValueListenableBuilder
-                listenTo={this.chessModalData}
-                renderChildren={(chess) => {
-                  if (!chess) return <div/>
-                  return (
-                    <ChessDetailComponent
-                      chess={chess}
-                      showInModal
-                    />
-                  )
-                }}
-              />
-            </Drawer>
+            />
           )
         }}
       />
     )
-  }
-
-  private showRaceJobDetailModal = (raceJob: RaceJob) => {
-    this.raceJobModalData.value = raceJob
-    this.raceJobModalOpen.value = true
-  }
-
-  private showChessDetailModal = (chess: Chess) => {
-    this.chessModalData.value = chess
-    this.chessModalOpen.value = true
   }
 }

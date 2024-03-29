@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { RaceJob } from '../model/RaceJob'
+import { RaceJob } from '../../model/RaceJob'
 import { Popover } from 'antd'
 import RaceJobDetailComponent from './RaceJobDetailComponent'
 
@@ -63,6 +63,7 @@ export default class RaceJobItem extends Component<Props> {
       <RaceJobDetailComponent
         raceJob={raceJob}
         width={320}
+        hideTitle
       />
     )
   }

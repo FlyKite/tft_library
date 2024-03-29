@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { RaceJob, getRaceJobLevelBorderColor, getRaceJobLevelColor } from '../model/RaceJob'
+import { RaceJob, getRaceJobLevelBorderColor, getRaceJobLevelColor } from '../../model/RaceJob'
 
 interface Props {
   raceJob: RaceJob
@@ -12,7 +12,15 @@ export default class RaceJobDetailComponent extends Component<Props> {
     const { raceJob, width, hideTitle } = this.props
     return (
       <div style={{ display: 'flex', flexDirection: 'column', width: width }}>
-        {hideTitle !== true && (<span style={{ fontSize: 24, fontWeight: 'bold', color: '#212121', marginBottom: 12 }}>{raceJob.name}</span>)}
+        {hideTitle !== true && (
+          <div style={{ display: 'flex', marginBottom: 12, alignItems: 'center' }}>
+            <img
+              src={raceJob.iconUrl}
+              style={{ width: 20, height: 20, marginRight: 4 }}
+            />
+            <span style={{ fontSize: 24, fontWeight: 'bold', color: '#212121' }}>{raceJob.name}</span>
+          </div>
+        )}
         <span style={{ fontSize: 16, color: '#212121' }}>{raceJob.introduce}</span>
         {raceJob.levels.map((level, index) => {
           return (

@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import { RaceJob } from '../model/RaceJob'
-import { Chess, ChessImageType, chesses, getBorderColor, getChessImage } from '../model/Chess'
+import { RaceJob } from '../../model/RaceJob'
+import { Chess, ChessImageType, chesses, getBorderColor, getChessImage } from '../../model/Chess'
 import { Popover } from 'antd'
 import ChessDetailComponent from './ChessDetailComponent'
 

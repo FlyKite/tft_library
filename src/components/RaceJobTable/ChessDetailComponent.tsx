@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import { Chess, ChessImageType, getChessImage } from '../model/Chess'
-import { RaceJob, jobs, races } from '../model/RaceJob'
+import { Chess, ChessImageType, getChessImage } from '../../model/Chess'
+import { RaceJob, jobs, races } from '../../model/RaceJob'
 import { Descriptions } from 'antd'
 
 interface Props {
