@@ -1,6 +1,7 @@
-import { ConfigProvider, List, Radio } from 'antd'
+import { Col, ConfigProvider, List, Radio, Row } from 'antd'
 import { Component } from 'react'
 import { HexLevel, hexes } from '../model/Hex'
+import DeskTopHexCard from '../components/Hex/DesktopHexCard'
 
 interface Props {
   showMobileStyle: boolean
@@ -18,50 +19,41 @@ export default class HexPage extends Component<Props, State> {
   }
 
   render () {
+    if (this.props.showMobileStyle) {
+      return this.renderMobilePage()
+    } else {
+      return this.renderDesktopPage()
+    }
+  }
+
+  renderDesktopPage () {
+    const matchedHexes = hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
+    let children: any[] = []
+    for (let i = 0; i < matchedHexes.length; i++) {
+      const hex = matchedHexes[i]
+      children.push((
+        <Col>
+          <DeskTopHexCard hex={hex} />
+        </Col>
+      ))
+    }
+    return (
+      <div style={{ width: '100%', height: '100%' }}>
+        {this.renderTab()}
+        <div style={{ display: 'flex', width: '100%', marginTop: 44, flex: 1, paddingTop: 16, paddingBottom: 32, alignItems: 'center', justifyContent: 'center' }}>
+          <Row gutter={[16, 16]} justify={'center'}>
+            {children}
+          </Row>
+        </div>
+      </div>
+    )
+  }
+
+  renderMobilePage () {
     const matchedHexes = hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
     return (
       <div style={{ width: '100%', height: '100%' }}>
-        <div
-          style={{
-            display: 'flex',
-            position: 'fixed',
-            top: this.props.showMobileStyle ? 0 : 56,
-            left: 0, right: 0, height: 44,
-            zIndex: 99,
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: '#212121'
-          }}
-        >
-          <ConfigProvider
-            theme={{
-              components: {
-                Radio: {
-                  buttonBg: '#212121',
-                  colorText: '#FAFAFA',
-                  colorBorder: '#626262',
-                  // buttonSolidCheckedBg: '#626262',
-                  // colorPrimaryHover: '#626262',
-                  // buttonSolidCheckedHoverBg: '#626262'
-                },
-              },
-            }}
-          >
-            <Radio.Group
-              options={[
-                { label: '银色', value: HexLevel.silver },
-                { label: '金色', value: HexLevel.golden },
-                { label: '棱彩', value: HexLevel.colorful },
-              ]}
-              onChange={(event) => {
-                this.setState({ selectedHexLevel: event.target.value })
-              }}
-              value={this.state.selectedHexLevel}
-              optionType="button"
-              buttonStyle="solid"
-            />
-          </ConfigProvider>
-        </div>
+        {this.renderTab()}
         <div style={{ width: '100%', marginTop: 44, flex: 1 }}>
           <List
             itemLayout={'horizontal'}
@@ -82,6 +74,52 @@ export default class HexPage extends Component<Props, State> {
             }}
           />
         </div>
+      </div>
+    )
+  }
+
+  private renderTab () {
+    return (
+      <div
+        style={{
+          display: 'flex',
+          position: 'fixed',
+          top: this.props.showMobileStyle ? 0 : 56,
+          left: 0, right: 0, height: 44,
+          zIndex: 99,
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: '#212121'
+        }}
+      >
+        <ConfigProvider
+          theme={{
+            components: {
+              Radio: {
+                buttonBg: '#212121',
+                colorText: '#FAFAFA',
+                colorBorder: '#626262',
+                // buttonSolidCheckedBg: '#626262',
+                // colorPrimaryHover: '#626262',
+                // buttonSolidCheckedHoverBg: '#626262'
+              },
+            },
+          }}
+        >
+          <Radio.Group
+            options={[
+              { label: '银色', value: HexLevel.silver },
+              { label: '金色', value: HexLevel.golden },
+              { label: '棱彩', value: HexLevel.colorful },
+            ]}
+            onChange={(event) => {
+              this.setState({ selectedHexLevel: event.target.value })
+            }}
+            value={this.state.selectedHexLevel}
+            optionType="button"
+            buttonStyle="solid"
+          />
+        </ConfigProvider>
       </div>
     )
   }
