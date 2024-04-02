@@ -6,6 +6,7 @@ import { ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
 import AdventurePage from './containers/AdventurePage'
 import HexPage from './containers/HexPage'
 import DeskTopNavigationBar from './components/DesktopNavigationBar'
+import EquipmentPage from './containers/EquipmentPage'
 
 interface Props {
 
@@ -44,17 +45,15 @@ export default class App extends Component<Props, State> {
       { title: '棋子羁绊', iconUrl: './images/race_job_table_tab_icon.png', activeIconUrl: './images/race_job_table_tab_icon_active.png' },
       { title: '强化', iconUrl: './images/hex_tab_icon.png', activeIconUrl: './images/hex_tab_icon_active.png' },
       { title: '奇遇', iconUrl: './images/adventure_tab_icon.png', activeIconUrl: './images/adventure_tab_icon_active.png' },
+      { title: '装备', iconUrl: './images/equip_tab_icon.png', activeIconUrl: './images/equip_tab_icon_active.png' }
     ]
     return (
-      <div style={{ width: screen.availWidth, height: screen.availHeight }}>
+      <div>
         <div
           style={{
             display: 'flex',
-            position: 'fixed',
-            top: this.state.showMobileStyle ? 0 : 56,
-            left: 0, right: 0,
-            bottom: this.state.showMobileStyle ? 49 : 0,
-            overflow: 'scroll'
+            marginTop: this.state.showMobileStyle ? 0 : 56,
+            marginBottom: this.state.showMobileStyle ? 49 : 0
           }}
         >
           <ValueListenableBuilder
@@ -64,9 +63,11 @@ export default class App extends Component<Props, State> {
                 case 0:
                   return <RaceJobTablePage showMobileStyle={this.state.showMobileStyle}/>
                 case 1:
-                  return <HexPage showMobileStyle={this.state.showMobileStyle} />
+                  return <HexPage showMobileStyle={this.state.showMobileStyle}/>
                 case 2:
-                  return <AdventurePage />
+                  return <AdventurePage showMobileStyle={this.state.showMobileStyle}/>
+                case 3:
+                  return <EquipmentPage showMobileStyle={this.state.showMobileStyle}/>
                 default:
                   return <div/>
               }

@@ -1,0 +1,203 @@
+import { Component } from 'react'
+import { Equipment, EquipmentType, equipmentTable, equipments } from '../model/Equipment'
+import { Drawer, Popover } from 'antd'
+import { ValueListenableBuilder, ValueNotifier } from '../components/ValueNotify'
+
+interface Props {
+  showMobileStyle: boolean
+}
+
+export default class EquipmentPage extends Component<Props> {
+  private equipmentMap = new Map<string, Equipment>()
+  private equipmentModalOpen = new ValueNotifier<boolean>(false)
+  private equipmentModalData = new ValueNotifier<Equipment | undefined>(undefined)
+
+  constructor (props: Props) {
+    super(props)
+    for (const equipment of equipments) {
+      this.equipmentMap.set(equipment.id, equipment)
+    }
+  }
+
+  render () {
+    return this.props.showMobileStyle ? this.renderMobileLayout() : this.renderDesktopLayout()
+  }
+
+  private renderDesktopLayout () {
+    return (
+      <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center', alignItems: 'center', overflow: 'scroll' }}>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          {this.renderEquipmentTable()}
+          {this.renderEquipments('金鳞龙装备', equipments.filter((e) => e.type === EquipmentType.golden))}
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 32 }}>
+          {this.renderEquipments('光明装备', equipments.filter((e) => e.type === EquipmentType.light))}
+          {/* {this.renderEquipments('墨之影装备', equipments.filter((e) => e.type === EquipmentType.ink))} */}
+          {this.renderEquipments('特殊转职纹章', equipments.filter((e) => e.type === EquipmentType.job))}
+          {this.renderEquipments('奥恩神器', equipments.filter((e) => e.type === EquipmentType.ornn))}
+          {this.renderEquipments('辅助装备', equipments.filter((e) => e.type === EquipmentType.support))}
+        </div>
+      </div>
+    )
+  }
+
+  private renderMobileLayout () {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', padding: 16, alignItems: 'stretch' }}>
+        {this.renderEquipmentTable()}
+        {this.renderEquipments('特殊转职纹章', equipments.filter((e) => e.type === EquipmentType.job))}
+        {this.renderEquipments('光明装备', equipments.filter((e) => e.type === EquipmentType.light))}
+        {this.renderEquipments('奥恩神器', equipments.filter((e) => e.type === EquipmentType.ornn))}
+        {this.renderEquipments('金鳞龙装备', equipments.filter((e) => e.type === EquipmentType.golden))}
+        {this.renderEquipments('辅助装备', equipments.filter((e) => e.type === EquipmentType.support))}
+        {this.renderEquipmentDetailModal()}
+      </div>
+    )
+  }
+
+  private renderEquipmentTable () {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <span style={{ fontSize: 18, fontWeight: 'bold' }}>装备合成表</span>
+        {equipmentTable.table.map((row, rowIndex) => {
+          return (
+            <div key={`equip_row_${rowIndex}`} style={{ display: 'flex', alignItems: 'stretch' }}>
+              {row.map((equipId, colIndex) => {
+                const equipment = this.equipmentMap.get(equipId)
+                const showEquipment = (colIndex === 0 && rowIndex !== 0) || (colIndex >= rowIndex && colIndex !== 0)
+                const key = `equip_row_${rowIndex}_${colIndex}`
+                return this.renderEquipmentGrid(!showEquipment ? undefined : equipment, showEquipment, key)
+              })}
+            </div>
+          )
+        })}
+      </div>
+    )
+  }
+
+  private renderEquipmentGrid (equipment?: Equipment, showEquipment: boolean = true, key?: string) {
+    const showPopoverOnHover = !this.props.showMobileStyle
+    return (
+      <div 
+        key={key}
+        style={this.props.showMobileStyle
+          ? { width: '10%' }
+          : { width: 50, height: 50, padding: 8, borderWidth: 0.5, borderStyle: 'solid', borderColor: '#9E9E9E' }
+        }
+      >
+        <div
+          key={key}
+          style={this.props.showMobileStyle
+            ? { width: '100%', paddingTop: '100%', height: 0, borderWidth: 0.5, borderStyle: 'solid', borderColor: '#9E9E9E' }
+            : undefined
+          }
+        >
+          {equipment && (
+            <Popover
+              key={key}
+              content={this.renderEquipmentDetail(equipment)}
+              overlayInnerStyle={{ padding: 16 }}
+              trigger={showPopoverOnHover ? 'hover' : 'click'}
+              open={showPopoverOnHover ? undefined : false}
+              onOpenChange={(visible) => {
+                if (visible && !showPopoverOnHover) {
+                  this.equipmentModalData.value = equipment
+                  this.equipmentModalOpen.value = true
+                }
+              }}
+            >
+              {showEquipment && (
+                <img
+                  src={equipment.iconUrl}
+                  style={
+                    this.props.showMobileStyle
+                      ? { width: '100%', aspectRatio: 1, marginTop: '-100%', marginBottom: '100%' }
+                      : { width: '100%', height: '100%' }
+                  }
+                />
+              )}
+            </Popover>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  private renderEquipmentDetail (equipment: Equipment, showInModal: boolean = false) {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', width: showInModal ? undefined : 320 }}>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
+          <img
+            src={equipment.iconUrl}
+            style={{ width: 56, height: 56, marginRight: 8 }}
+          />
+          <span style={{ fontSize: 24, fontWeight: 'bold', color: 'black' }}>{equipment.name}</span>
+        </div>
+        <span style={{ fontSize: 16, color: 'black' }}>{equipment.effect}</span>
+      </div>
+    )
+  }
+
+  private renderEquipments (title: string, equipments: Equipment[]) {
+    let children: any[] = []
+    let rowChildren: any[] = []
+    for (let i = 0; i < equipments.length; i++) {
+      const equipment = equipments[i]
+      rowChildren.push(this.renderEquipmentGrid(equipment, true, `equip_${title}_${i}`))
+      if ((i + 1) % 9 === 0) {
+        children.push(
+          <div style={{ display: 'flex' }}>{rowChildren}</div>
+        )
+        rowChildren = []
+      } else {
+
+      }
+    }
+    if (rowChildren.length > 0) {
+      children.push(
+        <div style={{ display: 'flex' }}>
+          {rowChildren}
+          <div style={{ flex: 10 - rowChildren.length }}/>
+        </div>
+      )
+    }
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', marginTop: 16 }}>
+        <span style={{ fontSize: 18, fontWeight: 'bold' }}>{title}</span>
+        {children}
+      </div>
+    )
+  }
+
+  private renderEquipmentDetailModal () {
+    return (
+      <ValueListenableBuilder
+        listenTo={this.equipmentModalOpen}
+        renderChildren={(open) => {
+          return (
+            <Drawer
+              placement={'bottom'}
+              closable={false}
+              open={open}
+              onClose={() => {
+                this.equipmentModalOpen.value = false
+              }}
+              style={{ borderTopLeftRadius: 8, borderTopRightRadius: 8 }}
+              styles={{
+                body: { padding: 16 }
+              }}
+            >
+              <ValueListenableBuilder
+                listenTo={this.equipmentModalData}
+                renderChildren={(equipment) => {
+                  if (!equipment) return <div/>
+                  return this.renderEquipmentDetail(equipment, true)
+                }}
+              />
+            </Drawer>
+          )
+        }}
+      />
+    )
+  }
+}

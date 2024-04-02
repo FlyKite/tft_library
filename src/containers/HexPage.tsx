@@ -26,7 +26,7 @@ export default class HexPage extends Component<Props, State> {
     }
   }
 
-  renderDesktopPage () {
+  private renderDesktopPage () {
     const matchedHexes = hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
     let children: any[] = []
     for (let i = 0; i < matchedHexes.length; i++) {
@@ -49,7 +49,7 @@ export default class HexPage extends Component<Props, State> {
     )
   }
 
-  renderMobilePage () {
+  private renderMobilePage () {
     const matchedHexes = hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
     return (
       <div style={{ width: '100%', height: '100%' }}>
