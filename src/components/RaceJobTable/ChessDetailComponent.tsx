@@ -1,7 +1,8 @@
 import { Component } from 'react'
 import { Chess, ChessImageType, getChessImage } from '../../model/Chess'
-import { RaceJob, jobs, races } from '../../model/RaceJob'
+import { RaceJob } from '../../model/RaceJob'
 import { ConfigProvider, Descriptions } from 'antd'
+import DataManager from '../../model/DataManager'
 
 interface Props {
   chess: Chess
@@ -14,13 +15,13 @@ export default class ChessDetailComponent extends Component<Props> {
     const imageWidth = showInModal ? '100%' : 360
     const raceJobs: RaceJob[] = []
     for (const info of chess.races) {
-      const race = races.find((race) => race.id === info.id)
+      const race = DataManager.races.find((race) => race.id === info.id)
       if (race) {
         raceJobs.push(race)
       }
     }
     for (const info of chess.jobs) {
-      const job = jobs.find((job) => job.id === info.id)
+      const job = DataManager.jobs.find((job) => job.id === info.id)
       if (job) {
         raceJobs.push(job)
       }

@@ -1,9 +1,3 @@
-import jobData from '../assets/job.json'
-import raceData from '../assets/race.json'
-
-export const jobs: RaceJob[] = jobData as any
-export const races: RaceJob[] = raceData as any
-
 export enum JobColor {
   level1 = "1",
   level2 = "2",

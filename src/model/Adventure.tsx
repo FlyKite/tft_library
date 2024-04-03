@@ -1,7 +1,3 @@
-import data from '../assets/adventure.json'
-
-export const adventures: Adventure[] = data
-
 export interface Adventure {
   id: string
   /** 标题（提供奇遇的英雄名称） */

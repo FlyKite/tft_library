@@ -1,8 +1,9 @@
 import { Component } from 'react'
 import { RaceJob } from '../../model/RaceJob'
-import { Chess, ChessImageType, chesses, getBorderColor, getChessImage } from '../../model/Chess'
+import { Chess, ChessImageType, getBorderColor, getChessImage } from '../../model/Chess'
 import { ConfigProvider, Popover } from 'antd'
 import ChessDetailComponent from './ChessDetailComponent'
+import DataManager from '../../model/DataManager'
 
 interface Props {
   race: RaceJob
@@ -14,7 +15,7 @@ interface Props {
 export default class RaceJobChessItem extends Component<Props> {
   render () {
     const { race, job, showPopoverOnHover, onClick } = this.props
-    const matchedChesses = chesses.filter((chess) => {
+    const matchedChesses = DataManager.chesses.filter((chess) => {
       return chess.races.findIndex((e) => e.id === race.id) !== -1 && chess.jobs.findIndex((e) => e.id === job.id) !== -1
     })
     return (

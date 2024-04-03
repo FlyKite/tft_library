@@ -8,6 +8,7 @@ import HexPage from './containers/HexPage'
 import DeskTopNavigationBar from './components/DesktopNavigationBar'
 import EquipmentPage from './containers/EquipmentPage'
 import { Drawer } from 'antd'
+import DataManager from './model/DataManager'
 
 interface Props {
 
@@ -44,6 +45,9 @@ export default class App extends Component<Props, State> {
   }
 
   componentDidMount () {
+    DataManager.initialFetch().then(() => {
+      this.setState({})
+    })
     window.addEventListener('resize', this.onWindowSizeChanged)
   }
 
@@ -101,7 +105,6 @@ export default class App extends Component<Props, State> {
           ref={(ref) => { this.refKeys.pageContainer = ref }}
           onScroll={() => {
             if (this.refKeys.pageContainer && this.refKeys.raceJobPage) {
-              console.log(`🚗 ${this.refKeys.pageContainer.scrollTop}, ${this.refKeys.pageContainer.scrollLeft}`)
               this.refKeys.raceJobPage.onContainerScroll(this.refKeys.pageContainer)
             }
           }}

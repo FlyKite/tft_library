@@ -1,6 +1,6 @@
 import { Col, ConfigProvider, List, Row } from 'antd'
 import { Component } from 'react'
-import { adventures } from '../model/Adventure'
+import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
@@ -21,7 +21,7 @@ export default class AdventurePage extends Component<Props> {
       <div style={{ width: '100%', height: '100%' }}>
         <div style={{ display: 'flex', width: '100%', marginTop: 44, flex: 1, paddingTop: 16, paddingBottom: 32, alignItems: 'center', justifyContent: 'center' }}>
           <Row gutter={[16, 16]} justify={'center'}>
-            {adventures.map((adventure) => {
+            {DataManager.adventures.map((adventure) => {
               return (
                 <Col>
                   <div style={{ display: 'flex', padding: 16, width: 280, height: 120, backgroundColor: '#424242', borderRadius: 12 }}>
@@ -58,7 +58,7 @@ export default class AdventurePage extends Component<Props> {
         >
           <List
             itemLayout={'horizontal'}
-            dataSource={adventures}
+            dataSource={DataManager.adventures}
             renderItem={(adventure, index) => {
               return (
                 <div style={{ display: 'flex', marginLeft: 16, marginRight: 16, paddingTop: 16, paddingBottom: 16, borderTopWidth: index === 0 ? 0 : 0.5, borderTopColor: '#424242', borderTopStyle: 'solid' }}>

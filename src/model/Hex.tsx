@@ -1,7 +1,3 @@
-import data from '../assets/hex.json'
-
-export const hexes: Hex[] = data as any
-
 export enum HexLevel {
   /** 银色海克斯 */
   silver = "1",

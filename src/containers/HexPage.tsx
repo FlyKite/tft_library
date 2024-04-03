@@ -1,7 +1,8 @@
 import { Col, ConfigProvider, List, Radio, Row } from 'antd'
 import { Component } from 'react'
-import { HexLevel, hexes } from '../model/Hex'
+import { HexLevel } from '../model/Hex'
 import DeskTopHexCard from '../components/Hex/DesktopHexCard'
+import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
@@ -28,7 +29,7 @@ export default class HexPage extends Component<Props, State> {
   }
 
   private renderDesktopPage () {
-    const matchedHexes = hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
+    const matchedHexes = DataManager.hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
     let children: any[] = []
     for (let i = 0; i < matchedHexes.length; i++) {
       const hex = matchedHexes[i]
@@ -51,7 +52,7 @@ export default class HexPage extends Component<Props, State> {
   }
 
   private renderMobilePage () {
-    const matchedHexes = hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
+    const matchedHexes = DataManager.hexes.filter((hex) => hex.level === this.state.selectedHexLevel)
     return (
       <div style={{ width: '100%', height: '100%' }}>
         {this.renderTab()}

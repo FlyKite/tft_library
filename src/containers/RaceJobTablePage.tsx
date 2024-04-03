@@ -1,11 +1,12 @@
 import { Component } from 'react'
 import { ValueListenable2Builder, ValueNotifier } from '../components/ValueNotify'
-import { RaceJob, jobs, races } from '../model/RaceJob'
+import { RaceJob } from '../model/RaceJob'
 import RaceJobItem, { RaceJobItemType } from '../components/RaceJobTable/RaceJobItem'
 import RaceJobChessItem from '../components/RaceJobTable/RaceJobChessItem'
 import RaceJobDetailComponent from '../components/RaceJobTable/RaceJobDetailComponent'
 import ChessDetailComponent from '../components/RaceJobTable/ChessDetailComponent'
 import { Chess } from '../model/Chess'
+import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
@@ -50,7 +51,7 @@ export default class RaceJobTablePage extends Component<Props> {
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex', flexDirection: 'row' }}>
           <RaceJobItem />
-          {jobs.map((job) => {
+          {DataManager.jobs.map((job) => {
             return (
               <RaceJobItem
                 key={`job_${job.id}`}
@@ -61,8 +62,8 @@ export default class RaceJobTablePage extends Component<Props> {
             )
           })}
         </div>
-        {races.map((race, index) => {
-          const chessItems = jobs.map((job) => {
+        {DataManager.races.map((race, index) => {
+          const chessItems = DataManager.jobs.map((job) => {
             return (
               <RaceJobChessItem
                 key={`race_job_chess_${race.id}_${job.id}`}
@@ -101,7 +102,7 @@ export default class RaceJobTablePage extends Component<Props> {
                   }}
                 >
                   <RaceJobItem itemType={RaceJobItemType.small}/>
-                  {races.map((race) => {
+                  {DataManager.races.map((race) => {
                     return (
                       <RaceJobItem
                         key={`race_${race.id}`}

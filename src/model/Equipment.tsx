@@ -1,9 +1,3 @@
-import data from '../assets/equip.json'
-import equipTable from '../assets/equip_table.json'
-
-export const equipments: Equipment[] = data as any
-export const equipmentTable = equipTable
-
 export enum EquipmentType {
   /** 基础装备 */
   basic = "1",

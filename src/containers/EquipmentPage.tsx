@@ -1,6 +1,7 @@
 import { Component } from 'react'
-import { Equipment, EquipmentType, equipmentTable, equipments } from '../model/Equipment'
+import { Equipment, EquipmentType } from '../model/Equipment'
 import { Popover } from 'antd'
+import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
@@ -12,7 +13,7 @@ export default class EquipmentPage extends Component<Props> {
 
   constructor (props: Props) {
     super(props)
-    for (const equipment of equipments) {
+    for (const equipment of DataManager.equipments) {
       this.equipmentMap.set(equipment.id, equipment)
     }
   }
@@ -26,14 +27,14 @@ export default class EquipmentPage extends Component<Props> {
       <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center', alignItems: 'center', overflow: 'scroll' }}>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           {this.renderEquipmentTable()}
-          {this.renderEquipments('金鳞龙装备', equipments.filter((e) => e.type === EquipmentType.golden))}
+          {this.renderEquipments('金鳞龙装备', DataManager.equipments.filter((e) => e.type === EquipmentType.golden))}
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 32 }}>
-          {this.renderEquipments('光明装备', equipments.filter((e) => e.type === EquipmentType.light))}
+          {this.renderEquipments('光明装备', DataManager.equipments.filter((e) => e.type === EquipmentType.light))}
           {/* {this.renderEquipments('墨之影装备', equipments.filter((e) => e.type === EquipmentType.ink))} */}
-          {this.renderEquipments('特殊转职纹章', equipments.filter((e) => e.type === EquipmentType.job))}
-          {this.renderEquipments('奥恩神器', equipments.filter((e) => e.type === EquipmentType.ornn))}
-          {this.renderEquipments('辅助装备', equipments.filter((e) => e.type === EquipmentType.support))}
+          {this.renderEquipments('特殊转职纹章', DataManager.equipments.filter((e) => e.type === EquipmentType.job))}
+          {this.renderEquipments('奥恩神器', DataManager.equipments.filter((e) => e.type === EquipmentType.ornn))}
+          {this.renderEquipments('辅助装备', DataManager.equipments.filter((e) => e.type === EquipmentType.support))}
         </div>
       </div>
     )
@@ -43,11 +44,11 @@ export default class EquipmentPage extends Component<Props> {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', padding: 16, alignItems: 'stretch' }}>
         {this.renderEquipmentTable()}
-        {this.renderEquipments('特殊转职纹章', equipments.filter((e) => e.type === EquipmentType.job))}
-        {this.renderEquipments('光明装备', equipments.filter((e) => e.type === EquipmentType.light))}
-        {this.renderEquipments('奥恩神器', equipments.filter((e) => e.type === EquipmentType.ornn))}
-        {this.renderEquipments('金鳞龙装备', equipments.filter((e) => e.type === EquipmentType.golden))}
-        {this.renderEquipments('辅助装备', equipments.filter((e) => e.type === EquipmentType.support))}
+        {this.renderEquipments('特殊转职纹章', DataManager.equipments.filter((e) => e.type === EquipmentType.job))}
+        {this.renderEquipments('光明装备', DataManager.equipments.filter((e) => e.type === EquipmentType.light))}
+        {this.renderEquipments('奥恩神器', DataManager.equipments.filter((e) => e.type === EquipmentType.ornn))}
+        {this.renderEquipments('金鳞龙装备', DataManager.equipments.filter((e) => e.type === EquipmentType.golden))}
+        {this.renderEquipments('辅助装备', DataManager.equipments.filter((e) => e.type === EquipmentType.support))}
       </div>
     )
   }
@@ -56,7 +57,7 @@ export default class EquipmentPage extends Component<Props> {
     return (
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <span style={{ fontSize: 18, fontWeight: 'bold' }}>装备合成表</span>
-        {equipmentTable.table.map((row, rowIndex) => {
+        {DataManager.equipmentTable.map((row, rowIndex) => {
           return (
             <div key={`equip_row_${rowIndex}`} style={{ display: 'flex', alignItems: 'stretch' }}>
               {row.map((equipId, colIndex) => {

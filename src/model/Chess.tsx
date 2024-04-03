@@ -1,7 +1,3 @@
-import data from '../assets/chess.json'
-
-export const chesses: Chess[] = data
-
 export enum ChessImageType {
   /** 小头像 */
   head,
