@@ -24,16 +24,16 @@ export default class EquipmentPage extends Component<Props> {
 
   private renderDesktopLayout () {
     return (
-      <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center', alignItems: 'center', overflow: 'scroll' }}>
+      <div style={{ display: 'flex', padding: 24, alignItems: 'center' }}>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           {this.renderEquipmentTable()}
-          {this.renderEquipments('金鳞龙装备', DataManager.equipments.filter((e) => e.type === EquipmentType.golden))}
+          {this.renderEquipments('特殊装备', DataManager.equipments.filter((e) => e.type === EquipmentType.ink))}
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 32 }}>
           {this.renderEquipments('光明装备', DataManager.equipments.filter((e) => e.type === EquipmentType.light))}
-          {/* {this.renderEquipments('墨之影装备', equipments.filter((e) => e.type === EquipmentType.ink))} */}
           {this.renderEquipments('特殊转职纹章', DataManager.equipments.filter((e) => e.type === EquipmentType.job))}
           {this.renderEquipments('奥恩神器', DataManager.equipments.filter((e) => e.type === EquipmentType.ornn))}
+          {this.renderEquipments('金鳞龙装备', DataManager.equipments.filter((e) => e.type === EquipmentType.golden))}
           {this.renderEquipments('辅助装备', DataManager.equipments.filter((e) => e.type === EquipmentType.support))}
         </div>
       </div>
@@ -49,6 +49,7 @@ export default class EquipmentPage extends Component<Props> {
         {this.renderEquipments('奥恩神器', DataManager.equipments.filter((e) => e.type === EquipmentType.ornn))}
         {this.renderEquipments('金鳞龙装备', DataManager.equipments.filter((e) => e.type === EquipmentType.golden))}
         {this.renderEquipments('辅助装备', DataManager.equipments.filter((e) => e.type === EquipmentType.support))}
+        {this.renderEquipments('特殊装备', DataManager.equipments.filter((e) => e.type === EquipmentType.ink))}
       </div>
     )
   }
