@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import { ValueListenable2Builder, ValueNotifier } from '../components/ValueNotify'
 import { RaceJob } from '../model/RaceJob'
 import RaceJobItem, { RaceJobItemType } from '../components/RaceJobTable/RaceJobItem'
 import RaceJobChessItem from '../components/RaceJobTable/RaceJobChessItem'
@@ -15,9 +14,8 @@ interface Props {
 
 export default class RaceJobTablePage extends Component<Props> {
 
-  private showRaceHeader = new ValueNotifier<boolean>(false)
+  private showRaceHeader = false
   private raceHeaderRef: HTMLDivElement | null = null
-  private raceHeaderTop = new ValueNotifier<number>(0)
 
   componentDidMount () {
     window.addEventListener('scroll', this.onWindowScroll)
@@ -38,11 +36,16 @@ export default class RaceJobTablePage extends Component<Props> {
 
   private handleScrollEvent (scrollX: number, scrollY: number) {
     const showRaceHeader = scrollX >= 72
-    if (this.showRaceHeader.value !== showRaceHeader) {
-      this.showRaceHeader.value = showRaceHeader
+    let needsUpdate = false
+    if (this.showRaceHeader !== showRaceHeader) {
+      this.showRaceHeader = showRaceHeader
+      needsUpdate = true
     }
     if (showRaceHeader && this.raceHeaderRef) {
-      this.raceHeaderTop.value = -scrollY
+      needsUpdate = true
+    }
+    if (needsUpdate) {
+      this.raceHeaderRef?.setAttribute('style', `display: ${showRaceHeader ? 'flex' : 'none'}; margin-top: ${-scrollY}px;`)
     }
   }
 
@@ -86,37 +89,23 @@ export default class RaceJobTablePage extends Component<Props> {
           )
         })}
         {this.props.showMobileStyle && (
-          <ValueListenable2Builder
-            listenTo={{ notifier1: this.showRaceHeader, notifier2: this.raceHeaderTop }}
-            renderChildren={(showRaceHeader, raceHeaderTop) => {
+          <div
+            ref={(ref) => { this.raceHeaderRef = ref }}
+            className={'race_header'}
+          >
+            <RaceJobItem itemType={RaceJobItemType.small}/>
+            {DataManager.races.map((race) => {
               return (
-                <div
-                ref={(ref) => { this.raceHeaderRef = ref }}
-                  style={{
-                    display: showRaceHeader ? 'flex' : 'none',
-                    flexDirection: 'column',
-                    position: 'fixed',
-                    top: raceHeaderTop,
-                    left: 0,
-                    marginTop: 'env(safe-area-inset-top)'
-                  }}
-                >
-                  <RaceJobItem itemType={RaceJobItemType.small}/>
-                  {DataManager.races.map((race) => {
-                    return (
-                      <RaceJobItem
-                        key={`race_${race.id}`}
-                        raceJob={race}
-                        itemType={RaceJobItemType.small}
-                        showPopoverOnHover={!this.props.showMobileStyle}
-                        onClick={this.showRaceJobDetailModal}
-                      />
-                    )
-                  })}
-                </div>
+                <RaceJobItem
+                  key={`race_${race.id}`}
+                  raceJob={race}
+                  itemType={RaceJobItemType.small}
+                  showPopoverOnHover={!this.props.showMobileStyle}
+                  onClick={this.showRaceJobDetailModal}
+                />
               )
-            }}
-          />
+            })}
+          </div>
         )}
       </div>
     )
