@@ -2,7 +2,7 @@ import { Component } from 'react'
 import './App.css'
 import RaceJobTablePage from './containers/RaceJobTablePage'
 import MobileTabBar, { TabBarItem } from './components/MobileTabBar'
-import { ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
+import { ValueListenable2Builder, ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
 import AdventurePage from './containers/AdventurePage'
 import HexPage from './containers/HexPage'
 import DeskTopNavigationBar from './components/DesktopNavigationBar'
@@ -22,13 +22,18 @@ interface RefKey {
   raceJobPage?: RaceJobTablePage | null
   pageContainer?: HTMLDivElement | null
 }
+
+interface DrawerDisplayInfo {
+  children: React.ReactNode
+  height: number
+}
 export default class App extends Component<Props, State> {
 
   private refKeys: RefKey = {}
 
   private currentActiveTabIndex = new ValueNotifier<number>(0)
   private drawerOpen = new ValueNotifier<boolean>(false)
-  private drawerChildren = new ValueNotifier<React.ReactNode | undefined>(undefined)
+  private drawerDisplayInfo = new ValueNotifier<DrawerDisplayInfo| undefined>(undefined)
 
   private get tabsInfo (): TabBarItem[] {
     return [
@@ -110,8 +115,8 @@ export default class App extends Component<Props, State> {
           }}
         >
           {this.renderContent({
-            onShowDrawer: (children) => {
-              this.drawerChildren.value = children
+            onShowDrawer: (children, height) => {
+              this.drawerDisplayInfo.value = { children, height }
               this.drawerOpen.value = true
             }
           })}
@@ -138,7 +143,7 @@ export default class App extends Component<Props, State> {
     )
   }
 
-  private renderContent (params?: { onShowDrawer: (children: React.ReactNode) => void }) {
+  private renderContent (params?: { onShowDrawer: (children: React.ReactNode, height: number) => void }) {
     return (
       <ValueListenableBuilder
         listenTo={this.currentActiveTabIndex}
@@ -183,9 +188,9 @@ export default class App extends Component<Props, State> {
 
   private renderBottomDrawer () {
     return (
-      <ValueListenableBuilder
-        listenTo={this.drawerOpen}
-        renderChildren={(open) => {
+      <ValueListenable2Builder
+        listenTo={{ notifier1: this.drawerOpen, notifier2: this.drawerDisplayInfo }}
+        renderChildren={(open, displayInfo) => {
           return (
             <Drawer
               placement={'bottom'}
@@ -194,6 +199,7 @@ export default class App extends Component<Props, State> {
               onClose={() => {
                 this.drawerOpen.value = false
               }}
+              height={displayInfo?.height}
               style={{
                 borderTopLeftRadius: 12,
                 borderTopRightRadius: 12,
@@ -204,13 +210,7 @@ export default class App extends Component<Props, State> {
                 body: { padding: 0 }
               }}
             >
-              <ValueListenableBuilder
-                listenTo={this.drawerChildren}
-                renderChildren={(drawerChildren) => {
-                  if (!drawerChildren) return <div/>
-                  return drawerChildren
-                }}
-              />
+              {displayInfo ? displayInfo.children : <div/>}
             </Drawer>
           )
         }}

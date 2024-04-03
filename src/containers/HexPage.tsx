@@ -6,7 +6,7 @@ import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
-  onShowDrawer?: (children: React.ReactNode) => void
+  onShowDrawer?: (children: React.ReactNode, height: number) => void
 }
 
 interface State {

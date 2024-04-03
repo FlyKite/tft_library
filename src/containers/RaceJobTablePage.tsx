@@ -9,7 +9,7 @@ import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
-  onShowDrawer?: (children: React.ReactNode) => void
+  onShowDrawer?: (children: React.ReactNode, height: number) => void
 }
 
 export default class RaceJobTablePage extends Component<Props> {
@@ -116,7 +116,7 @@ export default class RaceJobTablePage extends Component<Props> {
       <RaceJobDetailComponent
         raceJob={raceJob}
       />
-    ))
+    ), 320)
   }
 
   private showChessDetailModal = (chess: Chess) => {
@@ -125,6 +125,6 @@ export default class RaceJobTablePage extends Component<Props> {
         chess={chess}
         showInModal
       />
-    ))
+    ), 560)
   }
 }

@@ -5,7 +5,7 @@ import DataManager from '../model/DataManager'
 
 interface Props {
   showMobileStyle: boolean
-  onShowDrawer?: (children: React.ReactNode) => void
+  onShowDrawer?: (children: React.ReactNode, height: number) => void
 }
 
 export default class EquipmentPage extends Component<Props> {
@@ -101,7 +101,7 @@ export default class EquipmentPage extends Component<Props> {
               open={showPopoverOnHover ? undefined : false}
               onOpenChange={(visible) => {
                 if (visible && !showPopoverOnHover && this.props.onShowDrawer) {
-                  this.props.onShowDrawer(this.renderEquipmentDetail(equipment, true))
+                  this.props.onShowDrawer(this.renderEquipmentDetail(equipment, true), 320)
                 }
               }}
             >
