@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import { RaceJob } from '../../model/RaceJob'
 import { Chess, ChessImageType, chesses, getBorderColor, getChessImage } from '../../model/Chess'
-import { Popover } from 'antd'
+import { ConfigProvider, Popover } from 'antd'
 import ChessDetailComponent from './ChessDetailComponent'
 
 interface Props {
@@ -23,25 +23,34 @@ export default class RaceJobChessItem extends Component<Props> {
           const borderColor = getBorderColor(chess.price)
           const marginLeft = index === 0 ? 0 : 4
           return (
-            <Popover
-              key={`race_job_chess_${index}`}
-              content={this.renderChessCard(chess)}
-              overlayInnerStyle={{ padding: 0 }}
-              trigger={showPopoverOnHover ? 'hover' : 'click'}
-              open={showPopoverOnHover ? undefined : false}
-              onOpenChange={(visible) => {
-                if (visible && !showPopoverOnHover) {
-                  onClick && onClick(chess)
+            <ConfigProvider
+              theme={{
+                token: {
+                  borderRadius: 12
                 }
               }}
             >
-              <img
-                src={getChessImage(chess.imageId, ChessImageType.head)}
-                width={34}
-                height={34}
-                style={{ borderRadius: 18, borderWidth: 2, borderColor, borderStyle: 'solid', marginLeft }}
-              />
-            </Popover>
+              <Popover
+                key={`race_job_chess_${index}`}
+                content={this.renderChessCard(chess)}
+                overlayInnerStyle={{ padding: 0, backgroundColor: '#212121' }}
+                overlayStyle={{ borderRadius: 12, boxShadow: '0px 0px 12px #0005' }}
+                trigger={showPopoverOnHover ? 'hover' : 'click'}
+                open={showPopoverOnHover ? undefined : false}
+                onOpenChange={(visible) => {
+                  if (visible && !showPopoverOnHover) {
+                    onClick && onClick(chess)
+                  }
+                }}
+              >
+                <img
+                  src={getChessImage(chess.imageId, ChessImageType.head)}
+                  width={34}
+                  height={34}
+                  style={{ borderRadius: 18, borderWidth: 2, borderColor, borderStyle: 'solid', marginLeft }}
+                />
+              </Popover>
+            </ConfigProvider>
           )
         })}
       </div>

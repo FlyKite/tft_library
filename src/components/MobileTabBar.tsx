@@ -24,10 +24,11 @@ export default class MobileTabBar extends Component<Props> {
           left: 0, right: 0, bottom: 0,
           height: 49,
           backgroundColor: '#212121',
-          borderTopWidth: 1,
-          borderTopColor: '#424242',
+          borderTopWidth: 0.5,
+          borderTopColor: '#42424299',
           borderTopStyle: 'solid',
-          justifyContent: 'space-around'
+          justifyContent: 'space-around',
+          paddingBottom: 'env(safe-area-inset-bottom)'
         }}
       >
         {this.props.items.map((item, index) => {

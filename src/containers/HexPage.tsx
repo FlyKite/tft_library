@@ -5,6 +5,7 @@ import DeskTopHexCard from '../components/Hex/DesktopHexCard'
 
 interface Props {
   showMobileStyle: boolean
+  onShowDrawer?: (children: React.ReactNode) => void
 }
 
 interface State {
@@ -85,11 +86,15 @@ export default class HexPage extends Component<Props, State> {
           display: 'flex',
           position: 'fixed',
           top: this.props.showMobileStyle ? 0 : 56,
+          paddingTop: 'env(safe-area-inset-top)',
           left: 0, right: 0, height: 44,
           zIndex: 99,
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#212121'
+          backgroundColor: '#212121',
+          borderWidth: 0.5,
+          borderBottomStyle: 'solid',
+          borderColor: '#42424299'
         }}
       >
         <ConfigProvider

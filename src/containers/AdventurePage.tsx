@@ -4,6 +4,7 @@ import { adventures } from '../model/Adventure'
 
 interface Props {
   showMobileStyle: boolean
+  onShowDrawer?: (children: React.ReactNode) => void
 }
 
 export default class AdventurePage extends Component<Props> {

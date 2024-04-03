@@ -1,15 +1,15 @@
 import { Component } from 'react'
-import { ValueListenable2Builder, ValueListenableBuilder, ValueNotifier } from '../components/ValueNotify'
+import { ValueListenable2Builder, ValueNotifier } from '../components/ValueNotify'
 import { RaceJob, jobs, races } from '../model/RaceJob'
 import RaceJobItem, { RaceJobItemType } from '../components/RaceJobTable/RaceJobItem'
 import RaceJobChessItem from '../components/RaceJobTable/RaceJobChessItem'
-import { Drawer } from 'antd'
 import RaceJobDetailComponent from '../components/RaceJobTable/RaceJobDetailComponent'
 import ChessDetailComponent from '../components/RaceJobTable/ChessDetailComponent'
 import { Chess } from '../model/Chess'
 
 interface Props {
   showMobileStyle: boolean
+  onShowDrawer?: (children: React.ReactNode) => void
 }
 
 export default class RaceJobTablePage extends Component<Props> {
@@ -17,12 +17,6 @@ export default class RaceJobTablePage extends Component<Props> {
   private showRaceHeader = new ValueNotifier<boolean>(false)
   private raceHeaderRef: HTMLDivElement | null = null
   private raceHeaderTop = new ValueNotifier<number>(0)
-
-  private raceJobModalOpen = new ValueNotifier<boolean>(false)
-  private raceJobModalData = new ValueNotifier<RaceJob | undefined>(undefined)
-
-  private chessModalOpen = new ValueNotifier<boolean>(false)
-  private chessModalData = new ValueNotifier<Chess | undefined>(undefined)
 
   componentDidMount () {
     window.addEventListener('scroll', this.onWindowScroll)
@@ -32,13 +26,22 @@ export default class RaceJobTablePage extends Component<Props> {
     window.removeEventListener('scroll', this.onWindowScroll)
   }
 
+  onContainerScroll (container: HTMLDivElement) {
+    const { scrollTop, scrollLeft } = container
+    this.handleScrollEvent(scrollLeft, scrollTop)
+  }
+
   private onWindowScroll = () => {
-    const showRaceHeader = window.scrollX >= 72
+    this.handleScrollEvent(window.scrollX, window.scrollY)
+  }
+
+  private handleScrollEvent (scrollX: number, scrollY: number) {
+    const showRaceHeader = scrollX >= 72
     if (this.showRaceHeader.value !== showRaceHeader) {
       this.showRaceHeader.value = showRaceHeader
     }
     if (showRaceHeader && this.raceHeaderRef) {
-      this.raceHeaderTop.value = -window.scrollY
+      this.raceHeaderTop.value = -scrollY
     }
   }
 
@@ -86,7 +89,17 @@ export default class RaceJobTablePage extends Component<Props> {
             listenTo={{ notifier1: this.showRaceHeader, notifier2: this.raceHeaderTop }}
             renderChildren={(showRaceHeader, raceHeaderTop) => {
               return (
-                <div style={{ display: showRaceHeader ? 'flex' : 'none', flexDirection: 'column', position: 'fixed', top: raceHeaderTop, left: 0 }} ref={(ref) => { this.raceHeaderRef = ref }}>
+                <div
+                ref={(ref) => { this.raceHeaderRef = ref }}
+                  style={{
+                    display: showRaceHeader ? 'flex' : 'none',
+                    flexDirection: 'column',
+                    position: 'fixed',
+                    top: raceHeaderTop,
+                    left: 0,
+                    marginTop: 'env(safe-area-inset-top)'
+                  }}
+                >
                   <RaceJobItem itemType={RaceJobItemType.small}/>
                   {races.map((race) => {
                     return (
@@ -104,90 +117,24 @@ export default class RaceJobTablePage extends Component<Props> {
             }}
           />
         )}
-        {this.renderRaceJobDetailModal()}
-        {this.renderChessDetailModal()}
       </div>
     )
   }
 
-  private renderRaceJobDetailModal () {
-    return (
-      <ValueListenableBuilder
-        listenTo={this.raceJobModalOpen}
-        renderChildren={(open) => {
-          return (
-            <Drawer
-              placement={'bottom'}
-              closable={false}
-              open={open}
-              onClose={() => {
-                this.raceJobModalOpen.value = false
-              }}
-              style={{ borderTopLeftRadius: 12, borderTopRightRadius: 12 }}
-            >
-              <ValueListenableBuilder
-                listenTo={this.raceJobModalData}
-                renderChildren={(raceJob) => {
-                  if (!raceJob) return <div/>
-                  return (
-                    <RaceJobDetailComponent
-                      raceJob={raceJob}
-                      width={'100%'}
-                    />
-                  )
-                }}
-              />
-            </Drawer>
-          )
-        }}
-      />
-    )
-  }
-
-  private renderChessDetailModal () {
-    return (
-      <ValueListenableBuilder
-        listenTo={this.chessModalOpen}
-        renderChildren={(open) => {
-          return (
-            <Drawer
-              placement={'bottom'}
-              closable={false}
-              open={open}
-              onClose={() => {
-                this.chessModalOpen.value = false
-              }}
-              style={{ borderTopLeftRadius: 8, borderTopRightRadius: 8 }}
-              styles={{
-                body: { padding: 0 }
-              }}
-            >
-              <ValueListenableBuilder
-                listenTo={this.chessModalData}
-                renderChildren={(chess) => {
-                  if (!chess) return <div/>
-                  return (
-                    <ChessDetailComponent
-                      chess={chess}
-                      showInModal
-                    />
-                  )
-                }}
-              />
-            </Drawer>
-          )
-        }}
-      />
-    )
-  }
-
   private showRaceJobDetailModal = (raceJob: RaceJob) => {
-    this.raceJobModalData.value = raceJob
-    this.raceJobModalOpen.value = true
+    this.props.onShowDrawer && this.props.onShowDrawer((
+      <RaceJobDetailComponent
+        raceJob={raceJob}
+      />
+    ))
   }
 
   private showChessDetailModal = (chess: Chess) => {
-    this.chessModalData.value = chess
-    this.chessModalOpen.value = true
+    this.props.onShowDrawer && this.props.onShowDrawer((
+      <ChessDetailComponent
+        chess={chess}
+        showInModal
+      />
+    ))
   }
 }

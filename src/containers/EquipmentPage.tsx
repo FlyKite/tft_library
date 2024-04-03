@@ -1,16 +1,14 @@
 import { Component } from 'react'
 import { Equipment, EquipmentType, equipmentTable, equipments } from '../model/Equipment'
-import { Drawer, Popover } from 'antd'
-import { ValueListenableBuilder, ValueNotifier } from '../components/ValueNotify'
+import { Popover } from 'antd'
 
 interface Props {
   showMobileStyle: boolean
+  onShowDrawer?: (children: React.ReactNode) => void
 }
 
 export default class EquipmentPage extends Component<Props> {
   private equipmentMap = new Map<string, Equipment>()
-  private equipmentModalOpen = new ValueNotifier<boolean>(false)
-  private equipmentModalData = new ValueNotifier<Equipment | undefined>(undefined)
 
   constructor (props: Props) {
     super(props)
@@ -50,7 +48,6 @@ export default class EquipmentPage extends Component<Props> {
         {this.renderEquipments('奥恩神器', equipments.filter((e) => e.type === EquipmentType.ornn))}
         {this.renderEquipments('金鳞龙装备', equipments.filter((e) => e.type === EquipmentType.golden))}
         {this.renderEquipments('辅助装备', equipments.filter((e) => e.type === EquipmentType.support))}
-        {this.renderEquipmentDetailModal()}
       </div>
     )
   }
@@ -96,13 +93,13 @@ export default class EquipmentPage extends Component<Props> {
             <Popover
               key={key}
               content={this.renderEquipmentDetail(equipment)}
-              overlayInnerStyle={{ padding: 16 }}
+              overlayInnerStyle={{ padding: 0, backgroundColor: '#212121' }}
+              overlayStyle={{ borderRadius: 12, boxShadow: '0px 0px 12px #0005' }}
               trigger={showPopoverOnHover ? 'hover' : 'click'}
               open={showPopoverOnHover ? undefined : false}
               onOpenChange={(visible) => {
-                if (visible && !showPopoverOnHover) {
-                  this.equipmentModalData.value = equipment
-                  this.equipmentModalOpen.value = true
+                if (visible && !showPopoverOnHover && this.props.onShowDrawer) {
+                  this.props.onShowDrawer(this.renderEquipmentDetail(equipment, true))
                 }
               }}
             >
@@ -125,15 +122,15 @@ export default class EquipmentPage extends Component<Props> {
 
   private renderEquipmentDetail (equipment: Equipment, showInModal: boolean = false) {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', width: showInModal ? undefined : 320 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', width: showInModal ? undefined : 320, padding: showInModal ? 24 : 16 }}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
           <img
             src={equipment.iconUrl}
             style={{ width: 56, height: 56, marginRight: 8 }}
           />
-          <span style={{ fontSize: 24, fontWeight: 'bold', color: 'black' }}>{equipment.name}</span>
+          <span style={{ fontSize: 24, fontWeight: 'bold', color: '#BDBDBD' }}>{equipment.name}</span>
         </div>
-        <span style={{ fontSize: 16, color: 'black' }}>{equipment.effect}</span>
+        <span style={{ fontSize: 16, color: '#BDBDBD' }}>{equipment.effect}</span>
       </div>
     )
   }
@@ -166,38 +163,6 @@ export default class EquipmentPage extends Component<Props> {
         <span style={{ fontSize: 18, fontWeight: 'bold' }}>{title}</span>
         {children}
       </div>
-    )
-  }
-
-  private renderEquipmentDetailModal () {
-    return (
-      <ValueListenableBuilder
-        listenTo={this.equipmentModalOpen}
-        renderChildren={(open) => {
-          return (
-            <Drawer
-              placement={'bottom'}
-              closable={false}
-              open={open}
-              onClose={() => {
-                this.equipmentModalOpen.value = false
-              }}
-              style={{ borderTopLeftRadius: 8, borderTopRightRadius: 8 }}
-              styles={{
-                body: { padding: 16 }
-              }}
-            >
-              <ValueListenableBuilder
-                listenTo={this.equipmentModalData}
-                renderChildren={(equipment) => {
-                  if (!equipment) return <div/>
-                  return this.renderEquipmentDetail(equipment, true)
-                }}
-              />
-            </Drawer>
-          )
-        }}
-      />
     )
   }
 }
