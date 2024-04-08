@@ -1,120 +1,120 @@
 [
   {
-    "description" : "【亚托克斯】为你提供1个【基础装备锻造器】、玩家生命值或金币。",
+    "description" : "亚托克斯为你提供1个基础装备锻造器、玩家生命值或金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10063.jpg",
     "id" : "1",
     "title" : "亚托克斯"
   },
   {
-    "description" : "【阿狸】的吻可为玩家提供生命值。",
+    "description" : "阿狸的吻可为玩家提供生命值。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10064.jpg",
     "id" : "2",
     "title" : "阿狸"
   },
   {
-    "description" : "【阿狸】赐予你的队伍一个战斗祝福，持续到本局游戏结束。",
+    "description" : "阿狸赐予你的队伍一个战斗祝福，持续到本局游戏结束。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10064.jpg",
     "id" : "3",
     "title" : "阿狸"
   },
   {
-    "description" : "【拉露恩】为你提供1个成装锻造器。",
+    "description" : "拉露恩为你提供1个成装锻造器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10065.jpg",
     "id" : "4",
     "title" : "拉露恩"
   },
   {
-    "description" : "【拉露恩】提供成装，让你选择一件。",
+    "description" : "拉露恩提供成装，让你选择一件。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10065.jpg",
     "id" : "5",
     "title" : "拉露恩"
   },
   {
-    "description" : "【拉露恩】为选秀回合的每个弈子添加1件成装。",
+    "description" : "拉露恩为选秀回合的每个弈子添加1件成装。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10065.jpg",
     "id" : "6",
     "title" : "拉露恩"
   },
   {
-    "description" : "【拉露恩】永久强化你某个费用的弈子们。",
+    "description" : "拉露恩永久强化你某个费用的弈子们。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10065.jpg",
     "id" : "7",
     "title" : "拉露恩"
   },
   {
-    "description" : "本次的选秀回合中，全都是【阿木木】的2星3费朋友！",
+    "description" : "本次的选秀回合中，全都是阿木木的2星3费朋友！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10066.jpg",
     "id" : "8",
     "title" : "阿木木"
   },
   {
-    "description" : "【阿木木】会为所有愿意和他交朋友的人送上超棒的礼物。",
+    "description" : "阿木木会为所有愿意和他交朋友的人送上超棒的礼物。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10066.jpg",
     "id" : "9",
     "title" : "阿木木"
   },
   {
-    "description" : "接下来几个回合中，【安妮】会为你提供更好的商店供应或更多金币。",
+    "description" : "接下来几个回合中，安妮会为你提供更好的商店供应或更多金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10067.jpg",
     "id" : "10",
     "title" : "安妮"
   },
   {
-    "description" : "【厄斐琉斯】为你召唤2个【基础装备锻造器】。",
+    "description" : "厄斐琉斯为你召唤2个基础装备锻造器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10068.jpg",
     "id" : "11",
     "title" : "厄斐琉斯"
   },
   {
-    "description" : "接下来3场玩家对战中，【艾希】将揭示你的下一个对手。",
+    "description" : "接下来3场玩家对战中，艾希将揭示你的下一个对手。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10069.jpg",
     "id" : "12",
     "title" : "艾希"
   },
   {
-    "description" : "【艾希】为你揭示即将遇到的对手，直到本局游戏结束。",
+    "description" : "艾希为你揭示即将遇到的对手，直到本局游戏结束。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10069.jpg",
     "id" : "13",
     "title" : "艾希"
   },
   {
-    "description" : "【阿兹尔】提供6次免费刷新，可保留至使用为止。",
+    "description" : "1",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10070.jpg",
     "id" : "14",
     "title" : "阿兹尔"
   },
   {
-    "description" : "【阿兹尔】将3-2和4-2的强化符文移至随机回合。",
+    "description" : "阿兹尔将3-2和4-2的强化符文移至随机回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10070.jpg",
     "id" : "15",
     "title" : "阿兹尔"
   },
   {
-    "description" : "【巴德】将每个玩家升级至3级！",
+    "description" : "巴德将每个玩家升级至3级！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10071.jpg",
     "id" : "16",
     "title" : "巴德"
   },
   {
-    "description" : "【巴德】在本局游戏中为你提供以3级开局的选项。",
+    "description" : "巴德在本局游戏中为你提供以3级开局的选项。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10071.jpg",
     "id" : "17",
     "title" : "巴德"
   },
   {
-    "description" : "【凯特琳】在本回合为你提供4次免费刷新。",
+    "description" : "凯特琳在本回合为你提供4次免费刷新。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10072.jpg",
     "id" : "18",
     "title" : "凯特琳"
   },
   {
-    "description" : "【科加斯】为你提供2个【次级英雄复制器】或1个【英雄复制器】。",
+    "description" : "科加斯为你提供2个次级英雄复制器或1个英雄复制器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10073.jpg",
     "id" : "19",
     "title" : "科加斯"
   },
   {
-    "description" : "如果你能满足【科加斯】的饥饿感，他便会给你一份馈赠……",
+    "description" : "如果你能满足科加斯的饥饿感，他便会给你一份馈赠……",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10073.jpg",
     "id" : "20",
     "title" : "科加斯"
@@ -126,43 +126,43 @@
     "title" : "德莱厄斯"
   },
   {
-    "description" : "【德莱厄斯】让你在20经验值和10次免费刷新之间做出选择。",
+    "description" : "德莱厄斯让你在20经验值和10次免费刷新之间做出选择。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10074.jpg",
     "id" : "22",
     "title" : "德莱厄斯"
   },
   {
-    "description" : "【德莱厄斯】将高亮备战席栏位中的弈子转换为随机的同费弈子，持续5个回合。",
+    "description" : "德莱厄斯将高亮备战席栏位中的弈子转换为随机的同费弈子，持续5个回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10074.jpg",
     "id" : "23",
     "title" : "德莱厄斯"
   },
   {
-    "description" : "本回合中，你出售某个弈子时，【黛安娜】会将其成装劈砍成基础装备。",
+    "description" : "本回合中，你出售某个弈子时，黛安娜会将其成装劈砍成基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10075.jpg",
     "id" : "24",
     "title" : "黛安娜"
   },
   {
-    "description" : "你出售某弈子时，【黛安娜】会将其成装劈砍成基础装备。",
+    "description" : "你出售某弈子时，黛安娜会将其成装劈砍成基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10075.jpg",
     "id" : "25",
     "title" : "黛安娜"
   },
   {
-    "description" : "【黛安娜】为你提供一个最多可刷新3次的【秘宝武器库】。",
+    "description" : "黛安娜为你提供一个最多可刷新3次的秘宝武器库。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10075.jpg",
     "id" : "26",
     "title" : "黛安娜"
   },
   {
-    "description" : "【可酷伯】邀请你与他共舞！加入的玩家越多，奖励就越棒！",
+    "description" : "可酷伯邀请你与他共舞！加入的玩家越多，奖励就越棒！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10076.jpg",
     "id" : "27",
     "title" : "可酷伯"
   },
   {
-    "description" : "【加里奥】为选秀回合的每个弈子添加1件防御型基础装备。",
+    "description" : "加里奥为选秀回合的每个弈子添加1件防御型基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10077.jpg",
     "id" : "28",
     "title" : "加里奥"
@@ -174,91 +174,91 @@
     "title" : "盖伦"
   },
   {
-    "description" : "【纳尔】让你的下一个强化符文选项可以额外刷新1次。",
+    "description" : "纳尔让你的下一个强化符文选项可以额外刷新1次。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10079.jpg",
     "id" : "30",
     "title" : "纳尔"
   },
   {
-    "description" : "【纳尔】用2星2费弈子填满选秀回合。",
+    "description" : "纳尔用2星2费弈子填满选秀回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10079.jpg",
     "id" : "31",
     "title" : "纳尔"
   },
   {
-    "description" : "在接下来的5个回合中，【彗】画出一个假人。每当它在玩家对战回合中幸存下来时，获得1金币。",
+    "description" : "在接下来的5个回合中，彗画出一个假人。每当它在玩家对战回合中幸存下来时，获得1金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10080.jpg",
     "id" : "32",
     "title" : "彗"
   },
   {
-    "description" : "【彗】绘出全是5费弈子的选秀回合。",
+    "description" : "彗绘出全是5费弈子的选秀回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10080.jpg",
     "id" : "33",
     "title" : "彗"
   },
   {
-    "description" : "【彗】使你的第一个商店栏位提供量身定制的弈子，直至对局结束。",
+    "description" : "彗使你的第一个商店栏位提供量身定制的弈子，直至对局结束。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10080.jpg",
     "id" : "34",
     "title" : "彗"
   },
   {
-    "description" : "【俄洛伊】在本回合为你提供8次免费刷新。",
+    "description" : "俄洛伊在本回合为你提供8次免费刷新。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10081.jpg",
     "id" : "35",
     "title" : "俄洛伊"
   },
   {
-    "description" : "【俄洛伊】将3-2的强化符文移至随机回合。",
+    "description" : "俄洛伊将3-2的强化符文移至随机回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10081.jpg",
     "id" : "36",
     "title" : "俄洛伊"
   },
   {
-    "description" : "【艾瑞莉娅】解除所有玩家的限制，使其可以在此选秀回合中自由移动。",
+    "description" : "艾瑞莉娅解除所有玩家的限制，使其可以在此选秀回合中自由移动。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10082.jpg",
     "id" : "37",
     "title" : "艾瑞莉娅"
   },
   {
-    "description" : "【艾瑞莉娅】让你接下来的6次商店刷新包含每个费用各1个弈子。",
+    "description" : "艾瑞莉娅让你接下来的6次商店刷新包含每个费用各1个弈子。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10082.jpg",
     "id" : "38",
     "title" : "艾瑞莉娅"
   },
   {
-    "description" : "【迦娜】为你提供一个最多可刷新10次的【秘宝武器库】。",
+    "description" : "迦娜为你提供一个最多可刷新10次的秘宝武器库。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10083.jpg",
     "id" : "39",
     "title" : "迦娜"
   },
   {
-    "description" : "【迦娜】让你在不同的弈子之间做出选择。",
+    "description" : "迦娜让你在不同的弈子之间做出选择。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10083.jpg",
     "id" : "40",
     "title" : "迦娜"
   },
   {
-    "description" : "【迦娜】为你提供2个在3回合后消失的【灵风】。",
+    "description" : "迦娜为你提供2个在3回合后消失的灵风。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10083.jpg",
     "id" : "41",
     "title" : "迦娜"
   },
   {
-    "description" : "【贾克斯】让你在刷新次数和弈子之间做出选择。",
+    "description" : "贾克斯让你在刷新次数和弈子之间做出选择。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10084.jpg",
     "id" : "42",
     "title" : "贾克斯"
   },
   {
-    "description" : "【贾克斯】从不同的武器库中为你提供1件武器。",
+    "description" : "贾克斯从不同的武器库中为你提供1件武器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10084.jpg",
     "id" : "43",
     "title" : "贾克斯"
   },
   {
-    "description" : "【卡莎】为你提供一个可无限次使用的【装备拆卸器】，或金币。",
+    "description" : "卡莎为你提供一个可无限次使用的装备拆卸器，或金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10085.jpg",
     "id" : "44",
     "title" : "卡莎"
@@ -276,163 +276,163 @@
     "title" : "凯隐"
   },
   {
-    "description" : "【凯隐】为你提供【死亡之刃】和【死亡之帽】。这些装备将持续3个回合。",
+    "description" : "凯隐为你提供死亡之刃和死亡之帽。这些装备将持续3个回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10087.jpg",
     "id" : "47",
     "title" : "凯隐"
   },
   {
-    "description" : "【卡兹克】立即为你提供下一个强化符文。",
+    "description" : "卡兹克立即为你提供下一个强化符文。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10088.jpg",
     "id" : "48",
     "title" : "卡兹克"
   },
   {
-    "description" : "接下来3个回合中，【卡兹克】使经验值价格从4金币减为3金币。进化。",
+    "description" : "接下来3个回合中，卡兹克使经验值价格从4金币减为3金币。进化。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10088.jpg",
     "id" : "49",
     "title" : "卡兹克"
   },
   {
-    "description" : "本局游戏中，【卡兹克】使经验值价格从4金币减为3金币。进化！",
+    "description" : "本局游戏中，卡兹克使经验值价格从4金币减为3金币。进化！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10088.jpg",
     "id" : "50",
     "title" : "卡兹克"
   },
   {
-    "description" : "【千珏】规定本局游戏仅能存在偶数等级。",
+    "description" : "千珏规定本局游戏仅能存在偶数等级。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10089.jpg",
     "id" : "51",
     "title" : "千珏"
   },
   {
-    "description" : "【千珏】为你提供一件持续3个回合的临时装备。",
+    "description" : "千珏为你提供一件持续3个回合的临时装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10089.jpg",
     "id" : "52",
     "title" : "千珏"
   },
   {
-    "description" : "【千珏】为你提供一个选择：红或蓝。",
+    "description" : "千珏为你提供一个选择：红或蓝。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10089.jpg",
     "id" : "53",
     "title" : "千珏"
   },
   {
-    "description" : "【千珏】为你提供3个持续3个回合的【训练假人】。",
+    "description" : "千珏为你提供3个持续3个回合的训练假人。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10089.jpg",
     "id" : "54",
     "title" : "千珏"
   },
   {
-    "description" : "【克格莫】将2-1的强化符文移至随机回合。",
+    "description" : "克格莫将2-1的强化符文移至随机回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10090.jpg",
     "id" : "55",
     "title" : "克格莫"
   },
   {
-    "description" : "【李青】为你提供一个最多可刷新10次的【秘宝武器库】。",
+    "description" : "李青为你提供一个最多可刷新10次的秘宝武器库。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10091.jpg",
     "id" : "56",
     "title" : "李青"
   },
   {
-    "description" : "【莉莉娅】将所有强化符文移至随机回合！",
+    "description" : "莉莉娅将所有强化符文移至随机回合！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10092.jpg",
     "id" : "57",
     "title" : "莉莉娅"
   },
   {
-    "description" : "【丽桑卓】为你提供各种装备供你购买……但价钱昂贵。",
+    "description" : "丽桑卓为你提供各种装备供你购买……但价钱昂贵。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10093.jpg",
     "id" : "58",
     "title" : "丽桑卓"
   },
   {
-    "description" : "【丽桑卓】提供光明武器，让你选择一件。所选的装备将在3回合后消失。获得1个【装备拆卸器】。",
+    "description" : "丽桑卓提供光明武器，让你选择一件。所选的装备将在3回合后消失。获得1个装备拆卸器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10093.jpg",
     "id" : "59",
     "title" : "丽桑卓"
   },
   {
-    "description" : "【丽桑卓】愿意向你出售任意数量的基础装备。",
+    "description" : "丽桑卓愿意向你出售任意数量的基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10093.jpg",
     "id" : "60",
     "title" : "丽桑卓"
   },
   {
-    "description" : "【拉克丝】将4-2的强化符文移至随机回合。",
+    "description" : "拉克丝将4-2的强化符文移至随机回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10094.jpg",
     "id" : "61",
     "title" : "拉克丝"
   },
   {
-    "description" : "【拉克丝】为你提供2件随机的辅助装。这些装备将在3回合后消失。",
+    "description" : "拉克丝为你提供2件随机的辅助装。这些装备将在3回合后消失。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10094.jpg",
     "id" : "62",
     "title" : "拉克丝"
   },
   {
-    "description" : "本回合：每当你将一个弈子移到备战席时，【墨菲特】就会把该弈子的装备震掉。",
+    "description" : "本回合：每当你将一个弈子移到备战席时，墨菲特就会把该弈子的装备震掉。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10095.jpg",
     "id" : "63",
     "title" : "墨菲特"
   },
   {
-    "description" : "每当你将一个弈子移到备战席时，【墨菲特】就会把该弈子的装备震掉。",
+    "description" : "每当你将一个弈子移到备战席时，墨菲特就会把该弈子的装备震掉。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10095.jpg",
     "id" : "64",
     "title" : "墨菲特"
   },
   {
-    "description" : "【莫甘娜】用4费弈子填满选秀回合。",
+    "description" : "莫甘娜用4费弈子填满选秀回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10096.jpg",
     "id" : "65",
     "title" : "莫甘娜"
   },
   {
-    "description" : "【莫甘娜】为你提供一个选择。升级你的下一个2费弈子，或获得金币。",
+    "description" : "莫甘娜为你提供一个选择。升级你的下一个2费弈子，或获得金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10096.jpg",
     "id" : "66",
     "title" : "莫甘娜"
   },
   {
-    "description" : "【诺提勒斯】为你提供：在击杀敌人或友军阵亡时掉落金币。持续3个回合。",
+    "description" : "诺提勒斯为你提供：在击杀敌人或友军阵亡时掉落金币。持续3个回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10097.jpg",
     "id" : "67",
     "title" : "诺提勒斯"
   },
   {
-    "description" : "【妮蔻】召唤1个随机的3星1费生灵，在3场玩家对战中提供帮助。",
+    "description" : "妮蔻召唤1个随机的3星1费生灵，在3场玩家对战中提供帮助。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10098.jpg",
     "id" : "68",
     "title" : "妮蔻"
   },
   {
-    "description" : "【妮蔻】召唤1个随机的5费灵魂，在3场玩家对战中提供帮助。",
+    "description" : "妮蔻召唤1个随机的5费灵魂，在3场玩家对战中提供帮助。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10098.jpg",
     "id" : "69",
     "title" : "妮蔻"
   },
   {
-    "description" : "【妮蔻】为选秀回合的每个弈子添加1个【英雄复制器】！",
+    "description" : "妮蔻为选秀回合的每个弈子添加1个英雄复制器！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10098.jpg",
     "id" : "70",
     "title" : "妮蔻"
   },
   {
-    "description" : "【妮蔻】为选秀回合的每个弈子添加1个【次级英雄复制器】！",
+    "description" : "妮蔻为选秀回合的每个弈子添加1个次级英雄复制器！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10098.jpg",
     "id" : "71",
     "title" : "妮蔻"
   },
   {
-    "description" : "【奥恩】勉为其难地为你提供1个【神器锻造器】。",
+    "description" : "奥恩勉为其难地为你提供1个神器锻造器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10099.jpg",
     "id" : "72",
     "title" : "奥恩"
   },
   {
-    "description" : "【奥恩】提供神器，让你选择一件。",
+    "description" : "奥恩提供神器，让你选择一件。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10099.jpg",
     "id" : "73",
     "title" : "奥恩"
@@ -444,247 +444,247 @@
     "title" : "奥恩"
   },
   {
-    "description" : "【奥恩】为选秀回合的每个弈子添加1件神器。",
+    "description" : "奥恩为选秀回合的每个弈子添加1件神器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10099.jpg",
     "id" : "75",
     "title" : "奥恩"
   },
   {
-    "description" : "【奇亚娜】提供光明武器，让你选择一件。",
+    "description" : "奇亚娜提供光明武器，让你选择一件。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10100.jpg",
     "id" : "76",
     "title" : "奇亚娜"
   },
   {
-    "description" : "【奇亚娜】规定选秀回合的每个弈子都拥有1件光明武器。",
+    "description" : "奇亚娜规定选秀回合的每个弈子都拥有1件光明武器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10100.jpg",
     "id" : "77",
     "title" : "奇亚娜"
   },
   {
-    "description" : "【锐雯】为选秀回合的每个弈子添加1件基础装备。",
+    "description" : "锐雯为选秀回合的每个弈子添加1件基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10103.jpg",
     "id" : "78",
     "title" : "锐雯"
   },
   {
-    "description" : "【赛娜】可以帮你设置连胜或连败。",
+    "description" : "赛娜可以帮你设置连胜或连败。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10104.jpg",
     "id" : "79",
     "title" : "赛娜"
   },
   {
-    "description" : "与【瑟提】一起锻炼，让自己变得更大。",
+    "description" : "与瑟提一起锻炼，让自己变得更大。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10105.jpg",
     "id" : "80",
     "title" : "瑟提"
   },
   {
-    "description" : "接下来3个回合里，【瑟提】会借给你一些【训练假人】。",
+    "description" : "接下来3个回合里，瑟提会借给你一些训练假人。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10105.jpg",
     "id" : "81",
     "title" : "瑟提"
   },
   {
-    "description" : "【慎】为你提供一次初始包的选择机会，这些初始包内含若干弈子和1件基础装备。",
+    "description" : "慎为你提供一次初始包的选择机会，这些初始包内含若干弈子和1件基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10106.jpg",
     "id" : "82",
     "title" : "慎"
   },
   {
-    "description" : "【慎】看守着选秀回合，其中所有弈子都携带一件辅助装。",
+    "description" : "慎看守着选秀回合，其中所有弈子都携带一件辅助装。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10106.jpg",
     "id" : "83",
     "title" : "慎"
   },
   {
-    "description" : "【希维尔】的战斗口号使你变得更加迅捷。",
+    "description" : "希维尔的战斗口号使你变得更加迅捷。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10107.jpg",
     "id" : "84",
     "title" : "希维尔"
   },
   {
-    "description" : "【索拉卡】送给你1个【辅助装锻造器】。",
+    "description" : "索拉卡送给你1个辅助装锻造器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10108.jpg",
     "id" : "85",
     "title" : "索拉卡"
   },
   {
-    "description" : "【索拉卡】提供辅助装，让你选择一件。",
+    "description" : "索拉卡提供辅助装，让你选择一件。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10108.jpg",
     "id" : "86",
     "title" : "索拉卡"
   },
   {
-    "description" : "【索拉卡】为选秀回合的每个弈子添加1件辅助装。",
+    "description" : "索拉卡为选秀回合的每个弈子添加1件辅助装。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10108.jpg",
     "id" : "87",
     "title" : "索拉卡"
   },
   {
-    "description" : "【辛德拉】使你棋盘上所有未激活的羁绊都以其最低等级激活。",
+    "description" : "辛德拉使你棋盘上所有未激活的羁绊都以其最低等级激活。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10110.jpg",
     "id" : "88",
     "title" : "辛德拉"
   },
   {
-    "description" : "【辛德拉】释放出一个由2星4费弈子组成的选秀回合。",
+    "description" : "辛德拉释放出一个由2星4费弈子组成的选秀回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10110.jpg",
     "id" : "89",
     "title" : "辛德拉"
   },
   {
-    "description" : "【辛德拉】将2-1和4-2的强化符文移至随机回合。",
+    "description" : "辛德拉将2-1和4-2的强化符文移至随机回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10110.jpg",
     "id" : "90",
     "title" : "辛德拉"
   },
   {
-    "description" : "站在水坑里为【塔姆】抓鱼。他吃的鱼越多，大家获得的战利品就越多！",
+    "description" : "站在水坑里为塔姆抓鱼。他吃的鱼越多，大家获得的战利品就越多！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10111.jpg",
     "id" : "91",
     "title" : "塔姆"
   },
   {
-    "description" : "【塔姆】为你提供1件【基础装备锻造器】或10金币。",
+    "description" : "塔姆为你提供1件基础装备锻造器或10金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10111.jpg",
     "id" : "92",
     "title" : "塔姆"
   },
   {
-    "description" : "【提莫】让你可以在本局游戏中额外刷新所有强化符文1次！",
+    "description" : "提莫让你可以在本局游戏中额外刷新所有强化符文1次！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10112.jpg",
     "id" : "93",
     "title" : "提莫"
   },
   {
-    "description" : "【提莫】为选秀回合的每个弈子添加1个【金铲铲】！",
+    "description" : "提莫为选秀回合的每个弈子添加1个金铲铲！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10112.jpg",
     "id" : "94",
     "title" : "提莫"
   },
   {
-    "description" : "猜测你下一场对战的结果。如果猜对了，【提莫】将送上一份奖励！",
+    "description" : "猜测你下一场对战的结果。如果猜对了，提莫将送上一份奖励！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10112.jpg",
     "id" : "95",
     "title" : "提莫"
   },
   {
-    "description" : "【锤石】释放出一个选秀回合，其中所有弈子都携带神器。",
+    "description" : "锤石释放出一个选秀回合，其中所有弈子都携带神器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10113.jpg",
     "id" : "96",
     "title" : "锤石"
   },
   {
-    "description" : "【锤石】将2-1和3-2的强化符文移至随机回合。",
+    "description" : "锤石将2-1和3-2的强化符文移至随机回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10113.jpg",
     "id" : "97",
     "title" : "锤石"
   },
   {
-    "description" : "【崔丝塔娜】提供一份金币礼物！",
+    "description" : "崔丝塔娜提供一份金币礼物！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10115.jpg",
     "id" : "98",
     "title" : "崔丝塔娜"
   },
   {
-    "description" : "【乌迪尔】根据所选的兽灵为你提供2件基础装备。",
+    "description" : "乌迪尔根据所选的兽灵为你提供2件基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10116.jpg",
     "id" : "99",
     "title" : "乌迪尔"
   },
   {
-    "description" : "【乌迪尔】提供4次免费刷新，可保留至使用为止。",
+    "description" : "乌迪尔提供4次免费刷新，可保留至使用为止。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10116.jpg",
     "id" : "100",
     "title" : "乌迪尔"
   },
   {
-    "description" : "【乌迪尔】为你提供一件辅助装，此装备持续3个回合。",
+    "description" : "乌迪尔为你提供一件辅助装，此装备持续3个回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10116.jpg",
     "id" : "101",
     "title" : "乌迪尔"
   },
   {
-    "description" : "【沃利贝尔】用3费弈子填满选秀回合。",
+    "description" : "沃利贝尔用3费弈子填满选秀回合。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10117.jpg",
     "id" : "102",
     "title" : "沃利贝尔"
   },
   {
-    "description" : "【孙悟空】激活【天选之子】：可为羁绊提供+1人数的2星单位。出售你的【天选之子】以购买一个新的【天选之子】。",
+    "description" : "孙悟空激活天选之子：可为羁绊提供+1人数的2星单位。出售你的天选之子以购买一个新的天选之子。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10118.jpg",
     "id" : "103",
     "title" : "孙悟空"
   },
   {
-    "description" : "【孙悟空】为你提供6件持续1回合的光明武器。",
+    "description" : "孙悟空为你提供6件持续1回合的光明武器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10118.jpg",
     "id" : "104",
     "title" : "孙悟空"
   },
   {
-    "description" : "【孙悟空】为这个选秀回合的每个弈子添加1件光明武器。",
+    "description" : "孙悟空为这个选秀回合的每个弈子添加1件光明武器。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10118.jpg",
     "id" : "105",
     "title" : "孙悟空"
   },
   {
-    "description" : "【洛】鼓励你变形重组你的棋盘——或者【霞】为你提供一些金币。",
+    "description" : "洛鼓励你变形重组你的棋盘——或者霞为你提供一些金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10120.jpg",
     "id" : "106",
     "title" : "霞洛"
   },
   {
-    "description" : "接下来4场玩家对战中，【亚索】为开局时处于后3排的单位提供200临时生命值。",
+    "description" : "接下来4场玩家对战中，亚索为开局时处于后3排的单位提供200临时生命值。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10121.jpg",
     "id" : "107",
     "title" : "亚索"
   },
   {
-    "description" : "【永恩】让你的下一个强化符文选项可以额外刷新2次。",
+    "description" : "永恩让你的下一个强化符文选项可以额外刷新2次。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10122.jpg",
     "id" : "108",
     "title" : "永恩"
   },
   {
-    "description" : "【永恩】为选秀回合的每个英雄额外添加1件攻击型基础装备。",
+    "description" : "永恩为选秀回合的每个英雄额外添加1件攻击型基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10122.jpg",
     "id" : "109",
     "title" : "永恩"
   },
   {
-    "description" : "无论等级高低，【约里克】都能让你随时部署至少7个弈子。获得10金币。",
+    "description" : "无论等级高低，约里克都能让你随时部署至少7个弈子。获得10金币。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10123.jpg",
     "id" : "110",
     "title" : "约里克"
   },
   {
-    "description" : "接下来3个回合中，【约里克】将你商店的刷新费用减1。",
+    "description" : "接下来3个回合中，约里克将你商店的刷新费用减1。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10123.jpg",
     "id" : "111",
     "title" : "约里克"
   },
   {
-    "description" : "【约里克】将你商店的刷新费用减1。",
+    "description" : "约里克将你商店的刷新费用减1。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10123.jpg",
     "id" : "112",
     "title" : "约里克"
   },
   {
-    "description" : "【佐伊】改变现实，让本局游戏仅存在奇数等级。",
+    "description" : "佐伊改变现实，让本局游戏仅存在奇数等级。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10124.jpg",
     "id" : "113",
     "title" : "佐伊"
   },
   {
-    "description" : "【佐伊】为你提供2个【诡术师之镜】。它们将在3回合内消失。",
+    "description" : "佐伊为你提供2个诡术师之镜。它们将在3回合内消失。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10124.jpg",
     "id" : "114",
     "title" : "佐伊"
   },
   {
-    "description" : "选择1件基础装备。【婕拉】为你提供3件该基础装备。",
+    "description" : "选择1件基础装备。婕拉为你提供3件该基础装备。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10125.jpg",
     "id" : "115",
     "title" : "婕拉"

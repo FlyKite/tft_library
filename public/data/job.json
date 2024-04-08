@@ -12,7 +12,7 @@
       {
         "chessCount" : 3,
         "color" : "2",
-        "description" : "25护甲和魔抗"
+        "description" : "20护甲和魔抗"
       },
       {
         "chessCount" : 4,
@@ -35,17 +35,17 @@
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "为【法师】们提供40法术强度；为其他单位提供20法术强度"
+        "description" : "为【法师】们提供50法术强度；为其他单位提供20法术强度"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "为【法师】们提供80法术强度；为其他单位提供40法术强度"
+        "description" : "为【法师】们提供85法术强度；为其他单位提供40法术强度"
       },
       {
         "chessCount" : 8,
         "color" : "4",
-        "description" : "为【法师】们提供120法术强度；为其他单位提供100法术强度"
+        "description" : "为【法师】们提供125法术强度；为其他单位提供100法术强度"
       }
     ],
     "name" : "法师"
@@ -183,7 +183,7 @@
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "此外，【死神】们会对敌人施加流血效果，在3秒里持续造成60%额外真实伤害。"
+        "description" : "此外，【死神】们会对敌人施加流血效果，在3秒里持续造成45%额外真实伤害。"
       }
     ],
     "name" : "死神"

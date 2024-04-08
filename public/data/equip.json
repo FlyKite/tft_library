@@ -144,7 +144,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+15%攻击力，+15法术强度。\r\n\r\n提供22%全能吸血，这个效果还会治疗生命值百分比最低的那名友军。",
+    "effect" : "+15%攻击力，+15法术强度。\r\n\r\n提供20%全能吸血，这个效果还会治疗生命值百分比最低的那名友军。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Hextech_Gunblade.png",
     "id" : "523",
     "keywords" : "伤害，护盾，生命值",
@@ -240,7 +240,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+15法术强度，+25魔法抗性，+200生命值。\r\n\r\n对2格内的敌人们施加30% 魔抗击碎。在敌人施放一次技能时，该敌人还会被震击并受到相当于该敌人160%最大法力值的魔法伤害。\r\n\r\n[直接伤害类装备]",
+    "effect" : "+15法术强度，+25魔法抗性，+150生命值。\r\n\r\n对2格内的敌人们施加30% 魔抗击碎。在敌人施放一次技能时，该敌人还会被震击并受到相当于该敌人160%最大法力值的魔法伤害。\r\n\r\n[直接伤害类装备]",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Ionic_Spark.png",
     "id" : "559",
     "keywords" : "法强，魔抗",
@@ -248,7 +248,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+25法术强度，+150生命值，+15%攻击速度。\r\n\r\n在携带者用技能造成伤害时，还会对敌人们施加持续10秒的1%灼烧效果和33%重伤效果。\r\n\r\n[唯一 - 每位英雄仅可装备1件]",
+    "effect" : "+25法术强度，+150生命值，+10%攻击速度。\r\n\r\n在携带者用技能造成伤害时，还会对敌人们施加持续10秒的1%灼烧效果和33%重伤效果。\r\n\r\n[唯一 - 每位英雄仅可装备1件]",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Morellonomicon.png",
     "id" : "561",
     "keywords" : "灼烧，重伤",
@@ -296,7 +296,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+35护甲，+35魔法抗性，+100生命值。\r\n\r\n每有一个敌人正在以携带者为目标，携带者就会获得10护甲和10魔法抗性。",
+    "effect" : "+30护甲，+30魔法抗性，+100生命值。\r\n\r\n每有一个敌人正在以携带者为目标，携带者就会获得10护甲和10魔法抗性。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/GargoyleStoneplate.png",
     "id" : "581",
     "keywords" : "护甲，魔抗",
@@ -408,7 +408,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+60%攻击速度\n\n造成8%额外伤害。攻击和技能对敌人们造成持续5秒的5%灼烧效果和50%重伤效果。\n\n灼烧：每秒造成目标一部分最大生命值的真实伤害\n\n重伤：降低受到的治疗效果",
+    "effect" : "+60%攻击速度\r\n\r\n造成8%额外伤害。攻击和技能对敌人们造成持续5秒的5%灼烧效果和50%重伤效果。\r\n\r\n灼烧：每秒造成目标2%最大生命值的真实伤害\r\n\r\n重伤：降低受到的治疗效果",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2554.png",
     "id" : "1008",
     "keywords" : "光明红霸符",
@@ -424,7 +424,7 @@
     "type" : "2"
   },
   {
-    "effect" : "少承受12%伤害。在高于40%生命值时，转而少承受18%伤害。",
+    "effect" : "少承受16%伤害。在高于40%生命值时，转而少承受30%伤害。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/midnightreaper.png",
     "id" : "1010",
     "keywords" : "光明坚定之心",
@@ -464,7 +464,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+45法术强度，+15法力值\n\n每次普攻提供10额外法力值",
+    "effect" : "+50法术强度/攻击力，+20法力值\r\n\r\n每次普攻提供10额外法力值",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantSpearofShojin_CrnNxnqh7SkMedbJxv3OpYlwwwFCzB38eXFCOVKj.png",
     "id" : "5004",
     "keywords" : "额外法力",
@@ -488,7 +488,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+30%攻击力，+400生命值。\n\n每场战斗一次：在60%生命值时，获得35%最大生命值和55%攻击力。",
+    "effect" : "+30%攻击力，+400生命值。\r\n\r\n每场战斗一次：在60%生命值时，获得40%最大生命值和60%攻击力。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/SteraksGage2.png",
     "id" : "5007",
     "keywords" : "攻速，生命值",
@@ -576,7 +576,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+15法术强度，+25魔法抗性，+400生命值。\n\n对3格内的敌人们施加30%魔抗击碎。在敌人施放一次技能时，该敌人还会被震击并受到相当于该敌人250%最大法力值的魔法伤害。\n\n此外，还会每秒回复1.5%最大生命值。\n\n直接伤害类装备]",
+    "effect" : "+15法术强度，+25魔法抗性，+350生命值。\r\n\r\n对3格内的敌人们施加30%魔抗击碎。在敌人施放一次技能时，该敌人还会被震击并受到相当于该敌人200%最大法力值的魔法伤害。\r\n\r\n此外，还会每秒回复1.5%最大生命值。\r\n\r\n直接伤害类装备]",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/80_2036.png",
     "id" : "5019",
     "keywords" : "离子",
@@ -584,7 +584,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+40法术强度，+150生命值，+25%攻击速度。\n\n在携带者用技能造成魔法伤害或真实伤害时，还会对敌人们施加持续30秒的3%灼烧效果和33% 重伤效果。\n\n唯一 - 每位英雄仅可装备1件]\n\n灼烧：造成目标3%最大生命值的真实伤害\n\n重伤：使受到的治疗效果降低",
+    "effect" : "+40法术强度，+150生命值，+25%攻击速度。\r\n\r\n在携带者用技能造成魔法伤害或真实伤害时，还会对敌人们施加持续30秒的3%灼烧效果和33% 重伤效果。\r\n\r\n唯一 - 每位英雄仅可装备1件]\r\n\r\n灼烧：造成目标2%最大生命值的真实伤害\r\n\r\n重伤：使受到的治疗效果降低",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantMorellonomicon_Mkn8BUHFhgqGqJDzAMAJqn6nuGVNhfcOyLXARuyr.png",
     "id" : "5020",
     "keywords" : "光明鬼书",
@@ -624,7 +624,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+15法力值，+20%暴击几率。\n\n提供2个效果：50%攻击力和50法术强度。 30%全能吸血。\n\n全能吸血：获得相当于一部分实际伤害值的治疗效果。",
+    "effect" : "+15法力值，+40%暴击几率。\r\n\r\n提供2个效果：60%攻击力和60法术强度。 30%全能吸血。\r\n\r\n全能吸血：获得相当于一部分实际伤害值的治疗效果。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantHandofJustice_7KtG4F7gs9gP5C9wSLLAKJ819T37JoZRMxGJrCY2.png",
     "id" : "5026",
     "keywords" : "光明正义",
@@ -640,7 +640,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+50护甲，+50魔法抗性，+250生命值。\n\n每有一个敌人正在以携带者为目标，携带者就会获得20护甲和20魔法抗性。\n\n此外，每秒回复2%最大生命值。",
+    "effect" : "+50护甲，+50魔法抗性，+250生命值。\r\n\r\n每有一个敌人正在以携带者为目标，携带者就会获得15护甲和15魔法抗性。\r\n\r\n此外，每秒回复1.5%最大生命值。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantGargoyleStoneplate_rIp7TGpHtfpyIrsihyc8burKQaqPjrxGE5nUPLND.png",
     "id" : "5028",
     "keywords" : "光明石像板甲",
@@ -712,7 +712,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+250生命值\n\n战斗开始时：提供30%攻击速度和15护甲与魔抗给携带者及其身后的友军，持续12秒。",
+    "effect" : "+250生命值\r\n\r\n战斗开始时：提供25%攻击速度和15护甲与魔抗给携带者及其身后的友军，持续12秒。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/9401.png",
     "id" : "9401",
     "keywords" : "军团圣盾",

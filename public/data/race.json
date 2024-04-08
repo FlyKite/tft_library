@@ -30,7 +30,7 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10041.png",
     "id" : "10041",
-    "introduce" : "【天将】弈子们会为你的队伍提供一个独特的属性加成，该加成会随着其星级和已登场的【天将】弈子数量而提升。卡兹克 - 10%暴击率\r\n墨菲特 - 8护甲魔抗\r\n妮蔻 - 10生命值\r\n奇亚娜 - 10%攻击力\r\n索拉卡 - 10%法术强度\r\n孙悟空 - 12%攻击速度\r\n纹章 - 全能吸血3%\r\n32星额外提供50%。\r\n3星额外提供90%。",
+    "introduce" : "【天将】弈子们会为你的队伍提供一个独特的属性加成，该加成会随着其星级和已登场的【天将】弈子数量而提升。卡兹克 - 10%暴击率\r\n墨菲特 - 8护甲魔抗\r\n妮蔻 - 10生命值\r\n奇亚娜 - 10%攻击力\r\n索拉卡 - 10%法术强度\r\n孙悟空 - 10%攻击速度\r\n纹章 - 全能吸血6%\r\n32星额外提供50%。\r\n3星额外提供90%。",
     "levels" : [
       {
         "chessCount" : 2,
@@ -101,22 +101,22 @@
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "每个幽魂6%"
+        "description" : "每个幽魂5%"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "每个幽魂12%"
+        "description" : "每个幽魂10%"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "每个幽魂18%"
+        "description" : "每个幽魂16%"
       },
       {
         "chessCount" : 8,
         "color" : "4",
-        "description" : "每个幽魂27%"
+        "description" : "每个幽魂32%"
       }
     ],
     "name" : "幽魂"
@@ -129,7 +129,7 @@
       {
         "chessCount" : 3,
         "color" : "1",
-        "description" : "10%生命值，12%法术强度和攻击力。"
+        "description" : "10%生命值，10%法术强度和攻击力。"
       },
       {
         "chessCount" : 5,
@@ -282,17 +282,17 @@
       {
         "chessCount" : 3,
         "color" : "1",
-        "description" : "获得第1件【墨之影】装备"
+        "description" : "获得第1件【墨之影】装备和5%的额外伤害加成和伤害减免"
       },
       {
         "chessCount" : 5,
         "color" : "2",
-        "description" : "获得第2件【墨之影】装备和5%的额外伤害加成和伤害减免"
+        "description" : "获得第2件【墨之影】装备和10%的额外伤害加成和伤害减免"
       },
       {
         "chessCount" : 7,
         "color" : "3",
-        "description" : "再获得2件【墨之影】装备"
+        "description" : "再获得2件【墨之影】装备和20%的额外伤害加成和伤害减免"
       }
     ],
     "name" : "墨之影"
