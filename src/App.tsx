@@ -4,7 +4,7 @@ import RaceJobTablePage from './containers/RaceJobTablePage'
 import MobileTabBar, { TabBarItem } from './components/MobileTabBar'
 import { ValueListenable2Builder, ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
 import AdventurePage from './containers/AdventurePage'
-import HexPage from './containers/HexPage'
+import EnhancementPage from './containers/EnhancementPage'
 import DeskTopNavigationBar from './components/DesktopNavigationBar'
 import EquipmentPage from './containers/EquipmentPage'
 import { Drawer } from 'antd'
@@ -39,7 +39,7 @@ export default class App extends Component<Props, State> {
     return [
       { title: '棋子羁绊', iconUrl: './images/race_job_table_tab_icon.png', activeIconUrl: './images/race_job_table_tab_icon_active.png' },
       { title: '强化', iconUrl: './images/hex_tab_icon.png', activeIconUrl: './images/hex_tab_icon_active.png' },
-      { title: '奇遇', iconUrl: './images/adventure_tab_icon.png', activeIconUrl: './images/adventure_tab_icon_active.png' },
+      // { title: '奇遇', iconUrl: './images/adventure_tab_icon.png', activeIconUrl: './images/adventure_tab_icon_active.png' },
       { title: '装备', iconUrl: './images/equip_tab_icon.png', activeIconUrl: './images/equip_tab_icon_active.png' }
     ]
   }
@@ -159,19 +159,12 @@ export default class App extends Component<Props, State> {
               )
             case 1:
               return (
-                <HexPage
+                <EnhancementPage
                   showMobileStyle={this.state.showMobileStyle}
                   onShowDrawer={params?.onShowDrawer}
                 />
               )
             case 2:
-              return (
-                <AdventurePage
-                  showMobileStyle={this.state.showMobileStyle}
-                  onShowDrawer={params?.onShowDrawer}
-                />
-              )
-            case 3:
               return (
                 <EquipmentPage
                   showMobileStyle={this.state.showMobileStyle}

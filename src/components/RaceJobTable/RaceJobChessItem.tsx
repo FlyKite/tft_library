@@ -60,7 +60,7 @@ export default class RaceJobChessItem extends Component<Props> {
 
   private renderChessCard (chess: Chess) {
     return (
-      <div style={{ width: 360, maxHeight: 420, overflow: 'scroll' }}>
+      <div style={{ width: 360, maxHeight: 466, overflow: 'scroll' }}>
         <ChessDetailComponent chess={chess}/>
       </div>
     )

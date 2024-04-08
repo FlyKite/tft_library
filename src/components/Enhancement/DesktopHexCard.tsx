@@ -5,7 +5,7 @@ interface Props {
   hex: Hex
 }
 
-export default class DeskTopHexCard extends Component<Props> {
+export default class DesktopHexCard extends Component<Props> {
 
   render () {
     const { hex } = this.props

@@ -17,7 +17,7 @@ export default class DeskTopNavigationBar extends Component<Props> {
           paddingLeft: 16,
           left: 0, right: 0, top: 0,
           height: 56,
-          backgroundColor: '#212121',
+          backgroundColor: '#424242',
           alignItems: 'center'
         }}
       >
