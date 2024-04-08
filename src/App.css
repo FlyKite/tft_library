@@ -26,3 +26,10 @@ body {
   justify-content: center;
   border: 0.2px solid #424242;
 }
+.hide_loading {
+  animation: loading_fade_out 0.3s ease-in-out 0.3s 1 normal both;
+}
+@keyframes loading_fade_out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}

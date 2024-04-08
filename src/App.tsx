@@ -3,12 +3,12 @@ import './App.css'
 import RaceJobTablePage from './containers/RaceJobTablePage'
 import MobileTabBar, { TabBarItem } from './components/MobileTabBar'
 import { ValueListenable2Builder, ValueListenableBuilder, ValueNotifier } from './components/ValueNotify'
-import AdventurePage from './containers/AdventurePage'
 import EnhancementPage from './containers/EnhancementPage'
 import DeskTopNavigationBar from './components/DesktopNavigationBar'
 import EquipmentPage from './containers/EquipmentPage'
 import { Drawer } from 'antd'
-import DataManager from './model/DataManager'
+import DataManager, { DataSetType } from './model/DataManager'
+import PageContainer from './containers/PageContainer'
 
 interface Props {
 
@@ -39,7 +39,6 @@ export default class App extends Component<Props, State> {
     return [
       { title: '棋子羁绊', iconUrl: './images/race_job_table_tab_icon.png', activeIconUrl: './images/race_job_table_tab_icon_active.png' },
       { title: '强化', iconUrl: './images/hex_tab_icon.png', activeIconUrl: './images/hex_tab_icon_active.png' },
-      // { title: '奇遇', iconUrl: './images/adventure_tab_icon.png', activeIconUrl: './images/adventure_tab_icon_active.png' },
       { title: '装备', iconUrl: './images/equip_tab_icon.png', activeIconUrl: './images/equip_tab_icon_active.png' }
     ]
   }
@@ -50,9 +49,7 @@ export default class App extends Component<Props, State> {
   }
 
   componentDidMount () {
-    DataManager.initialFetch().then(() => {
-      this.setState({})
-    })
+    DataManager.initialFetch()
     window.addEventListener('resize', this.onWindowSizeChanged)
   }
 
@@ -78,9 +75,7 @@ export default class App extends Component<Props, State> {
   private renderDesktopPage () {
     return (
       <div>
-        <div style={{ display: 'flex', marginTop: 56 }}>
-          {this.renderContent()}
-        </div>
+        {this.renderContent()}
         <ValueListenableBuilder
           listenTo={this.currentActiveTabIndex}
           renderChildren={(activeTabIndex) => {
@@ -105,22 +100,12 @@ export default class App extends Component<Props, State> {
   private renderMobilePage () {
     return (
       <div style={{ width: screen.availWidth, height: screen.availHeight }} >
-        <div
-          className={'mobile_page_container'}
-          ref={(ref) => { this.refKeys.pageContainer = ref }}
-          onScroll={() => {
-            if (this.refKeys.pageContainer && this.refKeys.raceJobPage) {
-              this.refKeys.raceJobPage.onContainerScroll(this.refKeys.pageContainer)
-            }
-          }}
-        >
-          {this.renderContent({
-            onShowDrawer: (children, height) => {
-              this.drawerDisplayInfo.value = { children, height }
-              this.drawerOpen.value = true
-            }
-          })}
-        </div>
+        {this.renderContent({
+          onShowDrawer: (children, height) => {
+            this.drawerDisplayInfo.value = { children, height }
+            this.drawerOpen.value = true
+          }
+        })}
         <ValueListenableBuilder
           listenTo={this.currentActiveTabIndex}
           renderChildren={(activeTabIndex) => {
@@ -151,24 +136,63 @@ export default class App extends Component<Props, State> {
           switch (activeTabIndex) {
             case 0:
               return (
-                <RaceJobTablePage
-                  ref={(ref) => { this.refKeys.raceJobPage = ref }}
+                <PageContainer
+                  key={'chess_race_job_page'}
                   showMobileStyle={this.state.showMobileStyle}
-                  onShowDrawer={params?.onShowDrawer}
+                  loadingStatus={DataManager.loadingStatusMap.get(DataSetType.chessRaceJob)!}
+                  onScroll={(container) => {
+                    this.refKeys.raceJobPage?.onContainerScroll(container)
+                  }}
+                  onRetryFetch={() => {
+                    DataManager.fetchDataSet(DataSetType.chessRaceJob)
+                  }}
+                  renderChildren={() => {
+                    return (
+                      <RaceJobTablePage
+                        ref={(ref) => { this.refKeys.raceJobPage = ref }}
+                        showMobileStyle={this.state.showMobileStyle}
+                        onShowDrawer={params?.onShowDrawer}
+                      />
+                    )
+                  }}
                 />
               )
             case 1:
               return (
-                <EnhancementPage
+                <PageContainer
+                  key={'enhancement_page'}
                   showMobileStyle={this.state.showMobileStyle}
-                  onShowDrawer={params?.onShowDrawer}
+                  loadingStatus={DataManager.loadingStatusMap.get(DataSetType.enhancements)!}
+                  onRetryFetch={() => {
+                    DataManager.fetchDataSet(DataSetType.enhancements)
+                  }}
+                  renderChildren={() => {
+                    return (
+                      <EnhancementPage
+                        showMobileStyle={this.state.showMobileStyle}
+                        onShowDrawer={params?.onShowDrawer}
+                      />
+                    )
+                  }}
                 />
               )
             case 2:
               return (
-                <EquipmentPage
+                <PageContainer
+                  key={'enhancement_page'}
                   showMobileStyle={this.state.showMobileStyle}
-                  onShowDrawer={params?.onShowDrawer}
+                  loadingStatus={DataManager.loadingStatusMap.get(DataSetType.equipments)!}
+                  onRetryFetch={() => {
+                    DataManager.fetchDataSet(DataSetType.equipments)
+                  }}
+                  renderChildren={() => {
+                    return (
+                      <EquipmentPage
+                        showMobileStyle={this.state.showMobileStyle}
+                        onShowDrawer={params?.onShowDrawer}
+                      />
+                    )
+                  }}
                 />
               )
             default:

@@ -1,4 +1,4 @@
-import { Col, ConfigProvider, Input, List, Radio, Row } from 'antd'
+import { Col, ConfigProvider, Empty, Input, List, Radio, Row } from 'antd'
 import { Component } from 'react'
 import DesktopHexCard from '../components/Enhancement/DesktopHexCard'
 import DataManager from '../model/DataManager'
@@ -124,11 +124,21 @@ export default class EnhancementPage extends Component<Props, State> {
       <div style={{ width: '100%', height: '100%' }}>
         {this.renderTab()}
         <div style={{ width: '100%', marginTop: 88, flex: 1 }}>
-          <List
-            itemLayout={'horizontal'}
-            dataSource={data}
-            renderItem={renderItem}
-          />
+          {data.length > 0 ? (
+            <List
+              itemLayout={'horizontal'}
+              dataSource={data}
+              renderItem={renderItem}
+            />
+          ) : (
+            <Empty
+              image={Empty.PRESENTED_IMAGE_DEFAULT}
+              description={(
+                <span style={{ fontSize: 15, color: '#BDBDBD' }}>暂无数据</span>
+              )}
+              style={{ paddingTop: 44 }}
+            />
+          )}
         </div>
       </div>
     )
@@ -203,7 +213,13 @@ export default class EnhancementPage extends Component<Props, State> {
               placeholder="搜索"
               variant="filled"
               style={{ marginTop: 8, backgroundColor: '#424242' }}
-              allowClear
+              allowClear={{
+                clearIcon: (
+                  <div style={{ display: 'flex', width: 16, height: 16, backgroundColor: '#BDBDBD', borderRadius: 12, alignItems: 'center', justifyContent: 'center' }}>
+                    <span style={{ fontSize: 15, color: '#424242', lineHeight: 16, paddingBottom: 1.5 }}>×</span>
+                  </div>
+                )
+              }}
               onChange={(event) => {
                 this.setState({ searchText: event.target.value })
               }}
