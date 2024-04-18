@@ -136,7 +136,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+10%攻击力，+10%攻击速度。\r\n提供20%额外攻击力和20额外法术强度。攻击和技能对最大生命值超过了1600的敌人们造成25%额外伤害。",
+    "effect" : "+10%攻击力，+10%攻击速度。\r\n提供20%额外攻击力和20额外法术强度。攻击和技能对最大生命值超过了1750的敌人们造成25%额外伤害。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/GiantSlayer.png",
     "id" : "521",
     "keywords" : "攻击力",
@@ -192,7 +192,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+10%攻击速度，+20护甲。\r\n\r\n在攻击或承受伤害时提供2% 攻击力和2法术强度，至多可叠加25次。\r\n\r\n在叠满层数后，提供20护甲和20魔法抗性。",
+    "effect" : "+10%攻击速度，+20护甲。\r\n\r\n在攻击或承受伤害时提供2% 攻击力和1法术强度，至多可叠加25次。\r\n\r\n在叠满层数后，提供20护甲和20魔法抗性。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Titans_Resolve.png",
     "id" : "543",
     "keywords" : "法强，护甲，魔抗",
@@ -448,7 +448,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+10%攻击力，+10%攻击速度。\n\n提供40% 额外攻击力和40额外法术强度。攻击和技能对最大生命值超过了1600的敌人们造成60%额外伤害。",
+    "effect" : "+10%攻击力，+10%攻击速度。\r\n\r\n提供40% 额外攻击力和40额外法术强度。攻击和技能对最大生命值超过了1750的敌人们造成60%额外伤害。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantGiantSlayer_FYQKu9PiPh8qb4oEdIRJSvMDEDtGxJRJET0uRIYg.png",
     "id" : "5002",
     "keywords" : "攻击力、攻速",
@@ -520,7 +520,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+30%攻击速度，+35护甲。\n\n在攻击或承受伤害时提供3%攻击力和3法术强度，至多可叠加25次。\n\n在叠满层数后，提供50护甲和50魔法抗性。",
+    "effect" : "+30%攻击速度，+35护甲。\r\n\r\n在攻击或承受伤害时提供3%攻击力和2法术强度，至多可叠加25次。\r\n\r\n在叠满层数后，提供50护甲和50魔法抗性。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantTitansResolve_hUuDcma4FzVUSJpLBgTiy57G7mJsYamd9i6csQ7L.png",
     "id" : "5012",
     "keywords" : "攻速、体型",
@@ -1064,7 +1064,7 @@
     "type" : "7"
   },
   {
-    "effect" : "+250生命值，攻击将为携带者治疗2.5%最大生命值，同时造成等额的额外魔法伤害。",
+    "effect" : "+350生命值，攻击将为携带者治疗2.5%最大生命值，同时造成等额的额外魔法伤害。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowox.png",
     "id" : "91095",
     "keywords" : "活力墨纹",
@@ -1080,7 +1080,7 @@
     "type" : "4"
   },
   {
-    "effect" : "+250生命值，每次战斗首次施放后，获得相当于50%最大生命值的护盾。护盾被打破时，为相距最近的两名友军提供50%该护盾值的护盾。",
+    "effect" : "+250生命值，每次战斗首次施放后，获得相当于40%最大生命值的护盾。护盾被打破时，为相距最近的两名友军提供40%该护盾值的护盾。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowpig.png",
     "id" : "91097",
     "keywords" : "守护墨纹",
@@ -1088,7 +1088,7 @@
     "type" : "4"
   },
   {
-    "effect" : "+20%攻击力，+20%攻击速度，每第三次攻击将对两名生命值百分比最低的敌人发射飞弹，造成相当于65%攻击力的物理伤害。",
+    "effect" : "+20%攻击力，+20%攻击速度，每第三次攻击将对两名生命值百分比最低的敌人发射飞弹，造成相当于60%攻击力的物理伤害。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/11inkshadowrat.png",
     "id" : "91098",
     "keywords" : "轰炸墨纹",
@@ -1177,7 +1177,7 @@
   },
   {
     "effect" : "这会改变一切。",
-    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2k96b-8lbkn.png",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft11_storyweaver_ascension.tft_set11.png",
     "id" : "91109",
     "keywords" : "登神护身符",
     "name" : "登神护身符",

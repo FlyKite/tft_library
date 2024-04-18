@@ -132,7 +132,7 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10060.png",
     "id" : "10060",
-    "introduce" : "己方队伍获得1%额外伤害，伤害加成随你的等级提升\r\n战斗环节结束后，将1经验值储存在一个【灵魂核心】中。售出核心即可领取这些经验值。",
+    "introduce" : "己方队伍获得5%额外伤害，伤害加成随你的等级提升\r\n战斗环节结束后，将1经验值储存在一个【灵魂核心】中。售出核心即可领取这些经验值。",
     "levels" : [
       {
         "chessCount" : 3,
@@ -142,7 +142,7 @@
       {
         "chessCount" : 5,
         "color" : "2",
-        "description" : "每级2.5%伤害"
+        "description" : "每级3%伤害"
       }
     ],
     "name" : "尊者"
