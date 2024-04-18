@@ -21,7 +21,7 @@ export default class DeskTopNavigationBar extends Component<Props> {
           alignItems: 'center'
         }}
       >
-        <span style={{ fontSize: 24, fontWeight: 'bold', color: 'white' }}>云顶之弈数据站</span>
+        <span style={{ fontSize: 24, fontWeight: 'bold', color: 'white' }}>云顶看板</span>
         {this.props.items.map((item, index) => {
           const isActive = index === this.props.activeTabIndex
           return (

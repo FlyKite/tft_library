@@ -44,12 +44,14 @@ export default class RaceJobChessItem extends Component<Props> {
                   }
                 }}
               >
-                <img
-                  src={getChessImage(chess.imageId, ChessImageType.head)}
-                  width={34}
-                  height={34}
-                  style={{ borderRadius: 18, borderWidth: 2, borderColor, borderStyle: 'solid', marginLeft }}
-                />
+                <div style={{ width: 32, height: 32, borderRadius: 18, borderWidth: 2, borderColor, borderStyle: 'solid', marginLeft, overflow: 'hidden' }}>
+                  <img
+                    src={getChessImage(chess.imageId, ChessImageType.head)}
+                    width={36}
+                    height={36}
+                    style={{ position: 'relative', top: -2, left: -2 }}
+                  />
+                </div>
               </Popover>
             </ConfigProvider>
           )
