@@ -78,7 +78,7 @@
     "title" : "艾希"
   },
   {
-    "description" : "1",
+    "description" : "阿兹尔提供6次免费刷新，可保留至使用为止。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10070.jpg",
     "id" : "14",
     "title" : "阿兹尔"
@@ -106,12 +106,6 @@
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10072.jpg",
     "id" : "18",
     "title" : "凯特琳"
-  },
-  {
-    "description" : "科加斯为你提供2个次级英雄复制器或1个英雄复制器。",
-    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10073.jpg",
-    "id" : "19",
-    "title" : "科加斯"
   },
   {
     "description" : "如果你能满足科加斯的饥饿感，他便会给你一份馈赠……",
@@ -288,12 +282,6 @@
     "title" : "卡兹克"
   },
   {
-    "description" : "接下来3个回合中，卡兹克使经验值价格从4金币减为3金币。进化。",
-    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10088.jpg",
-    "id" : "49",
-    "title" : "卡兹克"
-  },
-  {
     "description" : "本局游戏中，卡兹克使经验值价格从4金币减为3金币。进化！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10088.jpg",
     "id" : "50",
@@ -414,12 +402,6 @@
     "title" : "妮蔻"
   },
   {
-    "description" : "妮蔻为选秀回合的每个弈子添加1个英雄复制器！",
-    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10098.jpg",
-    "id" : "70",
-    "title" : "妮蔻"
-  },
-  {
     "description" : "妮蔻为选秀回合的每个弈子添加1个次级英雄复制器！",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10098.jpg",
     "id" : "71",
@@ -525,12 +507,6 @@
     "description" : "辛德拉使你棋盘上所有未激活的羁绊都以其最低等级激活。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10110.jpg",
     "id" : "88",
-    "title" : "辛德拉"
-  },
-  {
-    "description" : "辛德拉释放出一个由2星4费弈子组成的选秀回合。",
-    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/encounters/10110.jpg",
-    "id" : "89",
     "title" : "辛德拉"
   },
   {

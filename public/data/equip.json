@@ -408,7 +408,7 @@
     "type" : "2"
   },
   {
-    "effect" : "+60%攻击速度\r\n\r\n造成8%额外伤害。攻击和技能对敌人们造成持续5秒的5%灼烧效果和50%重伤效果。\r\n\r\n灼烧：每秒造成目标2%最大生命值的真实伤害\r\n\r\n重伤：降低受到的治疗效果",
+    "effect" : "+60%攻击速度\r\n\r\n造成5%额外伤害。攻击和技能对敌人们造成持续5秒的5%灼烧效果和50%重伤效果。\r\n\r\n灼烧：每秒造成目标2%最大生命值的真实伤害\r\n\r\n重伤：降低受到的治疗效果",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/2554.png",
     "id" : "1008",
     "keywords" : "光明红霸符",
@@ -568,7 +568,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+100生命值，+50法术强度，+40护甲。 \n\n战斗开始时：获得持续8秒的相当于50%最大生命值的护盾值。 在护盾到期时，获得50法术强度。",
+    "effect" : "+350生命值，+50法术强度，+40护甲。 \r\n\r\n战斗开始时：获得持续8秒的相当于50%最大生命值的护盾值。 在护盾到期时，获得50法术强度。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/Crownguar2.png",
     "id" : "5018",
     "keywords" : "护盾，法强",
@@ -584,7 +584,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+40法术强度，+150生命值，+25%攻击速度。\r\n\r\n在携带者用技能造成魔法伤害或真实伤害时，还会对敌人们施加持续30秒的3%灼烧效果和33% 重伤效果。\r\n\r\n唯一 - 每位英雄仅可装备1件]\r\n\r\n灼烧：造成目标2%最大生命值的真实伤害\r\n\r\n重伤：使受到的治疗效果降低",
+    "effect" : "+40法术强度，+150生命值，+10%攻击速度。\r\n\r\n在携带者用技能造成魔法伤害或真实伤害时，还会对敌人们施加持续30秒的3%灼烧效果和33% 重伤效果。\r\n\r\n唯一 - 每位英雄仅可装备1件]\r\n\r\n灼烧：造成目标2%最大生命值的真实伤害\r\n\r\n重伤：使受到的治疗效果降低",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantMorellonomicon_Mkn8BUHFhgqGqJDzAMAJqn6nuGVNhfcOyLXARuyr.png",
     "id" : "5020",
     "keywords" : "光明鬼书",
@@ -608,7 +608,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+15法术强度，+15法力值，+30魔法抗性。 \n\n战斗开始时：基于初始位置获得不同的加成。 \n\n前两排：80护甲和魔抗，在被一次攻击击中时获得2法力值。 \n\n后两排：55法术强度。每3秒获得20法力值。",
+    "effect" : "+25法术强度，+15法力值，+30魔法抗性。 \r\n\r\n战斗开始时：基于初始位置获得不同的加成。 \r\n\r\n前两排：80护甲和魔抗，在被一次攻击击中时获得2法力值。 \r\n\r\n后两排：55法术强度。每3秒获得20法力值。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/JakshotheProtean.png",
     "id" : "5024",
     "keywords" : "法力值，魔抗",
@@ -616,7 +616,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+15法力值，+200生命值。\n\n每过5秒治疗2格内的友军们25%的已损失生命值。这些友军们所受的群体目标伤害会减免10%，持续5秒(伤害减免不会叠加)。\n\n​​\n\n光环类装备",
+    "effect" : "+15法力值，+400生命值。\r\n\r\n每过5秒治疗2格内的友军们25%的已损失生命值。这些友军们所受的群体目标伤害会减免10%，持续5秒(伤害减免不会叠加)。\r\n\r\n​​\r\n\r\n光环类装备",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantRedemption_dd1KKAYpe47yMJZjkDTJSe4ayZqIibEzm314dnk8.png",
     "id" : "5025",
     "keywords" : "光明救赎",
@@ -672,7 +672,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+30魔法抗性，+40%暴击几率，+50%攻击速度。\n\n战斗环节开始时：提供持续30秒的控制免疫效果。在14秒的期间里，每2秒获得7%攻击速度。\n\n唯一 - 每位英雄仅能装备1件",
+    "effect" : "+30魔法抗性，+40%暴击几率，+50%攻击速度。\r\n\r\n战斗环节开始时：提供持续30秒的控制免疫效果。在14秒的期间里，每2秒获得9%攻击速度。\r\n\r\n唯一 - 每位英雄仅能装备1件",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantQuicksilver_Zb5hjOUTjd6c4Eb8QL89n4IUhLtjUpQHwOxYP8cZ.png",
     "id" : "5033",
     "keywords" : "光明水银",
@@ -680,7 +680,7 @@
     "type" : "3"
   },
   {
-    "effect" : "+1000生命值。\n\n获得12%最大生命值。此外，每秒回复1%最大生命值。",
+    "effect" : "+1000生命值。\r\n\r\n获得15%最大生命值。此外，每秒回复1%最大生命值。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/RadiantWarmogsArmor_UNmRNWihWZQcyN1QPyDZM79MyOAVDRIsBtQPiSuf.png",
     "id" : "5034",
     "keywords" : "光明版【狂徒铠甲】",
@@ -1136,7 +1136,7 @@
     "type" : "4"
   },
   {
-    "effect" : "攻击提供给【凯尔】可叠加的5%攻击速度。",
+    "effect" : "攻击提供给【凯尔】可叠加的6%攻击速度。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/scroll-of-haste_5.png",
     "id" : "91104",
     "keywords" : "急速卷轴",
@@ -1160,7 +1160,7 @@
     "type" : "4"
   },
   {
-    "effect" : "【凯尔】多造成10%伤害。她的攻击现在可以命中目标周围1格半径内的敌人们",
+    "effect" : "【凯尔】多造成20%伤害。她的攻击现在可以命中目标周围1格半径内的敌人们",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tome-of-swiftness_1.png",
     "id" : "91107",
     "keywords" : "轻灵之书",
@@ -1168,7 +1168,7 @@
     "type" : "4"
   },
   {
-    "effect" : "每8秒，复活一名尚未被复活过的最强友军，该单位复活后拥有其50%最大生命值。",
+    "effect" : "每7秒，复活一名尚未被复活过的最强友军，该单位复活后拥有其50%最大生命值。",
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tome-of-mending_3.png",
     "id" : "91108",
     "keywords" : "修补之书",
@@ -1182,5 +1182,213 @@
     "keywords" : "登神护身符",
     "name" : "登神护身符",
     "type" : "4"
+  },
+  {
+    "effect" : "+20%暴击几率\r\n+150生命值\r\n每回合：装备2件随机辅助装",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/AccomplicesGloves.png",
+    "id" : "91110",
+    "keywords" : "辅助手套",
+    "name" : "辅助手套",
+    "type" : "8"
+  },
+  {
+    "effect" : "生命值+250。携带者处于存活状态时，所有敌人被施加33%重伤并且所有友军造成8%额外伤害。这个效果每5秒刷新一次。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/eternal_flame.png",
+    "id" : "91111",
+    "keywords" : "永恒烈焰",
+    "name" : "永恒烈焰",
+    "type" : "8"
+  },
+  {
+    "effect" : "生命值+50。战斗开始时：提供200生命值和15%全能吸血给携带者和同一排1格内的友军们。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/knights_vow.png",
+    "id" : "91112",
+    "keywords" : "骑士之誓",
+    "name" : "骑士之誓",
+    "type" : "8"
+  },
+  {
+    "effect" : "生命值+250。每4秒，为2个生命值最低的友军提供持续4秒的护盾，护盾值为100-400(基于阶段)。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/moonstone.png",
+    "id" : "91113",
+    "keywords" : "月石再生器",
+    "name" : "月石再生器",
+    "type" : "8"
+  },
+  {
+    "effect" : "生命值+250。在这个单位阵亡时，2格内的所有敌人都会降低40%攻击力和法术强度。爆炸中的友军们转而的50%攻击力和法术强度。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/spite.png",
+    "id" : "91114",
+    "keywords" : "恶意",
+    "name" : "恶意",
+    "type" : "8"
+  },
+  {
+    "effect" : "生命值+250。携带者阵亡时，3个相距最近的友军获得一件临时成装。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/unstable_treasure_chest.png",
+    "id" : "91115",
+    "keywords" : "不稳定的财宝箱",
+    "name" : "不稳定的财宝箱",
+    "type" : "8"
+  },
+  {
+    "effect" : "生命值+400，攻击力+20%，法术强度+20。在18秒后，获得100%最大生命值和150%伤害提升，持续到战斗环节结束。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_talismanofascension.png",
+    "id" : "91116",
+    "keywords" : "飞升护符",
+    "name" : "飞升护符",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击速度+60%。攻击造成相当于50%攻击力的额外物理伤害并且携带者治疗相当于这个已造成伤害值的生命值。携带者不能施放其技能或获得法力值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_cursedvampiricscepter.png",
+    "id" : "91117",
+    "keywords" : "黑暗吸血鬼节杖",
+    "name" : "黑暗吸血鬼节杖",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击力+35%，攻击速度+35%。将携带者的攻击距离翻倍，并且使其每次攻击都会将一个随机的敌人作为目标。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_fishbones.png",
+    "id" : "91118",
+    "keywords" : "鱼骨头",
+    "name" : "鱼骨头",
+    "type" : "6"
+  },
+  {
+    "effect" : "生命值+250，攻击速度+25%。每回合一次，在50%生命值时，携带者分裂为自己的三个复制体，每个都有拥有其33%最大生命值。[唯一 - 每位英雄仅限1件]",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_suspicioustrenchcoat.png",
+    "id" : "91119",
+    "keywords" : "迷离风衣",
+    "name" : "迷离风衣",
+    "type" : "6"
+  },
+  {
+    "effect" : "生命值+250，法力值+15，护甲和魔抗+20。将一名敌人晕眩时会引发闪电对其进行打击，造成相当于其30%最大生命值的魔法伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_horizonfocus.png",
+    "id" : "91120",
+    "keywords" : "视界专注",
+    "name" : "视界专注",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击速度+60%。将携带者缩小，为其提供移动速度提升、20%伤害减免、并免疫冰冷。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_mittens.png",
+    "id" : "91121",
+    "keywords" : "连指手套",
+    "name" : "连指手套",
+    "type" : "6"
+  },
+  {
+    "effect" : "生命值+400，护甲+40。每当携带者身上的一个护盾被打破时，就会对相距最近的那个敌人造成该护盾的125%初始护盾值的魔法伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_unendingdespair.png",
+    "id" : "91122",
+    "keywords" : "无终恨意",
+    "name" : "无终恨意",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击速度+60%。获得+1攻击距离，并且这个距离会在携带者每击杀一个敌人时提升1。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_rapidfirecannon.png",
+    "id" : "91123",
+    "keywords" : "疾射火炮",
+    "name" : "疾射火炮",
+    "type" : "6"
+  },
+  {
+    "effect" : "生命值+150，法力值+15。携带者每被一次攻击命中时，都会获得其2%的总法力值。每次技能施放会在3秒里持续回复携带者的20%最大生命值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_innervatinglocket.png",
+    "id" : "91124",
+    "keywords" : "激发之匣",
+    "name" : "激发之匣",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击力+35%，法术强度+35%。在击杀目标时，会对与目标相距最近的3个敌人造成魔法伤害，伤害值为100%的过量伤害外加100。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_ludenstempest.png",
+    "id" : "91125",
+    "keywords" : "卢登的激荡",
+    "name" : "卢登的激荡",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击力+165%%，护甲和魔抗+50。为携带者提供免疫晕眩，并且携带者的攻击可以使目标晕眩0.8秒。携带者的攻击速度被锁定在0.5。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_silvermeredawn.png",
+    "id" : "91126",
+    "keywords" : "密银黎明",
+    "name" : "密银黎明",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击力+30%，暴击几率+30%。在击杀一个目标后，摆脱负面效果并冲刺到4格内相距最远的那个目标处。下两次暴击攻击造成60%额外暴击伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_prowlersclaw.png",
+    "id" : "91127",
+    "keywords" : "暗行者之爪",
+    "name" : "暗行者之爪",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击速度+15%，魔抗+20。攻击会使目标的最大生命值削减3%。对相同目标进行13次攻击，会使其星级降低1。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_cursedblade.png",
+    "id" : "91128",
+    "keywords" : "诅咒之刃",
+    "name" : "诅咒之刃",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击力+40%，暴击几率+20%。战斗开始时+将携带者传送到敌方一侧的镜像格上。在8秒后，携带者返回其原本的位置。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_spectralcutlass.png",
+    "id" : "91129",
+    "keywords" : "幽魂弯刀",
+    "name" : "幽魂弯刀",
+    "type" : "6"
+  },
+  {
+    "effect" : "法术强度+40。造成魔法伤害时会将目标的魔抗削减4。如果目标的魔抗是0，那么这个效果转而会为携带者提供5法力值。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_blightingjewel.png",
+    "id" : "91130",
+    "keywords" : "枯萎珠宝",
+    "name" : "枯萎珠宝",
+    "type" : "6"
+  },
+  {
+    "effect" : "攻击速度+30%，魔抗+30。攻击造成42-100(基于阶段)额外魔法伤害。治疗携带者，数额为35%的所有已造成魔法伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_witsend.png",
+    "id" : "91131",
+    "keywords" : "智慧末刃",
+    "name" : "智慧末刃",
+    "type" : "6"
+  },
+  {
+    "effect" : "生命值+200，护甲和魔抗+25。护盾效果会将其50%的护盾值转化为最大生命值作为替代。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_forbiddenidol.png",
+    "id" : "91132",
+    "keywords" : "禁忌雕像",
+    "name" : "禁忌雕像",
+    "type" : "6"
+  },
+  {
+    "effect" : "法术强度+30，法力值+15。携带者在每次技能施放后的第一次攻击造成180/240/300/360/420 (基于等级)额外魔法伤害。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_lichbane.png",
+    "id" : "91133",
+    "keywords" : "巫妖之祸",
+    "name" : "巫妖之祸",
+    "type" : "6"
+  },
+  {
+    "effect" : "护甲和魔抗+50。每3秒，为生命值最低的那个友军提供护盾，护盾值相当于携带者50%的护甲与魔抗总和。在阵亡时，将这个护盾效果提供给所有友军。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_lightshieldcrest.png",
+    "id" : "91134",
+    "keywords" : "光盾徽章",
+    "name" : "光盾徽章",
+    "type" : "6"
+  },
+  {
+    "effect" : "法术强度+30，护甲和魔抗+30。参与击杀后会使携带者的护甲、魔抗和法术强度提升10，此数值会在携带者拿到击杀时提升至15。",
+    "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/equip/tft_item_artifact_seekersarmguard.png",
+    "id" : "91135",
+    "keywords" : "探索者的护臂",
+    "name" : "探索者的护臂",
+    "type" : "6"
   }
 ]

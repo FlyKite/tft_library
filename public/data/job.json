@@ -40,12 +40,12 @@
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "为【法师】们提供85法术强度；为其他单位提供40法术强度"
+        "description" : "为【法师】们提供90法术强度；为其他单位提供50法术强度"
       },
       {
         "chessCount" : 8,
         "color" : "4",
-        "description" : "为【法师】们提供125法术强度；为其他单位提供100法术强度"
+        "description" : "为【法师】们提供135法术强度；为其他单位提供135法术强度"
       }
     ],
     "name" : "法师"
@@ -53,22 +53,22 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10057.png",
     "id" : "10057",
-    "introduce" : "【擎天卫】获得护甲与魔抗。每当【擎天卫】阵亡时，相距最近的【擎天卫】获得额外的50%此加成，持续5秒。",
+    "introduce" : "【擎天卫】获得护甲与魔抗。每当【擎天卫】阵亡时，相距最近的【擎天卫】获得额外的50%此加成，持续8秒。",
     "levels" : [
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "30护甲和魔抗"
+        "description" : "25护甲和魔抗"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "45护甲和魔抗"
+        "description" : "55护甲和魔抗"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "80护甲和魔抗"
+        "description" : "85护甲和魔抗"
       }
     ],
     "name" : "擎天卫"
@@ -114,12 +114,12 @@
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "9%攻击速度"
+        "description" : "10%攻击速度"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "15%攻击速度；【决斗大师】们获得15%伤害减免"
+        "description" : "14%攻击速度；【决斗大师】们获得15%伤害减免"
       },
       {
         "chessCount" : 8,
@@ -132,7 +132,7 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10060.png",
     "id" : "10060",
-    "introduce" : "己方队伍获得5%额外伤害，伤害加成随你的等级提升\r\n战斗环节结束后，将1经验值储存在一个【灵魂核心】中。售出核心即可领取这些经验值。",
+    "introduce" : "己方队伍获得7%额外伤害，伤害加成随你的等级提升\r\n战斗环节结束后，将1经验值储存在一个【灵魂核心】中。售出核心即可领取这些经验值。",
     "levels" : [
       {
         "chessCount" : 3,
@@ -178,12 +178,12 @@
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "【死神】的技能可以暴击，并且他们获得20%暴击几率。"
+        "description" : "【死神】的技能可以暴击，并且他们获得25%暴击几率。"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "此外，【死神】们会对敌人施加流血效果，在3秒里持续造成45%额外真实伤害。"
+        "description" : "此外，【死神】们会对敌人施加流血效果，在3秒里持续造成50%额外真实伤害。"
       }
     ],
     "name" : "死神"
@@ -224,17 +224,17 @@
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "每格7%伤害。"
+        "description" : "每格8%伤害。"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "每格14%伤害。"
+        "description" : "每格18%伤害。"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "每格30%伤害。【狙神】们获得额外的2攻击距离。"
+        "description" : "每格35%伤害。【狙神】们获得额外的2攻击距离。"
       }
     ],
     "name" : "狙神"
@@ -252,7 +252,7 @@
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "2次弹射；60%的先前伤害"
+        "description" : "2次弹射；55%的先前伤害"
       }
     ],
     "name" : "迅捷射手"
@@ -260,22 +260,22 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/classes/10066.png",
     "id" : "10066",
-    "introduce" : "【护卫】们获得伤害减免。在战斗的最初10秒，【护卫】们获得额外12%伤害减免。",
+    "introduce" : "【护卫】们获得伤害减免。在战斗的最初10秒，【护卫】们获得额外18%伤害减免。",
     "levels" : [
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "15%伤害减免"
+        "description" : "10%伤害减免"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "25%伤害减免"
+        "description" : "22%伤害减免"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "40%伤害减免"
+        "description" : "35%伤害减免"
       }
     ],
     "name" : "护卫"

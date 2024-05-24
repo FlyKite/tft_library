@@ -7,22 +7,22 @@
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "250护盾值；低于10%生命值时触发处决"
+        "description" : "200护盾值；低于10%生命值时触发处决"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "400护盾值；低于18%生命值时触发处决。更多格子被照亮。"
+        "description" : "450护盾值；低于18%生命值时触发处决。更多格子被照亮。"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "750护盾值；低于20%生命值时触发处决并照亮整个棋盘"
+        "description" : "900护盾值；低于25%生命值时触发处决并照亮整个棋盘"
       },
       {
         "chessCount" : 9,
         "color" : "4",
-        "description" : "被处决的敌人有100%几率掉落战利品；低于45%生命值时触发处决"
+        "description" : "被处决的敌人有100%几率掉落战利品；低于60%生命值时触发处决"
       }
     ],
     "name" : "夜幽"
@@ -30,7 +30,7 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10041.png",
     "id" : "10041",
-    "introduce" : "【天将】弈子们会为你的队伍提供一个独特的属性加成，该加成会随着其星级和已登场的【天将】弈子数量而提升。卡兹克 - 10%暴击率\r\n墨菲特 - 8护甲魔抗\r\n妮蔻 - 10生命值\r\n奇亚娜 - 10%攻击力\r\n索拉卡 - 10%法术强度\r\n孙悟空 - 10%攻击速度\r\n纹章 - 全能吸血6%\r\n32星额外提供50%。\r\n3星额外提供90%。",
+    "introduce" : "【天将】弈子们会为你的队伍提供一个独特的属性加成，该加成会随着已登场的【天将】弈子数量而提升。【天将】现在会给【天将】们多提供70%属性。\r\n卡兹克 - 10%暴击率\r\n墨菲特 - 8护甲魔抗\r\n妮蔻 - 10生命值\r\n奇亚娜 - 10%攻击力\r\n索拉卡 - 10%法术强度\r\n孙悟空 - 10%攻击速度\r\n纹章 - 全能吸血5%",
     "levels" : [
       {
         "chessCount" : 2,
@@ -40,27 +40,27 @@
       {
         "chessCount" : 3,
         "color" : "1",
-        "description" : "115%加成"
+        "description" : "110%加成"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "135%加成"
+        "description" : "125%加成"
       },
       {
         "chessCount" : 5,
         "color" : "3",
-        "description" : "165%加成"
+        "description" : "145%加成"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "195%加成"
+        "description" : "170%加成"
       },
       {
         "chessCount" : 7,
         "color" : "4",
-        "description" : "225%加成"
+        "description" : "200%加成"
       }
     ],
     "name" : "天将"
@@ -73,17 +73,17 @@
       {
         "chessCount" : 3,
         "color" : "1",
-        "description" : "该组合获得莲华加成。"
+        "description" : "该组合获得100%的莲华加成。"
       },
       {
         "chessCount" : 5,
         "color" : "2",
-        "description" : "所有【灵魂莲华】弈子获得175%的莲华加成。"
+        "description" : "所有【灵魂莲华】弈子获得180%的莲华加成。"
       },
       {
         "chessCount" : 7,
         "color" : "3",
-        "description" : "所有【灵魂莲华】弈子获得275%的莲华加成。"
+        "description" : "所有【灵魂莲华】弈子获得250%的莲华加成。"
       },
       {
         "chessCount" : 10,
@@ -96,7 +96,7 @@
   {
     "iconUrl" : "https://game.gtimg.cn/images/lol/act/img/tft/origins/10043.png",
     "id" : "10043",
-    "introduce" : "在造成或承受7次伤害时，【幽魂】们会派出2个幽鬼缠住附近的敌人们，且每2秒为自身治疗3%最大生命值。\r\n被缠住的敌人会基于幽鬼数量受到额外伤害，并在阵亡时将幽鬼传递给其他单位。",
+    "introduce" : "在造成或承受5次伤害时，【幽魂】们会派出2个幽鬼缠住附近的敌人们，且每2秒为自身治疗3%最大生命值。\r\n被缠住的敌人会基于幽鬼数量受到额外伤害，并在阵亡时将幽鬼传递给其他单位。",
     "levels" : [
       {
         "chessCount" : 2,
@@ -129,17 +129,17 @@
       {
         "chessCount" : 3,
         "color" : "1",
-        "description" : "10%生命值，10%法术强度和攻击力。"
+        "description" : "10%生命值，11%法术强度和攻击力。"
       },
       {
         "chessCount" : 5,
         "color" : "2",
-        "description" : "16%生命值，20%法术强度和攻击力。"
+        "description" : "16%生命值，22%法术强度和攻击力。"
       },
       {
         "chessCount" : 7,
         "color" : "3",
-        "description" : "24%生命值，32%法术强度和攻击力。"
+        "description" : "24%生命值，35%法术强度和攻击力。"
       },
       {
         "chessCount" : 10,
@@ -162,7 +162,7 @@
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "60%攻击速度；35%伤害减免"
+        "description" : "55%攻击速度；33%伤害减免"
       },
       {
         "chessCount" : 6,
@@ -231,17 +231,17 @@
       {
         "chessCount" : 2,
         "color" : "1",
-        "description" : "10法术强度； 每次敌人阵亡获得2生命值"
+        "description" : "15法术强度； 每次敌人阵亡获得3生命值"
       },
       {
         "chessCount" : 4,
         "color" : "2",
-        "description" : "30法术强度； 每次敌人阵亡获得5生命值"
+        "description" : "30法术强度； 每次敌人阵亡获得7生命值"
       },
       {
         "chessCount" : 6,
         "color" : "3",
-        "description" : "60法术强度； 每次敌人阵亡获得9生命值"
+        "description" : "55法术强度； 每次敌人阵亡获得10生命值"
       }
     ],
     "name" : "永恒之森"
@@ -287,7 +287,7 @@
       {
         "chessCount" : 5,
         "color" : "2",
-        "description" : "获得第2件【墨之影】装备和10%的额外伤害加成和伤害减免"
+        "description" : "获得第2件【墨之影】装备和15%的额外伤害加成和伤害减免"
       },
       {
         "chessCount" : 7,
